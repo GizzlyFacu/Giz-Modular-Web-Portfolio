@@ -7,13 +7,13 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-find_package(Qt6 REQUIRED COMPONENTS Quick)
+find_package(Qt6 REQUIRED COMPONENTS Quick Core)
 qt_standard_project_setup(REQUIRES 6.8)
 
 qt_add_executable(appGizWebPluginLab2
-    main.cpp
+    src/main.cpp
 )
-
+add_subdirectory(src)
 qt_add_qml_module(appGizWebPluginLab2
     URI GizWebPluginLab2
     VERSION 1.0
@@ -45,7 +45,8 @@ set_target_properties(appGizWebPluginLab2 PROPERTIES
 )
 
 target_link_libraries(appGizWebPluginLab2
-    PRIVATE Qt6::Quick
+    PRIVATE Qt6::Quick Qt6::Core
+    src_lib
 )
 
 include(GNUInstallDirs)

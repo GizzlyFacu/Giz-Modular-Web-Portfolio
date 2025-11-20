@@ -20,3 +20,12 @@ C:/Qt/6.7.2/GizWebPluginLab2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFile
 C:/Qt/6.7.2/GizWebPluginLab2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
 C:/Qt/6.7.2/GizWebPluginLab2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/appGizWebPluginLab2_autogen_timestamp_deps.dir
 C:/Qt/6.7.2/GizWebPluginLab2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/appGizWebPluginLab2_autogen.dir
+C:/Qt/6.7.2/GizWebPluginLab2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/src/CMakeFiles/src_lib.dir
+C:/Qt/6.7.2/GizWebPluginLab2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/src/CMakeFiles/edit_cache.dir
+C:/Qt/6.7.2/GizWebPluginLab2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/src/CMakeFiles/rebuild_cache.dir
+C:/Qt/6.7.2/GizWebPluginLab2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/src/CMakeFiles/list_install_components.dir
+C:/Qt/6.7.2/GizWebPluginLab2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/src/CMakeFiles/install.dir
+C:/Qt/6.7.2/GizWebPluginLab2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/src/CMakeFiles/install/local.dir
+C:/Qt/6.7.2/GizWebPluginLab2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/src/CMakeFiles/install/strip.dir
+C:/Qt/6.7.2/GizWebPluginLab2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/src/CMakeFiles/src_lib_autogen_timestamp_deps.dir
+C:/Qt/6.7.2/GizWebPluginLab2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/src/CMakeFiles/src_lib_autogen.dir

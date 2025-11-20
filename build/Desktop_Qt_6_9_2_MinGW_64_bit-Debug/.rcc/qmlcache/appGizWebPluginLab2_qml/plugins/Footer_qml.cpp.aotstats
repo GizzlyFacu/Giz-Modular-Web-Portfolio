@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 41,
-                        "durationMicroseconds": 820,
+                        "durationMicroseconds": 483,
                         "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method darker, returning QVariant -> QColor stored as QVariant",
                         "functionName": "backgroundItemsDark",
                         "line": 5
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 15,
-                        "durationMicroseconds": 148,
+                        "durationMicroseconds": 205,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 10
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 8523,
+                        "durationMicroseconds": 2692,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 9
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 16,
-                        "durationMicroseconds": 148,
+                        "durationMicroseconds": 190,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 15
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 28,
-                        "durationMicroseconds": 101,
+                        "durationMicroseconds": 110,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 16
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 30,
-                        "durationMicroseconds": 81,
+                        "durationMicroseconds": 82,
                         "errorMessage": "",
                         "functionName": "horizontalAlignment",
                         "line": 17
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 68,
+                        "durationMicroseconds": 71,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 13

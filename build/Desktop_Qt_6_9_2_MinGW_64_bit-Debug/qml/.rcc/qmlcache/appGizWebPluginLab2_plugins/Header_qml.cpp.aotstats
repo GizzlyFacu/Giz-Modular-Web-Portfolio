@@ -1,0 +1,172 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 31954,
+                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method darker, returning QVariant -> QColor stored as QVariant",
+                        "functionName": "textDarker",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 15,
+                        "durationMicroseconds": 154,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 63,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 16
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 107,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 21
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 108,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 28
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 103,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 20
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 82,
+                        "errorMessage": "",
+                        "functionName": "family",
+                        "line": 25
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 134,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 430,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 30
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 18,
+                        "durationMicroseconds": 86,
+                        "errorMessage": "",
+                        "functionName": "visible",
+                        "line": 37
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 246,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 38
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 105,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 39
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 4407,
+                        "errorMessage": "",
+                        "functionName": "backgroundItemsDark",
+                        "line": 43
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 172,
+                        "errorMessage": "",
+                        "functionName": "backgroundItemsDark",
+                        "line": 48
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 128,
+                        "errorMessage": "",
+                        "functionName": "backgroundItemsDark",
+                        "line": 53
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 18,
+                        "durationMicroseconds": 1317,
+                        "errorMessage": "",
+                        "functionName": "visible",
+                        "line": 60
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 425,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 61
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 176,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 62
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 372,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 70
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 73,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 69
+                    }
+                ],
+                "filePath": "C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/Header.qml"
+            }
+        ],
+        "moduleId": "GizWebPluginLab2(appGizWebPluginLab2)"
+    }
+]

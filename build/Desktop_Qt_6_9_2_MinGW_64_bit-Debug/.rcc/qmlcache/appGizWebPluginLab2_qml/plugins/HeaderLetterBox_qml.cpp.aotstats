@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 15,
-                        "durationMicroseconds": 1529,
+                        "durationMicroseconds": 598,
                         "errorMessage": "Cannot load property backgroundItemsLight from .",
                         "functionName": "color",
                         "line": 12
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 271,
+                        "durationMicroseconds": 196,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 11
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 15,
-                        "durationMicroseconds": 140,
+                        "durationMicroseconds": 98,
                         "errorMessage": "Cannot load property text from (component in C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/HeaderLetterBox.qml)::parent with type QQuickItem.",
                         "functionName": "text",
                         "line": 20
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 28,
-                        "durationMicroseconds": 681,
+                        "durationMicroseconds": 112,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 22
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 66,
+                        "durationMicroseconds": 68,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 19
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 20,
-                        "durationMicroseconds": 128,
+                        "durationMicroseconds": 125,
                         "errorMessage": "Cannot load property text from (component in C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/HeaderLetterBox.qml)::parent with type QQuickItem.",
                         "functionName": "onClicked",
                         "line": 30
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 85,
+                        "durationMicroseconds": 69,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 29

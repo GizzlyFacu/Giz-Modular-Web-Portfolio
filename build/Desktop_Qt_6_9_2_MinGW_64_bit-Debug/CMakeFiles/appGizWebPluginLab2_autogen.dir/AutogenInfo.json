@@ -908,6 +908,24 @@
 		"C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6QuickPrivate/Qt6QuickPrivateVersionlessAliasTargets.cmake",
 		"C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Quick/Qt6QuickPlugins.cmake",
 		"C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Quick/Qt6QuickVersionlessAliasTargets.cmake",
+		"C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake",
+		"C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake",
+		"C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake",
+		"C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake",
+		"C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake",
+		"C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake",
+		"C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake",
+		"C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake",
+		"C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake",
+		"C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
+		"C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake",
+		"C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+		"C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake",
+		"C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake",
 		"C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
@@ -1075,7 +1093,7 @@
 	"SETTINGS_FILE" : "C:/Qt/6.7.2/GizWebPluginLab2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/appGizWebPluginLab2_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "C:/Qt/6.7.2/GizWebPluginLab2/main.cpp", "MU", null ]
+		[ "C:/Qt/6.7.2/GizWebPluginLab2/src/main.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

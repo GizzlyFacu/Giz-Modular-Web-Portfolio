@@ -1,0 +1,303 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-4afcc63664b4ab6c42fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						8,
+						9,
+						14,
+						20
+					]
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						21,
+						22,
+						23
+					]
+				},
+				{
+					"build" : "qml",
+					"jsonFile" : "directory-qml-Debug-12d79ebd24ed3fd75d9e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "qml",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "GizWebPluginLab2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-f1d67cf2689f525a3432.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "all_qmllint::@eaa524fd34c7a78d319c",
+					"jsonFile" : "target-all_qmllint-Debug-3335e8079583bb7e9565.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "all_qmllint_json::@eaa524fd34c7a78d319c",
+					"jsonFile" : "target-all_qmllint_json-Debug-c06ca1ebcdb863dd245d.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "all_qmllint_module::@eaa524fd34c7a78d319c",
+					"jsonFile" : "target-all_qmllint_module-Debug-832061493f29bfe9ebac.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "all_qmltyperegistrations::@eaa524fd34c7a78d319c",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-93cf5faf0f8c280d4f7a.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appGizWebPluginLab2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appGizWebPluginLab2-Debug-53ec100d01919ededf0a.json",
+					"name" : "appGizWebPluginLab2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "appGizWebPluginLab2_appGizWebPluginLab2_raw_qml_0::@eaa524fd34c7a78d319c",
+					"jsonFile" : "target-appGizWebPluginLab2_appGizWebPluginLab2_raw_qml_0-Debug-e597f06a840a831c596d.json",
+					"name" : "appGizWebPluginLab2_appGizWebPluginLab2_raw_qml_0",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "appGizWebPluginLab2_appGizWebPluginLab2_raw_qml_0_extra_qmldirs::@eaa524fd34c7a78d319c",
+					"jsonFile" : "target-appGizWebPluginLab2_appGizWebPluginLab2_raw_qml_0_extra_qmldirs-Debug-89bc778ef8fa01e5de72.json",
+					"name" : "appGizWebPluginLab2_appGizWebPluginLab2_raw_qml_0_extra_qmldirs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appGizWebPluginLab2_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appGizWebPluginLab2_autogen-Debug-818122b6e6b3ca158e24.json",
+					"name" : "appGizWebPluginLab2_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appGizWebPluginLab2_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appGizWebPluginLab2_autogen_timestamp_deps-Debug-e3d79edaa11b72772685.json",
+					"name" : "appGizWebPluginLab2_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "appGizWebPluginLab2_copy_qml::@eaa524fd34c7a78d319c",
+					"jsonFile" : "target-appGizWebPluginLab2_copy_qml-Debug-3f9ec207a885b7f16a5f.json",
+					"name" : "appGizWebPluginLab2_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "appGizWebPluginLab2_copy_res::@eaa524fd34c7a78d319c",
+					"jsonFile" : "target-appGizWebPluginLab2_copy_res-Debug-d7412846ef1cd9d3693e.json",
+					"name" : "appGizWebPluginLab2_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "appGizWebPluginLab2_qmake_GizWebPluginLab2::@eaa524fd34c7a78d319c",
+					"jsonFile" : "target-appGizWebPluginLab2_qmake_GizWebPluginLab2-Debug-7a102325c2ed29154a6d.json",
+					"name" : "appGizWebPluginLab2_qmake_GizWebPluginLab2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "appGizWebPluginLab2_qmlcachegen::@eaa524fd34c7a78d319c",
+					"jsonFile" : "target-appGizWebPluginLab2_qmlcachegen-Debug-a3af538b6c59a748ac90.json",
+					"name" : "appGizWebPluginLab2_qmlcachegen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appGizWebPluginLab2_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appGizWebPluginLab2_qmlimportscan-Debug-b29a4fd1ae673909c425.json",
+					"name" : "appGizWebPluginLab2_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "appGizWebPluginLab2_qmllint::@eaa524fd34c7a78d319c",
+					"jsonFile" : "target-appGizWebPluginLab2_qmllint-Debug-33a4f9276e6f56faf0f5.json",
+					"name" : "appGizWebPluginLab2_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "appGizWebPluginLab2_qmllint_json::@eaa524fd34c7a78d319c",
+					"jsonFile" : "target-appGizWebPluginLab2_qmllint_json-Debug-28bd500062b82f43169f.json",
+					"name" : "appGizWebPluginLab2_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "appGizWebPluginLab2_qmllint_module::@eaa524fd34c7a78d319c",
+					"jsonFile" : "target-appGizWebPluginLab2_qmllint_module-Debug-c8602a50c33e8970afcf.json",
+					"name" : "appGizWebPluginLab2_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "appGizWebPluginLab2_qmltyperegistration::@eaa524fd34c7a78d319c",
+					"jsonFile" : "target-appGizWebPluginLab2_qmltyperegistration-Debug-c6b5e442e1712d58359c.json",
+					"name" : "appGizWebPluginLab2_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "appGizWebPluginLab2_tooling::@eaa524fd34c7a78d319c",
+					"jsonFile" : "target-appGizWebPluginLab2_tooling-Debug-80c2611a751a5dd6fd5d.json",
+					"name" : "appGizWebPluginLab2_tooling",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appGizWebPluginLab2_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appGizWebPluginLab2_aotstats_target-Debug-9402581b7dde9af07b89.json",
+					"name" : "module_appGizWebPluginLab2_aotstats_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "src_lib::@145eef247bfb46b6828c",
+					"jsonFile" : "target-src_lib-Debug-11a72f1f8caca2d6afcc.json",
+					"name" : "src_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "src_lib_autogen::@145eef247bfb46b6828c",
+					"jsonFile" : "target-src_lib_autogen-Debug-aac03f92b9b6a6f988f2.json",
+					"name" : "src_lib_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "src_lib_autogen_timestamp_deps::@145eef247bfb46b6828c",
+					"jsonFile" : "target-src_lib_autogen_timestamp_deps-Debug-8d3a455db2fdb72d6b3b.json",
+					"name" : "src_lib_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Qt/6.7.2/GizWebPluginLab2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug",
+		"source" : "C:/Qt/6.7.2/GizWebPluginLab2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
