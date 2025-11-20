@@ -1,0 +1,15 @@
+-rootPath
+C:/Qt/6.7.2/GizWebPluginLab2
+-cmake-output
+-output-file
+C:/Qt/6.7.2/GizWebPluginLab2/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.qt/qml_imports/appGizWebPluginLab2_conf.cmake
+-importPath
+C:/Qt/6.7.2/GizWebPluginLab2/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/GizWebPluginLab2
+-importPath
+C:/Qt/6.7.2/GizWebPluginLab2/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug
+-importPath
+C:/Qt/6.9.2/wasm_multithread/qml
+-qrcFiles
+C:/Qt/6.7.2/GizWebPluginLab2/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.qt/rcc/qmake_GizWebPluginLab2.qrc
+C:/Qt/6.7.2/GizWebPluginLab2/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.qt/rcc/appGizWebPluginLab2_raw_qml_0.qrc
+C:/Qt/6.7.2/GizWebPluginLab2/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.qt/rcc/appGizWebPluginLab2_raw_qml_0_extra_qmldirs.qrc

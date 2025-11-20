@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appGizWebPluginLab2_FILE C:/Qt/6.7.2/GizWebPluginLab2/build/WebAssembly_Qt_6_9_2_multi_threaded-Release/appGizWebPluginLab2.js)
+set(__QT_DEPLOY_TARGET_appGizWebPluginLab2_TYPE EXECUTABLE)

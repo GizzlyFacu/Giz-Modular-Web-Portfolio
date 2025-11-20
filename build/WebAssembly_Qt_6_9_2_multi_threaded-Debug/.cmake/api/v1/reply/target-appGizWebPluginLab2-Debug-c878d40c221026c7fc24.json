@@ -1,0 +1,5320 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "appGizWebPluginLab2.js"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"_qt_internal_create_executable",
+			"qt6_add_executable",
+			"qt_add_executable",
+			"install",
+			"target_link_options",
+			"_qt_internal_set_wasm_export_name",
+			"_qt_internal_finalize_wasm_app",
+			"_qt_internal_finalize_executable",
+			"qt6_finalize_target",
+			"_qt_internal_add_wasm_extra_exported_methods",
+			"_qt_internal_wasm_add_target_helpers",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"find_dependency",
+			"_qt_internal_find_qt_dependencies",
+			"__qt_internal_include_qml_plugin_packages",
+			"__qt_internal_include_plugin_packages",
+			"qt6_add_qml_module",
+			"qt_add_qml_module",
+			"qt6_import_qml_plugins",
+			"cmake_language",
+			"_qt_internal_set_wasm_embind_option",
+			"__qt_internal_apply_plugin_imports_finalizer_mode",
+			"qt_find_package_system_or_bundled",
+			"_qt_internal_find_third_party_dependencies",
+			"add_dependencies",
+			"_qt_internal_qml_copy_files_to_build_dir",
+			"qt6_target_qml_sources",
+			"target_include_directories",
+			"_qt_internal_qml_type_registration",
+			"target_sources",
+			"qt6_extract_metatypes",
+			"__qt_propagate_generated_resource",
+			"_qt_internal_process_resource",
+			"qt6_add_resources",
+			"_qt_internal_target_enable_qmlcachegen",
+			"_qt_internal_expose_deferred_files_to_ide"
+		],
+		"files" : 
+		[
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"CMakeLists.txt",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Core/Qt6WasmMacros.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:813:EVAL",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/Qt6QmlTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake",
+			"build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.qtc/package-manager/maintenance_tool_provider.cmake",
+			"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6LabsPlatform/Qt6LabsPlatformDependencies.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6LabsPlatform/Qt6LabsPlatformConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6LabsPlatformpluginDependencies.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6LabsPlatformpluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/QtPublicPluginHelpers.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/Qt6QmlPlugins.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick2pluginTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick2pluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlpluginTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlpluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6modelspluginTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6modelspluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6workerscriptpluginTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6workerscriptpluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquicklayoutspluginTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquicklayoutspluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstylepluginTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstylepluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktemplates2pluginTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktemplates2pluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2implpluginTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2implpluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstyleimplpluginTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstyleimplpluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlshapespluginTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlshapespluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6labsmodelspluginTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6labsmodelspluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6effectspluginTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6effectspluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2pluginTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2pluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstylepluginTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstylepluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstylepluginTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstylepluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestylepluginTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestylepluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstylepluginTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstylepluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fluentwinui3stylepluginTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fluentwinui3stylepluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstyleimplpluginTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstyleimplpluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickwindowTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickwindowConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstyleimplpluginTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstyleimplpluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestyleimplpluginTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestyleimplpluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstyleimplpluginTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstyleimplpluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fluentwinui3styleimplpluginTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fluentwinui3styleimplpluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Gui/Qt6QWasmIntegrationPluginTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Gui/Qt6QWasmIntegrationPluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QmlMeta/Qt6QmlMetaTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QmlMeta/Qt6QmlMetaConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QmlModels/Qt6QmlModelsTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QmlModels/Qt6QmlModelsConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QmlMeta/Qt6QmlMetaDependencies.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QmlWorkerScript/Qt6QmlWorkerScriptTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QmlWorkerScript/Qt6QmlWorkerScriptConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickLayouts/Qt6QuickLayoutsTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickLayouts/Qt6QuickLayoutsConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquicklayoutspluginDependencies.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickControls2Basic/Qt6QuickControls2BasicTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickControls2Basic/Qt6QuickControls2BasicConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstylepluginDependencies.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Targets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickControls2/Qt6QuickControls2Config.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickControlsTestUtilsPrivate/Qt6QuickControlsTestUtilsPrivateDependencies.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickControlsTestUtilsPrivate/Qt6QuickControlsTestUtilsPrivateConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickControlsTestUtilsPrivatepluginDependencies.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickControlsTestUtilsPrivatepluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2Targets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2Config.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickControls2Impl/Qt6QuickControls2ImplTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickControls2Impl/Qt6QuickControls2ImplConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickDialogs2QuickImpl/Qt6QuickDialogs2QuickImplDependencies.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickDialogs2QuickImpl/Qt6QuickDialogs2QuickImplConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickDialogs2QuickImplPrivate/Qt6QuickDialogs2QuickImplPrivateDependencies.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickDialogs2QuickImplPrivate/Qt6QuickDialogs2QuickImplPrivateConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickControls2BasicStyleImpl/Qt6QuickControls2BasicStyleImplTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickControls2BasicStyleImpl/Qt6QuickControls2BasicStyleImplConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstyleimplpluginDependencies.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickShapesPrivate/Qt6QuickShapesPrivateTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickShapesPrivate/Qt6QuickShapesPrivateConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlshapespluginDependencies.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6LabsQmlModels/Qt6LabsQmlModelsTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6LabsQmlModels/Qt6LabsQmlModelsConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6labsmodelspluginDependencies.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickEffects/Qt6QuickEffectsTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickEffects/Qt6QuickEffectsConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6effectspluginDependencies.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickControls2Fusion/Qt6QuickControls2FusionTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickControls2Fusion/Qt6QuickControls2FusionConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstylepluginDependencies.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickControls2Material/Qt6QuickControls2MaterialTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickControls2Material/Qt6QuickControls2MaterialConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstylepluginDependencies.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickControls2Imagine/Qt6QuickControls2ImagineTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickControls2Imagine/Qt6QuickControls2ImagineConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestylepluginDependencies.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickControls2Universal/Qt6QuickControls2UniversalTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickControls2Universal/Qt6QuickControls2UniversalConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstylepluginDependencies.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickControls2FluentWinUI3StyleImpl/Qt6QuickControls2FluentWinUI3StyleImplTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickControls2FluentWinUI3StyleImpl/Qt6QuickControls2FluentWinUI3StyleImplConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fluentwinui3styleimplpluginDependencies.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickControls2FusionStyleImpl/Qt6QuickControls2FusionStyleImplTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickControls2FusionStyleImpl/Qt6QuickControls2FusionStyleImplConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstyleimplpluginDependencies.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickControls2MaterialStyleImpl/Qt6QuickControls2MaterialStyleImplTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickControls2MaterialStyleImpl/Qt6QuickControls2MaterialStyleImplConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstyleimplpluginDependencies.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickControls2ImagineStyleImpl/Qt6QuickControls2ImagineStyleImplTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickControls2ImagineStyleImpl/Qt6QuickControls2ImagineStyleImplConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestyleimplpluginDependencies.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickControls2UniversalStyleImpl/Qt6QuickControls2UniversalStyleImplTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6QuickControls2UniversalStyleImpl/Qt6QuickControls2UniversalStyleImplConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstyleimplpluginDependencies.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/Qt6QQuick3DProfilerAdapterFactoryPluginTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/Qt6QQuick3DProfilerAdapterFactoryPluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/Qt6QDebugMessageServiceFactoryPluginTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Qml/Qt6QDebugMessageServiceFactoryPluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/QtFindWrapHelper.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/FindWrapJpeg.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Gui/Qt6QJpegPluginDependencies.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/FindWrapHarfbuzz.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/FindWrapFreetype.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/FindWrapPNG.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/FindWrapZLIB.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
+			"C:/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/FindWrapPCRE2.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 967,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 638,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 714,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 1,
+				"parent" : 6
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 844,
+				"parent" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 772,
+				"parent" : 8
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 205,
+				"parent" : 9
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 173,
+				"parent" : 10
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 174,
+				"parent" : 10
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 206,
+				"parent" : 9
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 160,
+				"parent" : 13
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 166,
+				"parent" : 13
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 207,
+				"parent" : 9
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 115,
+				"parent" : 16
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 126,
+				"parent" : 16
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 16
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 639,
+				"parent" : 2
+			},
+			{
+				"command" : 15,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 297,
+				"parent" : 21
+			},
+			{
+				"file" : 10,
+				"parent" : 22
+			},
+			{
+				"command" : 14,
+				"file" : 10,
+				"line" : 43,
+				"parent" : 23
+			},
+			{
+				"file" : 9,
+				"parent" : 24
+			},
+			{
+				"command" : 17,
+				"file" : 9,
+				"line" : 45,
+				"parent" : 25
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 26
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 27
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 315,
+				"parent" : 28
+			},
+			{
+				"file" : 5,
+				"parent" : 29
+			},
+			{
+				"command" : 14,
+				"file" : 5,
+				"line" : 58,
+				"parent" : 30
+			},
+			{
+				"file" : 4,
+				"parent" : 31
+			},
+			{
+				"command" : 13,
+				"file" : 4,
+				"line" : 61,
+				"parent" : 32
+			},
+			{
+				"command" : 14,
+				"file" : 5,
+				"line" : 204,
+				"parent" : 30
+			},
+			{
+				"file" : 17,
+				"parent" : 34
+			},
+			{
+				"command" : 18,
+				"file" : 17,
+				"line" : 6,
+				"parent" : 35
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 680,
+				"parent" : 36
+			},
+			{
+				"file" : 15,
+				"parent" : 37
+			},
+			{
+				"command" : 14,
+				"file" : 15,
+				"line" : 55,
+				"parent" : 38
+			},
+			{
+				"file" : 14,
+				"parent" : 39
+			},
+			{
+				"command" : 17,
+				"file" : 14,
+				"line" : 19,
+				"parent" : 40
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 41
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 42
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 315,
+				"parent" : 43
+			},
+			{
+				"file" : 13,
+				"parent" : 44
+			},
+			{
+				"command" : 14,
+				"file" : 13,
+				"line" : 43,
+				"parent" : 45
+			},
+			{
+				"file" : 12,
+				"parent" : 46
+			},
+			{
+				"command" : 17,
+				"file" : 12,
+				"line" : 45,
+				"parent" : 47
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 48
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 49
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 315,
+				"parent" : 50
+			},
+			{
+				"file" : 10,
+				"parent" : 51
+			},
+			{
+				"command" : 14,
+				"file" : 10,
+				"line" : 55,
+				"parent" : 52
+			},
+			{
+				"file" : 11,
+				"parent" : 53
+			},
+			{
+				"command" : 13,
+				"file" : 11,
+				"line" : 61,
+				"parent" : 54
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 680,
+				"parent" : 36
+			},
+			{
+				"file" : 19,
+				"parent" : 56
+			},
+			{
+				"command" : 14,
+				"file" : 19,
+				"line" : 61,
+				"parent" : 57
+			},
+			{
+				"file" : 18,
+				"parent" : 58
+			},
+			{
+				"command" : 13,
+				"file" : 18,
+				"line" : 62,
+				"parent" : 59
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 680,
+				"parent" : 36
+			},
+			{
+				"file" : 21,
+				"parent" : 61
+			},
+			{
+				"command" : 14,
+				"file" : 21,
+				"line" : 61,
+				"parent" : 62
+			},
+			{
+				"file" : 20,
+				"parent" : 63
+			},
+			{
+				"command" : 13,
+				"file" : 20,
+				"line" : 62,
+				"parent" : 64
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 680,
+				"parent" : 36
+			},
+			{
+				"file" : 23,
+				"parent" : 66
+			},
+			{
+				"command" : 14,
+				"file" : 23,
+				"line" : 61,
+				"parent" : 67
+			},
+			{
+				"file" : 22,
+				"parent" : 68
+			},
+			{
+				"command" : 13,
+				"file" : 22,
+				"line" : 62,
+				"parent" : 69
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 680,
+				"parent" : 36
+			},
+			{
+				"file" : 25,
+				"parent" : 71
+			},
+			{
+				"command" : 14,
+				"file" : 25,
+				"line" : 61,
+				"parent" : 72
+			},
+			{
+				"file" : 24,
+				"parent" : 73
+			},
+			{
+				"command" : 13,
+				"file" : 24,
+				"line" : 62,
+				"parent" : 74
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 680,
+				"parent" : 36
+			},
+			{
+				"file" : 27,
+				"parent" : 76
+			},
+			{
+				"command" : 14,
+				"file" : 27,
+				"line" : 61,
+				"parent" : 77
+			},
+			{
+				"file" : 26,
+				"parent" : 78
+			},
+			{
+				"command" : 13,
+				"file" : 26,
+				"line" : 62,
+				"parent" : 79
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 680,
+				"parent" : 36
+			},
+			{
+				"file" : 29,
+				"parent" : 81
+			},
+			{
+				"command" : 14,
+				"file" : 29,
+				"line" : 61,
+				"parent" : 82
+			},
+			{
+				"file" : 28,
+				"parent" : 83
+			},
+			{
+				"command" : 13,
+				"file" : 28,
+				"line" : 62,
+				"parent" : 84
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 680,
+				"parent" : 36
+			},
+			{
+				"file" : 31,
+				"parent" : 86
+			},
+			{
+				"command" : 14,
+				"file" : 31,
+				"line" : 61,
+				"parent" : 87
+			},
+			{
+				"file" : 30,
+				"parent" : 88
+			},
+			{
+				"command" : 13,
+				"file" : 30,
+				"line" : 62,
+				"parent" : 89
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 680,
+				"parent" : 36
+			},
+			{
+				"file" : 33,
+				"parent" : 91
+			},
+			{
+				"command" : 14,
+				"file" : 33,
+				"line" : 61,
+				"parent" : 92
+			},
+			{
+				"file" : 32,
+				"parent" : 93
+			},
+			{
+				"command" : 13,
+				"file" : 32,
+				"line" : 62,
+				"parent" : 94
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 680,
+				"parent" : 36
+			},
+			{
+				"file" : 35,
+				"parent" : 96
+			},
+			{
+				"command" : 14,
+				"file" : 35,
+				"line" : 61,
+				"parent" : 97
+			},
+			{
+				"file" : 34,
+				"parent" : 98
+			},
+			{
+				"command" : 13,
+				"file" : 34,
+				"line" : 62,
+				"parent" : 99
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 680,
+				"parent" : 36
+			},
+			{
+				"file" : 37,
+				"parent" : 101
+			},
+			{
+				"command" : 14,
+				"file" : 37,
+				"line" : 61,
+				"parent" : 102
+			},
+			{
+				"file" : 36,
+				"parent" : 103
+			},
+			{
+				"command" : 13,
+				"file" : 36,
+				"line" : 62,
+				"parent" : 104
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 680,
+				"parent" : 36
+			},
+			{
+				"file" : 39,
+				"parent" : 106
+			},
+			{
+				"command" : 14,
+				"file" : 39,
+				"line" : 61,
+				"parent" : 107
+			},
+			{
+				"file" : 38,
+				"parent" : 108
+			},
+			{
+				"command" : 13,
+				"file" : 38,
+				"line" : 62,
+				"parent" : 109
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 680,
+				"parent" : 36
+			},
+			{
+				"file" : 41,
+				"parent" : 111
+			},
+			{
+				"command" : 14,
+				"file" : 41,
+				"line" : 61,
+				"parent" : 112
+			},
+			{
+				"file" : 40,
+				"parent" : 113
+			},
+			{
+				"command" : 13,
+				"file" : 40,
+				"line" : 62,
+				"parent" : 114
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 680,
+				"parent" : 36
+			},
+			{
+				"file" : 43,
+				"parent" : 116
+			},
+			{
+				"command" : 14,
+				"file" : 43,
+				"line" : 61,
+				"parent" : 117
+			},
+			{
+				"file" : 42,
+				"parent" : 118
+			},
+			{
+				"command" : 13,
+				"file" : 42,
+				"line" : 62,
+				"parent" : 119
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 680,
+				"parent" : 36
+			},
+			{
+				"file" : 45,
+				"parent" : 121
+			},
+			{
+				"command" : 14,
+				"file" : 45,
+				"line" : 61,
+				"parent" : 122
+			},
+			{
+				"file" : 44,
+				"parent" : 123
+			},
+			{
+				"command" : 13,
+				"file" : 44,
+				"line" : 62,
+				"parent" : 124
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 680,
+				"parent" : 36
+			},
+			{
+				"file" : 47,
+				"parent" : 126
+			},
+			{
+				"command" : 14,
+				"file" : 47,
+				"line" : 61,
+				"parent" : 127
+			},
+			{
+				"file" : 46,
+				"parent" : 128
+			},
+			{
+				"command" : 13,
+				"file" : 46,
+				"line" : 62,
+				"parent" : 129
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 680,
+				"parent" : 36
+			},
+			{
+				"file" : 49,
+				"parent" : 131
+			},
+			{
+				"command" : 14,
+				"file" : 49,
+				"line" : 61,
+				"parent" : 132
+			},
+			{
+				"file" : 48,
+				"parent" : 133
+			},
+			{
+				"command" : 13,
+				"file" : 48,
+				"line" : 62,
+				"parent" : 134
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 680,
+				"parent" : 36
+			},
+			{
+				"file" : 51,
+				"parent" : 136
+			},
+			{
+				"command" : 14,
+				"file" : 51,
+				"line" : 61,
+				"parent" : 137
+			},
+			{
+				"file" : 50,
+				"parent" : 138
+			},
+			{
+				"command" : 13,
+				"file" : 50,
+				"line" : 62,
+				"parent" : 139
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 680,
+				"parent" : 36
+			},
+			{
+				"file" : 53,
+				"parent" : 141
+			},
+			{
+				"command" : 14,
+				"file" : 53,
+				"line" : 61,
+				"parent" : 142
+			},
+			{
+				"file" : 52,
+				"parent" : 143
+			},
+			{
+				"command" : 13,
+				"file" : 52,
+				"line" : 62,
+				"parent" : 144
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 680,
+				"parent" : 36
+			},
+			{
+				"file" : 55,
+				"parent" : 146
+			},
+			{
+				"command" : 14,
+				"file" : 55,
+				"line" : 61,
+				"parent" : 147
+			},
+			{
+				"file" : 54,
+				"parent" : 148
+			},
+			{
+				"command" : 13,
+				"file" : 54,
+				"line" : 62,
+				"parent" : 149
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 680,
+				"parent" : 36
+			},
+			{
+				"file" : 57,
+				"parent" : 151
+			},
+			{
+				"command" : 14,
+				"file" : 57,
+				"line" : 61,
+				"parent" : 152
+			},
+			{
+				"file" : 56,
+				"parent" : 153
+			},
+			{
+				"command" : 13,
+				"file" : 56,
+				"line" : 62,
+				"parent" : 154
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 680,
+				"parent" : 36
+			},
+			{
+				"file" : 59,
+				"parent" : 156
+			},
+			{
+				"command" : 14,
+				"file" : 59,
+				"line" : 61,
+				"parent" : 157
+			},
+			{
+				"file" : 58,
+				"parent" : 158
+			},
+			{
+				"command" : 13,
+				"file" : 58,
+				"line" : 62,
+				"parent" : 159
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 680,
+				"parent" : 36
+			},
+			{
+				"file" : 61,
+				"parent" : 161
+			},
+			{
+				"command" : 14,
+				"file" : 61,
+				"line" : 61,
+				"parent" : 162
+			},
+			{
+				"file" : 60,
+				"parent" : 163
+			},
+			{
+				"command" : 13,
+				"file" : 60,
+				"line" : 62,
+				"parent" : 164
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 680,
+				"parent" : 36
+			},
+			{
+				"file" : 63,
+				"parent" : 166
+			},
+			{
+				"command" : 14,
+				"file" : 63,
+				"line" : 61,
+				"parent" : 167
+			},
+			{
+				"file" : 62,
+				"parent" : 168
+			},
+			{
+				"command" : 13,
+				"file" : 62,
+				"line" : 62,
+				"parent" : 169
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 680,
+				"parent" : 36
+			},
+			{
+				"file" : 65,
+				"parent" : 171
+			},
+			{
+				"command" : 14,
+				"file" : 65,
+				"line" : 61,
+				"parent" : 172
+			},
+			{
+				"file" : 64,
+				"parent" : 173
+			},
+			{
+				"command" : 13,
+				"file" : 64,
+				"line" : 62,
+				"parent" : 174
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 26
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 176
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 315,
+				"parent" : 177
+			},
+			{
+				"file" : 69,
+				"parent" : 178
+			},
+			{
+				"command" : 14,
+				"file" : 69,
+				"line" : 201,
+				"parent" : 179
+			},
+			{
+				"file" : 68,
+				"parent" : 180
+			},
+			{
+				"command" : 19,
+				"file" : 68,
+				"line" : 13,
+				"parent" : 181
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 557,
+				"parent" : 182
+			},
+			{
+				"file" : 67,
+				"parent" : 183
+			},
+			{
+				"command" : 14,
+				"file" : 67,
+				"line" : 61,
+				"parent" : 184
+			},
+			{
+				"file" : 66,
+				"parent" : 185
+			},
+			{
+				"command" : 13,
+				"file" : 66,
+				"line" : 61,
+				"parent" : 186
+			},
+			{
+				"command" : 14,
+				"file" : 69,
+				"line" : 55,
+				"parent" : 179
+			},
+			{
+				"file" : 70,
+				"parent" : 188
+			},
+			{
+				"command" : 13,
+				"file" : 70,
+				"line" : 61,
+				"parent" : 189
+			},
+			{
+				"command" : 14,
+				"file" : 10,
+				"line" : 43,
+				"parent" : 52
+			},
+			{
+				"file" : 9,
+				"parent" : 191
+			},
+			{
+				"command" : 17,
+				"file" : 9,
+				"line" : 45,
+				"parent" : 192
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 193
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 194
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 315,
+				"parent" : 195
+			},
+			{
+				"file" : 72,
+				"parent" : 196
+			},
+			{
+				"command" : 14,
+				"file" : 72,
+				"line" : 55,
+				"parent" : 197
+			},
+			{
+				"file" : 71,
+				"parent" : 198
+			},
+			{
+				"command" : 13,
+				"file" : 71,
+				"line" : 61,
+				"parent" : 199
+			},
+			{
+				"command" : 14,
+				"file" : 72,
+				"line" : 43,
+				"parent" : 197
+			},
+			{
+				"file" : 75,
+				"parent" : 201
+			},
+			{
+				"command" : 17,
+				"file" : 75,
+				"line" : 45,
+				"parent" : 202
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 203
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 204
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 315,
+				"parent" : 205
+			},
+			{
+				"file" : 74,
+				"parent" : 206
+			},
+			{
+				"command" : 14,
+				"file" : 74,
+				"line" : 55,
+				"parent" : 207
+			},
+			{
+				"file" : 73,
+				"parent" : 208
+			},
+			{
+				"command" : 13,
+				"file" : 73,
+				"line" : 61,
+				"parent" : 209
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 203
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 211
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 315,
+				"parent" : 212
+			},
+			{
+				"file" : 77,
+				"parent" : 213
+			},
+			{
+				"command" : 14,
+				"file" : 77,
+				"line" : 55,
+				"parent" : 214
+			},
+			{
+				"file" : 76,
+				"parent" : 215
+			},
+			{
+				"command" : 13,
+				"file" : 76,
+				"line" : 61,
+				"parent" : 216
+			},
+			{
+				"command" : 14,
+				"file" : 27,
+				"line" : 55,
+				"parent" : 77
+			},
+			{
+				"file" : 80,
+				"parent" : 218
+			},
+			{
+				"command" : 17,
+				"file" : 80,
+				"line" : 19,
+				"parent" : 219
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 220
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 221
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 315,
+				"parent" : 222
+			},
+			{
+				"file" : 79,
+				"parent" : 223
+			},
+			{
+				"command" : 14,
+				"file" : 79,
+				"line" : 55,
+				"parent" : 224
+			},
+			{
+				"file" : 78,
+				"parent" : 225
+			},
+			{
+				"command" : 13,
+				"file" : 78,
+				"line" : 61,
+				"parent" : 226
+			},
+			{
+				"command" : 14,
+				"file" : 29,
+				"line" : 55,
+				"parent" : 82
+			},
+			{
+				"file" : 83,
+				"parent" : 228
+			},
+			{
+				"command" : 17,
+				"file" : 83,
+				"line" : 19,
+				"parent" : 229
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 230
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 231
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 315,
+				"parent" : 232
+			},
+			{
+				"file" : 82,
+				"parent" : 233
+			},
+			{
+				"command" : 14,
+				"file" : 82,
+				"line" : 55,
+				"parent" : 234
+			},
+			{
+				"file" : 81,
+				"parent" : 235
+			},
+			{
+				"command" : 13,
+				"file" : 81,
+				"line" : 61,
+				"parent" : 236
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 680,
+				"parent" : 36
+			},
+			{
+				"file" : 89,
+				"parent" : 238
+			},
+			{
+				"command" : 14,
+				"file" : 89,
+				"line" : 55,
+				"parent" : 239
+			},
+			{
+				"file" : 88,
+				"parent" : 240
+			},
+			{
+				"command" : 17,
+				"file" : 88,
+				"line" : 19,
+				"parent" : 241
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 242
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 243
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 315,
+				"parent" : 244
+			},
+			{
+				"file" : 87,
+				"parent" : 245
+			},
+			{
+				"command" : 14,
+				"file" : 87,
+				"line" : 43,
+				"parent" : 246
+			},
+			{
+				"file" : 86,
+				"parent" : 247
+			},
+			{
+				"command" : 17,
+				"file" : 86,
+				"line" : 45,
+				"parent" : 248
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 249
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 250
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 315,
+				"parent" : 251
+			},
+			{
+				"file" : 85,
+				"parent" : 252
+			},
+			{
+				"command" : 14,
+				"file" : 85,
+				"line" : 55,
+				"parent" : 253
+			},
+			{
+				"file" : 84,
+				"parent" : 254
+			},
+			{
+				"command" : 13,
+				"file" : 84,
+				"line" : 61,
+				"parent" : 255
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 48
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 257
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 315,
+				"parent" : 258
+			},
+			{
+				"file" : 91,
+				"parent" : 259
+			},
+			{
+				"command" : 14,
+				"file" : 91,
+				"line" : 55,
+				"parent" : 260
+			},
+			{
+				"file" : 90,
+				"parent" : 261
+			},
+			{
+				"command" : 13,
+				"file" : 90,
+				"line" : 61,
+				"parent" : 262
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 249
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 264
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 315,
+				"parent" : 265
+			},
+			{
+				"file" : 97,
+				"parent" : 266
+			},
+			{
+				"command" : 14,
+				"file" : 97,
+				"line" : 36,
+				"parent" : 267
+			},
+			{
+				"file" : 96,
+				"parent" : 268
+			},
+			{
+				"command" : 17,
+				"file" : 96,
+				"line" : 45,
+				"parent" : 269
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 270
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 271
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 315,
+				"parent" : 272
+			},
+			{
+				"file" : 95,
+				"parent" : 273
+			},
+			{
+				"command" : 14,
+				"file" : 95,
+				"line" : 43,
+				"parent" : 274
+			},
+			{
+				"file" : 94,
+				"parent" : 275
+			},
+			{
+				"command" : 17,
+				"file" : 94,
+				"line" : 45,
+				"parent" : 276
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 277
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 278
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 315,
+				"parent" : 279
+			},
+			{
+				"file" : 93,
+				"parent" : 280
+			},
+			{
+				"command" : 14,
+				"file" : 93,
+				"line" : 55,
+				"parent" : 281
+			},
+			{
+				"file" : 92,
+				"parent" : 282
+			},
+			{
+				"command" : 13,
+				"file" : 92,
+				"line" : 61,
+				"parent" : 283
+			},
+			{
+				"command" : 14,
+				"file" : 35,
+				"line" : 55,
+				"parent" : 97
+			},
+			{
+				"file" : 100,
+				"parent" : 285
+			},
+			{
+				"command" : 17,
+				"file" : 100,
+				"line" : 19,
+				"parent" : 286
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 287
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 288
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 315,
+				"parent" : 289
+			},
+			{
+				"file" : 99,
+				"parent" : 290
+			},
+			{
+				"command" : 14,
+				"file" : 99,
+				"line" : 55,
+				"parent" : 291
+			},
+			{
+				"file" : 98,
+				"parent" : 292
+			},
+			{
+				"command" : 13,
+				"file" : 98,
+				"line" : 61,
+				"parent" : 293
+			},
+			{
+				"command" : 14,
+				"file" : 37,
+				"line" : 55,
+				"parent" : 102
+			},
+			{
+				"file" : 103,
+				"parent" : 295
+			},
+			{
+				"command" : 17,
+				"file" : 103,
+				"line" : 19,
+				"parent" : 296
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 297
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 298
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 315,
+				"parent" : 299
+			},
+			{
+				"file" : 102,
+				"parent" : 300
+			},
+			{
+				"command" : 14,
+				"file" : 102,
+				"line" : 55,
+				"parent" : 301
+			},
+			{
+				"file" : 101,
+				"parent" : 302
+			},
+			{
+				"command" : 13,
+				"file" : 101,
+				"line" : 61,
+				"parent" : 303
+			},
+			{
+				"command" : 14,
+				"file" : 39,
+				"line" : 55,
+				"parent" : 107
+			},
+			{
+				"file" : 106,
+				"parent" : 305
+			},
+			{
+				"command" : 17,
+				"file" : 106,
+				"line" : 19,
+				"parent" : 306
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 307
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 308
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 315,
+				"parent" : 309
+			},
+			{
+				"file" : 105,
+				"parent" : 310
+			},
+			{
+				"command" : 14,
+				"file" : 105,
+				"line" : 55,
+				"parent" : 311
+			},
+			{
+				"file" : 104,
+				"parent" : 312
+			},
+			{
+				"command" : 13,
+				"file" : 104,
+				"line" : 61,
+				"parent" : 313
+			},
+			{
+				"command" : 14,
+				"file" : 41,
+				"line" : 55,
+				"parent" : 112
+			},
+			{
+				"file" : 109,
+				"parent" : 315
+			},
+			{
+				"command" : 17,
+				"file" : 109,
+				"line" : 19,
+				"parent" : 316
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 317
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 318
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 315,
+				"parent" : 319
+			},
+			{
+				"file" : 108,
+				"parent" : 320
+			},
+			{
+				"command" : 14,
+				"file" : 108,
+				"line" : 55,
+				"parent" : 321
+			},
+			{
+				"file" : 107,
+				"parent" : 322
+			},
+			{
+				"command" : 13,
+				"file" : 107,
+				"line" : 61,
+				"parent" : 323
+			},
+			{
+				"command" : 14,
+				"file" : 45,
+				"line" : 55,
+				"parent" : 122
+			},
+			{
+				"file" : 112,
+				"parent" : 325
+			},
+			{
+				"command" : 17,
+				"file" : 112,
+				"line" : 19,
+				"parent" : 326
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 327
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 328
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 315,
+				"parent" : 329
+			},
+			{
+				"file" : 111,
+				"parent" : 330
+			},
+			{
+				"command" : 14,
+				"file" : 111,
+				"line" : 55,
+				"parent" : 331
+			},
+			{
+				"file" : 110,
+				"parent" : 332
+			},
+			{
+				"command" : 13,
+				"file" : 110,
+				"line" : 61,
+				"parent" : 333
+			},
+			{
+				"command" : 14,
+				"file" : 47,
+				"line" : 55,
+				"parent" : 127
+			},
+			{
+				"file" : 115,
+				"parent" : 335
+			},
+			{
+				"command" : 17,
+				"file" : 115,
+				"line" : 19,
+				"parent" : 336
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 337
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 338
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 315,
+				"parent" : 339
+			},
+			{
+				"file" : 114,
+				"parent" : 340
+			},
+			{
+				"command" : 14,
+				"file" : 114,
+				"line" : 55,
+				"parent" : 341
+			},
+			{
+				"file" : 113,
+				"parent" : 342
+			},
+			{
+				"command" : 13,
+				"file" : 113,
+				"line" : 61,
+				"parent" : 343
+			},
+			{
+				"command" : 14,
+				"file" : 49,
+				"line" : 55,
+				"parent" : 132
+			},
+			{
+				"file" : 118,
+				"parent" : 345
+			},
+			{
+				"command" : 17,
+				"file" : 118,
+				"line" : 19,
+				"parent" : 346
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 347
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 348
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 315,
+				"parent" : 349
+			},
+			{
+				"file" : 117,
+				"parent" : 350
+			},
+			{
+				"command" : 14,
+				"file" : 117,
+				"line" : 55,
+				"parent" : 351
+			},
+			{
+				"file" : 116,
+				"parent" : 352
+			},
+			{
+				"command" : 13,
+				"file" : 116,
+				"line" : 61,
+				"parent" : 353
+			},
+			{
+				"command" : 14,
+				"file" : 51,
+				"line" : 55,
+				"parent" : 137
+			},
+			{
+				"file" : 121,
+				"parent" : 355
+			},
+			{
+				"command" : 17,
+				"file" : 121,
+				"line" : 19,
+				"parent" : 356
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 357
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 358
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 315,
+				"parent" : 359
+			},
+			{
+				"file" : 120,
+				"parent" : 360
+			},
+			{
+				"command" : 14,
+				"file" : 120,
+				"line" : 55,
+				"parent" : 361
+			},
+			{
+				"file" : 119,
+				"parent" : 362
+			},
+			{
+				"command" : 13,
+				"file" : 119,
+				"line" : 61,
+				"parent" : 363
+			},
+			{
+				"command" : 14,
+				"file" : 65,
+				"line" : 55,
+				"parent" : 172
+			},
+			{
+				"file" : 124,
+				"parent" : 365
+			},
+			{
+				"command" : 17,
+				"file" : 124,
+				"line" : 19,
+				"parent" : 366
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 367
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 368
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 315,
+				"parent" : 369
+			},
+			{
+				"file" : 123,
+				"parent" : 370
+			},
+			{
+				"command" : 14,
+				"file" : 123,
+				"line" : 55,
+				"parent" : 371
+			},
+			{
+				"file" : 122,
+				"parent" : 372
+			},
+			{
+				"command" : 13,
+				"file" : 122,
+				"line" : 61,
+				"parent" : 373
+			},
+			{
+				"command" : 14,
+				"file" : 55,
+				"line" : 55,
+				"parent" : 147
+			},
+			{
+				"file" : 127,
+				"parent" : 375
+			},
+			{
+				"command" : 17,
+				"file" : 127,
+				"line" : 19,
+				"parent" : 376
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 377
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 378
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 315,
+				"parent" : 379
+			},
+			{
+				"file" : 126,
+				"parent" : 380
+			},
+			{
+				"command" : 14,
+				"file" : 126,
+				"line" : 55,
+				"parent" : 381
+			},
+			{
+				"file" : 125,
+				"parent" : 382
+			},
+			{
+				"command" : 13,
+				"file" : 125,
+				"line" : 61,
+				"parent" : 383
+			},
+			{
+				"command" : 14,
+				"file" : 59,
+				"line" : 55,
+				"parent" : 157
+			},
+			{
+				"file" : 130,
+				"parent" : 385
+			},
+			{
+				"command" : 17,
+				"file" : 130,
+				"line" : 19,
+				"parent" : 386
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 387
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 388
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 315,
+				"parent" : 389
+			},
+			{
+				"file" : 129,
+				"parent" : 390
+			},
+			{
+				"command" : 14,
+				"file" : 129,
+				"line" : 55,
+				"parent" : 391
+			},
+			{
+				"file" : 128,
+				"parent" : 392
+			},
+			{
+				"command" : 13,
+				"file" : 128,
+				"line" : 61,
+				"parent" : 393
+			},
+			{
+				"command" : 14,
+				"file" : 61,
+				"line" : 55,
+				"parent" : 162
+			},
+			{
+				"file" : 133,
+				"parent" : 395
+			},
+			{
+				"command" : 17,
+				"file" : 133,
+				"line" : 19,
+				"parent" : 396
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 397
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 398
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 315,
+				"parent" : 399
+			},
+			{
+				"file" : 132,
+				"parent" : 400
+			},
+			{
+				"command" : 14,
+				"file" : 132,
+				"line" : 55,
+				"parent" : 401
+			},
+			{
+				"file" : 131,
+				"parent" : 402
+			},
+			{
+				"command" : 13,
+				"file" : 131,
+				"line" : 61,
+				"parent" : 403
+			},
+			{
+				"command" : 14,
+				"file" : 63,
+				"line" : 55,
+				"parent" : 167
+			},
+			{
+				"file" : 136,
+				"parent" : 405
+			},
+			{
+				"command" : 17,
+				"file" : 136,
+				"line" : 19,
+				"parent" : 406
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 407
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 408
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 315,
+				"parent" : 409
+			},
+			{
+				"file" : 135,
+				"parent" : 410
+			},
+			{
+				"command" : 14,
+				"file" : 135,
+				"line" : 55,
+				"parent" : 411
+			},
+			{
+				"file" : 134,
+				"parent" : 412
+			},
+			{
+				"command" : 13,
+				"file" : 134,
+				"line" : 61,
+				"parent" : 413
+			},
+			{
+				"command" : 21,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 20,
+				"file" : 137,
+				"line" : 1296,
+				"parent" : 415
+			},
+			{
+				"command" : 12,
+				"file" : 137,
+				"line" : 617,
+				"parent" : 416
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 23,
+				"file" : 0,
+				"line" : 766,
+				"parent" : 8
+			},
+			{
+				"command" : 22,
+				"file" : 0,
+				"line" : 766,
+				"parent" : 419
+			},
+			{
+				"command" : 12,
+				"file" : 137,
+				"line" : 4444,
+				"parent" : 420
+			},
+			{
+				"command" : 24,
+				"file" : 2,
+				"line" : 208,
+				"parent" : 9
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 201,
+				"parent" : 422
+			},
+			{
+				"command" : 25,
+				"file" : 0,
+				"line" : 791,
+				"parent" : 8
+			},
+			{
+				"command" : 12,
+				"file" : 16,
+				"line" : 483,
+				"parent" : 424
+			},
+			{
+				"command" : 19,
+				"file" : 17,
+				"line" : 15,
+				"parent" : 35
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 557,
+				"parent" : 426
+			},
+			{
+				"file" : 139,
+				"parent" : 427
+			},
+			{
+				"command" : 14,
+				"file" : 139,
+				"line" : 61,
+				"parent" : 428
+			},
+			{
+				"file" : 138,
+				"parent" : 429
+			},
+			{
+				"command" : 13,
+				"file" : 138,
+				"line" : 61,
+				"parent" : 430
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 557,
+				"parent" : 426
+			},
+			{
+				"file" : 141,
+				"parent" : 432
+			},
+			{
+				"command" : 14,
+				"file" : 141,
+				"line" : 61,
+				"parent" : 433
+			},
+			{
+				"file" : 140,
+				"parent" : 434
+			},
+			{
+				"command" : 13,
+				"file" : 140,
+				"line" : 61,
+				"parent" : 435
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 557,
+				"parent" : 182
+			},
+			{
+				"file" : 145,
+				"parent" : 437
+			},
+			{
+				"command" : 14,
+				"file" : 145,
+				"line" : 55,
+				"parent" : 438
+			},
+			{
+				"file" : 144,
+				"parent" : 439
+			},
+			{
+				"command" : 27,
+				"file" : 144,
+				"line" : 8,
+				"parent" : 440
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 36,
+				"parent" : 441
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 442
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 322,
+				"parent" : 443
+			},
+			{
+				"file" : 143,
+				"parent" : 444
+			},
+			{
+				"command" : 26,
+				"file" : 143,
+				"line" : 6,
+				"parent" : 445
+			},
+			{
+				"command" : 12,
+				"file" : 142,
+				"line" : 95,
+				"parent" : 446
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 557,
+				"parent" : 182
+			},
+			{
+				"file" : 147,
+				"parent" : 448
+			},
+			{
+				"command" : 14,
+				"file" : 147,
+				"line" : 61,
+				"parent" : 449
+			},
+			{
+				"file" : 146,
+				"parent" : 450
+			},
+			{
+				"command" : 13,
+				"file" : 146,
+				"line" : 61,
+				"parent" : 451
+			},
+			{
+				"command" : 14,
+				"file" : 69,
+				"line" : 43,
+				"parent" : 179
+			},
+			{
+				"file" : 149,
+				"parent" : 453
+			},
+			{
+				"command" : 27,
+				"file" : 149,
+				"line" : 39,
+				"parent" : 454
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 36,
+				"parent" : 455
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 456
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 322,
+				"parent" : 457
+			},
+			{
+				"file" : 148,
+				"parent" : 458
+			},
+			{
+				"command" : 26,
+				"file" : 148,
+				"line" : 6,
+				"parent" : 459
+			},
+			{
+				"command" : 12,
+				"file" : 142,
+				"line" : 95,
+				"parent" : 460
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 36,
+				"parent" : 455
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 462
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 322,
+				"parent" : 463
+			},
+			{
+				"file" : 150,
+				"parent" : 464
+			},
+			{
+				"command" : 26,
+				"file" : 150,
+				"line" : 6,
+				"parent" : 465
+			},
+			{
+				"command" : 12,
+				"file" : 142,
+				"line" : 95,
+				"parent" : 466
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 36,
+				"parent" : 455
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 468
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 322,
+				"parent" : 469
+			},
+			{
+				"file" : 151,
+				"parent" : 470
+			},
+			{
+				"command" : 26,
+				"file" : 151,
+				"line" : 6,
+				"parent" : 471
+			},
+			{
+				"command" : 12,
+				"file" : 142,
+				"line" : 95,
+				"parent" : 472
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 26
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 474
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 315,
+				"parent" : 475
+			},
+			{
+				"file" : 154,
+				"parent" : 476
+			},
+			{
+				"command" : 14,
+				"file" : 154,
+				"line" : 45,
+				"parent" : 477
+			},
+			{
+				"file" : 153,
+				"parent" : 478
+			},
+			{
+				"command" : 27,
+				"file" : 153,
+				"line" : 38,
+				"parent" : 479
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 36,
+				"parent" : 480
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 481
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 322,
+				"parent" : 482
+			},
+			{
+				"file" : 152,
+				"parent" : 483
+			},
+			{
+				"command" : 26,
+				"file" : 152,
+				"line" : 6,
+				"parent" : 484
+			},
+			{
+				"command" : 12,
+				"file" : 142,
+				"line" : 95,
+				"parent" : 485
+			},
+			{
+				"command" : 16,
+				"file" : 8,
+				"line" : 36,
+				"parent" : 480
+			},
+			{
+				"command" : 15,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 487
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 322,
+				"parent" : 488
+			},
+			{
+				"file" : 155,
+				"parent" : 489
+			},
+			{
+				"command" : 26,
+				"file" : 155,
+				"line" : 6,
+				"parent" : 490
+			},
+			{
+				"command" : 12,
+				"file" : 142,
+				"line" : 95,
+				"parent" : 491
+			},
+			{
+				"command" : 30,
+				"file" : 137,
+				"line" : 951,
+				"parent" : 416
+			},
+			{
+				"command" : 29,
+				"file" : 137,
+				"line" : 3607,
+				"parent" : 493
+			},
+			{
+				"command" : 28,
+				"file" : 137,
+				"line" : 2976,
+				"parent" : 494
+			},
+			{
+				"command" : 29,
+				"file" : 137,
+				"line" : 3613,
+				"parent" : 493
+			},
+			{
+				"command" : 28,
+				"file" : 137,
+				"line" : 2976,
+				"parent" : 496
+			},
+			{
+				"command" : 32,
+				"file" : 137,
+				"line" : 833,
+				"parent" : 416
+			},
+			{
+				"command" : 31,
+				"file" : 137,
+				"line" : 3989,
+				"parent" : 498
+			},
+			{
+				"command" : 31,
+				"file" : 137,
+				"line" : 4019,
+				"parent" : 498
+			},
+			{
+				"command" : 34,
+				"file" : 137,
+				"line" : 3814,
+				"parent" : 498
+			},
+			{
+				"command" : 33,
+				"file" : 0,
+				"line" : 1518,
+				"parent" : 501
+			},
+			{
+				"command" : 33,
+				"file" : 137,
+				"line" : 3980,
+				"parent" : 498
+			},
+			{
+				"command" : 37,
+				"file" : 137,
+				"line" : 885,
+				"parent" : 416
+			},
+			{
+				"command" : 36,
+				"file" : 0,
+				"line" : 400,
+				"parent" : 504
+			},
+			{
+				"command" : 35,
+				"file" : 0,
+				"line" : 2560,
+				"parent" : 505
+			},
+			{
+				"command" : 33,
+				"file" : 0,
+				"line" : 2104,
+				"parent" : 506
+			},
+			{
+				"command" : 33,
+				"file" : 137,
+				"line" : 3321,
+				"parent" : 493
+			},
+			{
+				"command" : 38,
+				"file" : 137,
+				"line" : 3458,
+				"parent" : 493
+			},
+			{
+				"command" : 33,
+				"file" : 137,
+				"line" : 1740,
+				"parent" : 509
+			},
+			{
+				"command" : 33,
+				"file" : 137,
+				"line" : 3514,
+				"parent" : 493
+			},
+			{
+				"command" : 33,
+				"file" : 137,
+				"line" : 3321,
+				"parent" : 493
+			},
+			{
+				"command" : 33,
+				"file" : 137,
+				"line" : 3514,
+				"parent" : 493
+			},
+			{
+				"command" : 33,
+				"file" : 137,
+				"line" : 3321,
+				"parent" : 493
+			},
+			{
+				"command" : 33,
+				"file" : 137,
+				"line" : 3514,
+				"parent" : 493
+			},
+			{
+				"command" : 33,
+				"file" : 137,
+				"line" : 3321,
+				"parent" : 493
+			},
+			{
+				"command" : 33,
+				"file" : 137,
+				"line" : 3514,
+				"parent" : 493
+			},
+			{
+				"command" : 33,
+				"file" : 137,
+				"line" : 3321,
+				"parent" : 493
+			},
+			{
+				"command" : 33,
+				"file" : 137,
+				"line" : 3514,
+				"parent" : 493
+			},
+			{
+				"command" : 33,
+				"file" : 137,
+				"line" : 3321,
+				"parent" : 493
+			},
+			{
+				"command" : 33,
+				"file" : 137,
+				"line" : 3514,
+				"parent" : 493
+			},
+			{
+				"command" : 33,
+				"file" : 137,
+				"line" : 3321,
+				"parent" : 493
+			},
+			{
+				"command" : 33,
+				"file" : 137,
+				"line" : 3514,
+				"parent" : 493
+			},
+			{
+				"command" : 33,
+				"file" : 137,
+				"line" : 3321,
+				"parent" : 493
+			},
+			{
+				"command" : 33,
+				"file" : 137,
+				"line" : 3514,
+				"parent" : 493
+			},
+			{
+				"command" : 33,
+				"file" : 137,
+				"line" : 3321,
+				"parent" : 493
+			},
+			{
+				"command" : 33,
+				"file" : 137,
+				"line" : 3514,
+				"parent" : 493
+			},
+			{
+				"command" : 33,
+				"file" : 137,
+				"line" : 3321,
+				"parent" : 493
+			},
+			{
+				"command" : 33,
+				"file" : 137,
+				"line" : 3514,
+				"parent" : 493
+			},
+			{
+				"command" : 33,
+				"file" : 137,
+				"line" : 3321,
+				"parent" : 493
+			},
+			{
+				"command" : 33,
+				"file" : 137,
+				"line" : 3514,
+				"parent" : 493
+			},
+			{
+				"command" : 37,
+				"file" : 137,
+				"line" : 3629,
+				"parent" : 493
+			},
+			{
+				"command" : 36,
+				"file" : 0,
+				"line" : 400,
+				"parent" : 532
+			},
+			{
+				"command" : 35,
+				"file" : 0,
+				"line" : 2560,
+				"parent" : 533
+			},
+			{
+				"command" : 33,
+				"file" : 0,
+				"line" : 2104,
+				"parent" : 534
+			},
+			{
+				"command" : 37,
+				"file" : 137,
+				"line" : 3665,
+				"parent" : 493
+			},
+			{
+				"command" : 36,
+				"file" : 0,
+				"line" : 400,
+				"parent" : 536
+			},
+			{
+				"command" : 35,
+				"file" : 0,
+				"line" : 2560,
+				"parent" : 537
+			},
+			{
+				"command" : 33,
+				"file" : 0,
+				"line" : 2104,
+				"parent" : 538
+			},
+			{
+				"command" : 39,
+				"file" : 0,
+				"line" : 838,
+				"parent" : 7
+			},
+			{
+				"command" : 33,
+				"file" : 0,
+				"line" : 2229,
+				"parent" : 540
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DQT_QML_DEBUG -g -std=gnu++17 -fansi-escape-codes -fcolor-diagnostics"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : "-pthread"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 20,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 418,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 417,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 418,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 417,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 418,
+					"define" : "QT_QMLMETA_LIB"
+				},
+				{
+					"backtrace" : 418,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 418,
+					"define" : "QT_QMLWORKERSCRIPT_LIB"
+				},
+				{
+					"backtrace" : 417,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 418,
+					"define" : "QT_QUICK_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "C:/Qt/6.7.2/GizWebPluginLab2/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/appGizWebPluginLab2_autogen/include"
+				},
+				{
+					"backtrace" : 499,
+					"path" : "C:/Qt/6.7.2/GizWebPluginLab2"
+				},
+				{
+					"backtrace" : 500,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.9.2/wasm_multithread/include/QtQml/6.9.2"
+				},
+				{
+					"backtrace" : 500,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.9.2/wasm_multithread/include/QtQml/6.9.2/QtQml"
+				},
+				{
+					"backtrace" : 500,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.9.2/wasm_multithread/include/QtCore/6.9.2"
+				},
+				{
+					"backtrace" : 500,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.9.2/wasm_multithread/include/QtCore/6.9.2/QtCore"
+				},
+				{
+					"backtrace" : 500,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.9.2/wasm_multithread/include/QtCore"
+				},
+				{
+					"backtrace" : 500,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.9.2/wasm_multithread/include"
+				},
+				{
+					"backtrace" : 500,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.9.2/wasm_multithread/mkspecs/wasm-emscripten"
+				},
+				{
+					"backtrace" : 500,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.9.2/wasm_multithread/include/QtQml"
+				},
+				{
+					"backtrace" : 500,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.9.2/wasm_multithread/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 500,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.9.2/wasm_multithread/include/QtNetwork"
+				},
+				{
+					"backtrace" : 418,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.9.2/wasm_multithread/include/QtQuick"
+				},
+				{
+					"backtrace" : 418,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.9.2/wasm_multithread/include/QtGui"
+				},
+				{
+					"backtrace" : 418,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.9.2/wasm_multithread/include/QtQmlMeta"
+				},
+				{
+					"backtrace" : 418,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.9.2/wasm_multithread/include/QtQmlModels"
+				},
+				{
+					"backtrace" : 418,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.9.2/wasm_multithread/include/QtQmlWorkerScript"
+				},
+				{
+					"backtrace" : 418,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.9.2/wasm_multithread/include/QtOpenGL"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					20
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				4,
+				6,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				23,
+				25,
+				27,
+				28,
+				29,
+				37
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "appGizWebPluginLab2_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "appGizWebPluginLab2_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 495,
+			"id" : "appGizWebPluginLab2_copy_qml::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 497,
+			"id" : "appGizWebPluginLab2_copy_res::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "appGizWebPluginLab2::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Users/usuario/Documents/Programacion/Librerias/Ems/emsdk/upstream/emscripten/cache/sysroot"
+		}
+	},
+	"launchers" : 
+	[
+		{
+			"command" : "C:/Users/usuario/Documents/Programacion/Librerias/Ems/emsdk/node/22.16.0_64bit/bin/node.exe",
+			"type" : "emulator"
+		}
+	],
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-DQT_QML_DEBUG -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "-s",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "MODULARIZE=1",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "-s",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "EXPORT_NAME=appGizWebPluginLab2_entry",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "-s",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "EXPORTED_RUNTIME_METHODS=UTF16ToString,stringToUTF16,JSEvents,specialHTMLTargets,FS,callMain",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "-s",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "EXPORTED_FUNCTIONS=_main,__embind_initialize_bindings",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "-s",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "PTHREAD_POOL_SIZE=4",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "-s",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "INITIAL_MEMORY=50MB",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "-s",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "MAXIMUM_MEMORY=4GB",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "-s",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "MAX_WEBGL_VERSION=2",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "-s",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "WASM_BIGINT=1",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "-s",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "STACK_SIZE=5MB",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "-pthread",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "-s",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "ALLOW_MEMORY_GROWTH",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "--profiling-funcs",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "-sERROR_ON_UNDEFINED_SYMBOLS=1",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "-sFETCH",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 33,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QML\\objects-Release\\Qml_resources_1\\.qt\\rcc\\qrc_qmake_QML_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 55,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\objects-Release\\Quick_resources_1\\.qt\\rcc\\qrc_qmake_QtQuick_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 55,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\Quick_resources_2\\.qt\\rcc\\qrc_scenegraph_shaders_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 55,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\Quick_resources_3\\.qt\\rcc\\qrc_scenegraph_curve_shaders_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 55,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\Quick_resources_4\\.qt\\rcc\\qrc_scenegraph_curve_shaders_derivatives_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 55,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\Quick_resources_5\\.qt\\rcc\\qrc_scenegraph_curve_shaders_lg_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 55,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\Quick_resources_6\\.qt\\rcc\\qrc_scenegraph_curve_shaders_lg_derivatives_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 55,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\Quick_resources_7\\.qt\\rcc\\qrc_scenegraph_curve_shaders_rg_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 55,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\Quick_resources_8\\.qt\\rcc\\qrc_scenegraph_curve_shaders_rg_derivatives_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 55,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\Quick_resources_9\\.qt\\rcc\\qrc_scenegraph_curve_shaders_cg_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 55,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\Quick_resources_10\\.qt\\rcc\\qrc_scenegraph_curve_shaders_cg_derivatives_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 55,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\Quick_resources_11\\.qt\\rcc\\qrc_scenegraph_curve_shaders_tf_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 55,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\Quick_resources_12\\.qt\\rcc\\qrc_scenegraph_curve_shaders_tf_derivatives_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 60,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\objects-Release\\qtquick2plugin_init\\qtquick2plugin_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 65,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQml\\objects-Release\\qmlplugin_init\\qmlplugin_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 70,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQml\\Models\\objects-Release\\modelsplugin_init\\modelsplugin_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 75,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQml\\WorkerScript\\objects-Release\\workerscriptplugin_init\\workerscriptplugin_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 80,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Layouts\\objects-Release\\qquicklayoutsplugin_init\\qquicklayoutsplugin_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 85,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Basic\\objects-Release\\qtquickcontrols2basicstyleplugin_init\\qtquickcontrols2basicstyleplugin_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 90,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Templates\\objects-Release\\qtquicktemplates2plugin_init\\qtquicktemplates2plugin_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 95,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\impl\\objects-Release\\qtquickcontrols2implplugin_init\\qtquickcontrols2implplugin_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 100,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Basic\\impl\\objects-Release\\qtquickcontrols2basicstyleimplplugin_init\\qtquickcontrols2basicstyleimplplugin_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 105,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Shapes\\objects-Release\\qmlshapesplugin_init\\qmlshapesplugin_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 110,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\Qt\\labs\\qmlmodels\\objects-Release\\labsmodelsplugin_init\\labsmodelsplugin_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 115,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Effects\\objects-Release\\effectsplugin_init\\effectsplugin_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 120,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\objects-Release\\qtquickcontrols2plugin_init\\qtquickcontrols2plugin_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 120,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\qtquickcontrols2plugin_resources_1\\.qt\\rcc\\qrc_indirectBasic_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 125,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Fusion\\objects-Release\\qtquickcontrols2fusionstyleplugin_init\\qtquickcontrols2fusionstyleplugin_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 130,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Material\\objects-Release\\qtquickcontrols2materialstyleplugin_init\\qtquickcontrols2materialstyleplugin_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 135,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Imagine\\objects-Release\\qtquickcontrols2imaginestyleplugin_init\\qtquickcontrols2imaginestyleplugin_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 140,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Universal\\objects-Release\\qtquickcontrols2universalstyleplugin_init\\qtquickcontrols2universalstyleplugin_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 145,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\FluentWinUI3\\objects-Release\\qtquickcontrols2fluentwinui3styleplugin_resources_1\\.qt\\rcc\\qrc_qmake_QtQuick_Controls_FluentWinUI3_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 145,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\FluentWinUI3\\objects-Release\\qtquickcontrols2fluentwinui3styleplugin_resources_2\\.qt\\rcc\\qrc_qtquickcontrols2fluentwinui3styleplugin_raw_qml_0_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 145,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\FluentWinUI3\\objects-Release\\qtquickcontrols2fluentwinui3styleplugin_init\\qtquickcontrols2fluentwinui3styleplugin_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 150,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Fusion\\impl\\objects-Release\\qtquickcontrols2fusionstyleimplplugin_init\\qtquickcontrols2fusionstyleimplplugin_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 155,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Window\\objects-Release\\quickwindow_resources_1\\.qt\\rcc\\qrc_qmake_QtQuick_Window_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 155,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Window\\objects-Release\\quickwindow_init\\quickwindow_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 160,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Material\\impl\\objects-Release\\qtquickcontrols2materialstyleimplplugin_init\\qtquickcontrols2materialstyleimplplugin_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 165,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Imagine\\impl\\objects-Release\\qtquickcontrols2imaginestyleimplplugin_init\\qtquickcontrols2imaginestyleimplplugin_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 170,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Universal\\impl\\objects-Release\\qtquickcontrols2universalstyleimplplugin_init\\qtquickcontrols2universalstyleimplplugin_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 175,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\FluentWinUI3\\impl\\objects-Release\\qtquickcontrols2fluentwinui3styleimplplugin_init\\qtquickcontrols2fluentwinui3styleimplplugin_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 187,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QWasmIntegrationPlugin_resources_1\\.qt\\rcc\\qrc_wasmfonts_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 187,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QWasmIntegrationPlugin_resources_2\\.qt\\rcc\\qrc_wasmwindow_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 190,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\Gui_resources_1\\.qt\\rcc\\qrc_qpdf_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 190,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\Gui_resources_2\\.qt\\rcc\\qrc_gui_shaders_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 200,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQml\\objects-Release\\QmlMeta_resources_1\\.qt\\rcc\\qrc_qmake_QtQml_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 210,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQml\\Models\\objects-Release\\QmlModels_resources_1\\.qt\\rcc\\qrc_qmake_QtQml_Models_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 217,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQml\\WorkerScript\\objects-Release\\QmlWorkerScript_resources_1\\.qt\\rcc\\qrc_qmake_QtQml_WorkerScript_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 227,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Layouts\\objects-Release\\QuickLayouts_resources_1\\.qt\\rcc\\qrc_qmake_QtQuick_Layouts_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 237,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Basic\\objects-Release\\QuickControls2Basic_resources_1\\.qt\\rcc\\qrc_qmake_QtQuick_Controls_Basic_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 237,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Basic\\objects-Release\\QuickControls2Basic_resources_2\\.qt\\rcc\\qrc_QuickControls2Basic_raw_qml_0_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 237,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickControls2Basic_resources_3\\.qt\\rcc\\qrc_qtquickcontrols2basicstyle_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 256,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\objects-Release\\QuickControls2_resources_1\\.qt\\rcc\\qrc_qmake_QtQuick_Controls_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 263,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Templates\\objects-Release\\QuickTemplates2_resources_1\\.qt\\rcc\\qrc_qmake_QtQuick_Templates_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 284,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\impl\\objects-Release\\QuickControls2Impl_resources_1\\.qt\\rcc\\qrc_qmake_QtQuick_Controls_impl_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 294,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Basic\\impl\\objects-Release\\QuickControls2BasicStyleImpl_resources_1\\.qt\\rcc\\qrc_qmake_QtQuick_Controls_Basic_impl_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 304,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Shapes\\objects-Release\\QuickShapesPrivate_resources_1\\.qt\\rcc\\qrc_qmake_QtQuick_Shapes_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 304,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickShapesPrivate_resources_2\\.qt\\rcc\\qrc_qtquickshapes_shaders_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 314,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\Qt\\labs\\qmlmodels\\objects-Release\\LabsQmlModels_resources_1\\.qt\\rcc\\qrc_qmake_Qt_labs_qmlmodels_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 324,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Effects\\objects-Release\\QuickEffects_resources_1\\.qt\\rcc\\qrc_qmake_QtQuick_Effects_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 324,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickEffects_resources_2\\.qt\\rcc\\qrc_effects_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 324,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickEffects_resources_3\\.qt\\rcc\\qrc_rectangularshadow_shaders1_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 324,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickEffects_resources_4\\.qt\\rcc\\qrc_multieffect_shaders1_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 324,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickEffects_resources_5\\.qt\\rcc\\qrc_multieffect_shaders2_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 324,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickEffects_resources_6\\.qt\\rcc\\qrc_multieffect_shaders3_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 324,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickEffects_resources_7\\.qt\\rcc\\qrc_multieffect_shaders4_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 324,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickEffects_resources_8\\.qt\\rcc\\qrc_multieffect_shaders5_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 324,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickEffects_resources_9\\.qt\\rcc\\qrc_multieffect_shaders6_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 324,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickEffects_resources_10\\.qt\\rcc\\qrc_multieffect_shaders7_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 324,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickEffects_resources_11\\.qt\\rcc\\qrc_multieffect_shaders8_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 324,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickEffects_resources_12\\.qt\\rcc\\qrc_multieffect_shaders9_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 324,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickEffects_resources_13\\.qt\\rcc\\qrc_multieffect_shaders10_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 324,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickEffects_resources_14\\.qt\\rcc\\qrc_multieffect_shaders11_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 324,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickEffects_resources_15\\.qt\\rcc\\qrc_multieffect_shaders12_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 324,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickEffects_resources_16\\.qt\\rcc\\qrc_multieffect_shaders13_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 324,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickEffects_resources_17\\.qt\\rcc\\qrc_multieffect_shaders14_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 324,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickEffects_resources_18\\.qt\\rcc\\qrc_multieffect_shaders15_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 324,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickEffects_resources_19\\.qt\\rcc\\qrc_multieffect_shaders16_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 324,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickEffects_resources_20\\.qt\\rcc\\qrc_multieffect_shaders17_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 324,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickEffects_resources_21\\.qt\\rcc\\qrc_multieffect_shaders18_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 324,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickEffects_resources_22\\.qt\\rcc\\qrc_multieffect_shaders19_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 324,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickEffects_resources_23\\.qt\\rcc\\qrc_multieffect_shaders20_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 324,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickEffects_resources_24\\.qt\\rcc\\qrc_multieffect_shaders21_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 324,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickEffects_resources_25\\.qt\\rcc\\qrc_multieffect_shaders22_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 324,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickEffects_resources_26\\.qt\\rcc\\qrc_multieffect_shaders23_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 324,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickEffects_resources_27\\.qt\\rcc\\qrc_multieffect_shaders24_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 324,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickEffects_resources_28\\.qt\\rcc\\qrc_multieffect_shaders25_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 334,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Fusion\\objects-Release\\QuickControls2Fusion_resources_1\\.qt\\rcc\\qrc_qmake_QtQuick_Controls_Fusion_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 334,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Fusion\\objects-Release\\QuickControls2Fusion_resources_2\\.qt\\rcc\\qrc_QuickControls2Fusion_raw_qml_0_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 334,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickControls2Fusion_resources_3\\.qt\\rcc\\qrc_qtquickcontrols2fusionstyle_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 344,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Material\\objects-Release\\QuickControls2Material_resources_1\\.qt\\rcc\\qrc_qmake_QtQuick_Controls_Material_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 344,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Material\\objects-Release\\QuickControls2Material_resources_2\\.qt\\rcc\\qrc_QuickControls2Material_raw_qml_0_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 344,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickControls2Material_resources_3\\.qt\\rcc\\qrc_qtquickcontrols2materialstyle_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 344,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickControls2Material_resources_4\\.qt\\rcc\\qrc_qtquickcontrols2materialstyle_shaders_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 354,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Imagine\\objects-Release\\QuickControls2Imagine_resources_1\\.qt\\rcc\\qrc_qmake_QtQuick_Controls_Imagine_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 354,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Imagine\\objects-Release\\QuickControls2Imagine_resources_2\\.qt\\rcc\\qrc_QuickControls2Imagine_raw_qml_0_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 354,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickControls2Imagine_resources_3\\.qt\\rcc\\qrc_qmake_qtquickcontrols2imaginestyle_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 364,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Universal\\objects-Release\\QuickControls2Universal_resources_1\\.qt\\rcc\\qrc_qmake_QtQuick_Controls_Universal_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 364,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Universal\\objects-Release\\QuickControls2Universal_resources_2\\.qt\\rcc\\qrc_QuickControls2Universal_raw_qml_0_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 364,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickControls2Universal_resources_3\\.qt\\rcc\\qrc_qtquickcontrols2universalstyle_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 374,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\FluentWinUI3\\impl\\objects-Release\\QuickControls2FluentWinUI3StyleImpl_resources_1\\.qt\\rcc\\qrc_qmake_QtQuick_Controls_FluentWinUI3_impl_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 374,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\FluentWinUI3\\impl\\objects-Release\\QuickControls2FluentWinUI3StyleImpl_resources_2\\.qt\\rcc\\qrc_QuickControls2FluentWinUI3StyleImpl_raw_qml_0_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 384,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Fusion\\impl\\objects-Release\\QuickControls2FusionStyleImpl_resources_1\\.qt\\rcc\\qrc_qmake_QtQuick_Controls_Fusion_impl_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 384,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Fusion\\impl\\objects-Release\\QuickControls2FusionStyleImpl_resources_2\\.qt\\rcc\\qrc_QuickControls2FusionStyleImpl_raw_qml_0_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 394,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Material\\impl\\objects-Release\\QuickControls2MaterialStyleImpl_resources_1\\.qt\\rcc\\qrc_qmake_QtQuick_Controls_Material_impl_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 394,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Material\\impl\\objects-Release\\QuickControls2MaterialStyleImpl_resources_2\\.qt\\rcc\\qrc_QuickControls2MaterialStyleImpl_raw_qml_0_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 404,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Imagine\\impl\\objects-Release\\QuickControls2ImagineStyleImpl_resources_1\\.qt\\rcc\\qrc_qmake_QtQuick_Controls_Imagine_impl_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 404,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Imagine\\impl\\objects-Release\\QuickControls2ImagineStyleImpl_resources_2\\.qt\\rcc\\qrc_QuickControls2ImagineStyleImpl_raw_qml_0_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 404,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\objects-Release\\QuickControls2ImagineStyleImpl_resources_3\\.qt\\rcc\\qrc_qtquickcontrols2imaginestyleimplplugin_shaders_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 414,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Universal\\impl\\objects-Release\\QuickControls2UniversalStyleImpl_resources_1\\.qt\\rcc\\qrc_qmake_QtQuick_Controls_Universal_impl_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 414,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Universal\\impl\\objects-Release\\QuickControls2UniversalStyleImpl_resources_2\\.qt\\rcc\\qrc_QuickControls2UniversalStyleImpl_raw_qml_0_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6Core.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 417,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6Qml.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6Core.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 418,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6Quick.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\libqtquick2plugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQml\\libqmlplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQml\\Models\\libmodelsplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQml\\WorkerScript\\libworkerscriptplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Layouts\\libqquicklayoutsplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Basic\\libqtquickcontrols2basicstyleplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Templates\\libqtquicktemplates2plugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\impl\\libqtquickcontrols2implplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Basic\\impl\\libqtquickcontrols2basicstyleimplplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Shapes\\libqmlshapesplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\Qt\\labs\\qmlmodels\\liblabsmodelsplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Effects\\libeffectsplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\libqtquickcontrols2plugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Fusion\\libqtquickcontrols2fusionstyleplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Material\\libqtquickcontrols2materialstyleplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Imagine\\libqtquickcontrols2imaginestyleplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Universal\\libqtquickcontrols2universalstyleplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\FluentWinUI3\\libqtquickcontrols2fluentwinui3styleplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Fusion\\impl\\libqtquickcontrols2fusionstyleimplplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Window\\libquickwindowplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Material\\impl\\libqtquickcontrols2materialstyleimplplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Imagine\\impl\\libqtquickcontrols2imaginestyleimplplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Universal\\impl\\libqtquickcontrols2universalstyleimplplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\FluentWinUI3\\impl\\libqtquickcontrols2fluentwinui3styleimplplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 423,
+				"fragment" : "-lembind",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 425,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\plugins\\qmltooling\\libqmldbg_messages.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 425,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\plugins\\qmltooling\\libqmldbg_local.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 425,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\plugins\\qmltooling\\libqmldbg_server.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 425,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\plugins\\qmltooling\\libqmldbg_debugger.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 425,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\plugins\\qmltooling\\libqmldbg_inspector.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 425,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\plugins\\qmltooling\\libqmldbg_native.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 425,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\plugins\\qmltooling\\libqmldbg_nativedebugger.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 425,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\plugins\\qmltooling\\libqmldbg_preview.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 425,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\plugins\\qmltooling\\libqmldbg_profiler.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 425,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\plugins\\qmltooling\\libqmldbg_quick3dprofiler.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 425,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\plugins\\qmltooling\\libqmldbg_quickprofiler.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 425,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\plugins\\qmltooling\\libqmldbg_tcp.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 425,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\plugins\\tls\\libqcertonlybackend.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 425,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\plugins\\imageformats\\libqgif.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 425,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\plugins\\imageformats\\libqico.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 425,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\plugins\\imageformats\\libqjpeg.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 425,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\plugins\\iconengines\\libqsvgicon.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 425,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\plugins\\imageformats\\libqsvg.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 425,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\plugins\\platforms\\libqwasm.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 80,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6QuickLayouts.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 105,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6QuickShapes.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 110,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6LabsQmlModels.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 115,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6QuickEffects.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 130,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6QuickControls2Material.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 160,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6QuickControls2MaterialStyleImpl.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 135,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6QuickControls2Imagine.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 165,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6QuickControls2ImagineStyleImpl.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 140,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6QuickControls2Universal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 170,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6QuickControls2UniversalStyleImpl.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Fusion\\libqtquickcontrols2fusionstyleplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Basic\\libqtquickcontrols2basicstyleplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Basic\\impl\\libqtquickcontrols2basicstyleimplplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 85,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6QuickControls2Basic.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 100,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6QuickControls2BasicStyleImpl.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\libqtquickcontrols2plugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\Fusion\\impl\\libqtquickcontrols2fusionstyleimplplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Controls\\impl\\libqtquickcontrols2implplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Window\\libquickwindowplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 125,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6QuickControls2Fusion.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 150,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6QuickControls2FusionStyleImpl.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\Templates\\libqtquicktemplates2plugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQuick\\libqtquick2plugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQml\\libqmlplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQml\\Models\\libmodelsplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 421,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\qml\\QtQml\\WorkerScript\\libworkerscriptplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 85,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6QuickControls2.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 95,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6QuickControls2Impl.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 145,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6QuickControls2FluentWinUI3StyleImpl.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 90,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6QuickTemplates2.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 431,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6Quick3DUtils.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 418,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6Quick.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 55,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6QmlMeta.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 75,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6QmlWorkerScript.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 55,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6QmlModels.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 436,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6PacketProtocol.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 417,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6Qml.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 33,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6Network.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 447,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6BundledLibjpeg.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 452,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6Svg.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 55,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6OpenGL.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 55,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6Gui.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 461,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6BundledHarfbuzz.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 467,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6BundledFreetype.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 473,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6BundledLibpng.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6Core.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 486,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6BundledZLIB.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 492,
+				"fragment" : "C:\\Qt\\6.9.2\\wasm_multithread\\lib\\libQt6BundledPcre2.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "appGizWebPluginLab2",
+	"nameOnDisk" : "appGizWebPluginLab2.js",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files\\Generated",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				4,
+				6,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				23,
+				25,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				34,
+				35,
+				36,
+				37,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1,
+				5,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				33
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57
+			]
+		},
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/appGizWebPluginLab2_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 502,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/meta_types/qt6appgizwebpluginlab2_debug_metatypes.json.gen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 503,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/appgizwebpluginlab2_qmltyperegistrations.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 507,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.qt/rcc/qrc_qmake_GizWebPluginLab2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 508,
+			"path" : "Main.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 510,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.rcc/qmlcache/appGizWebPluginLab2_qmlcache_loader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 511,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.rcc/qmlcache/appGizWebPluginLab2_Main_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 512,
+			"path" : "qml/plugins/Header.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 513,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.rcc/qmlcache/appGizWebPluginLab2_qml/plugins/Header_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 514,
+			"path" : "qml/plugins/HeaderLetterBox.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 515,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.rcc/qmlcache/appGizWebPluginLab2_qml/plugins/HeaderLetterBox_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 516,
+			"path" : "qml/plugins/HeaderMobileMenu.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 517,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.rcc/qmlcache/appGizWebPluginLab2_qml/plugins/HeaderMobileMenu_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 518,
+			"path" : "qml/plugins/BoxIntroduction.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 519,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.rcc/qmlcache/appGizWebPluginLab2_qml/plugins/BoxIntroduction_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 520,
+			"path" : "qml/plugins/ImageRounded.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 521,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.rcc/qmlcache/appGizWebPluginLab2_qml/plugins/ImageRounded_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 522,
+			"path" : "qml/plugins/BlogCards.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 523,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.rcc/qmlcache/appGizWebPluginLab2_qml/plugins/BlogCards_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 524,
+			"path" : "qml/plugins/TechSkills.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 525,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.rcc/qmlcache/appGizWebPluginLab2_qml/plugins/TechSkills_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 526,
+			"path" : "Theme.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 527,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.rcc/qmlcache/appGizWebPluginLab2_Theme_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 528,
+			"path" : "qml/plugins/Separator.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 529,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.rcc/qmlcache/appGizWebPluginLab2_qml/plugins/Separator_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 530,
+			"path" : "qml/plugins/Footer.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 531,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.rcc/qmlcache/appGizWebPluginLab2_qml/plugins/Footer_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 535,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.qt/rcc/qrc_appGizWebPluginLab2_raw_qml_0.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 539,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.qt/rcc/qrc_appGizWebPluginLab2_raw_qml_0_extra_qmldirs.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 541,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.qt/rcc/qmake_GizWebPluginLab2.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 541,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/GizWebPluginLab2/qmldir",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 541,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.qt/rcc/appGizWebPluginLab2_raw_qml_0.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 541,
+			"path" : "assets.qrc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 541,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.qt/rcc/appGizWebPluginLab2_raw_qml_0_extra_qmldirs.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 541,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/GizWebPluginLab2/qml/plugins/qmldir",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/appGizWebPluginLab2_autogen/timestamp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/appGizWebPluginLab2_autogen/EWIEGA46WW/qrc_assets.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/meta_types/qt6appgizwebpluginlab2_debug_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/appgizwebpluginlab2_qmltyperegistrations.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.qt/rcc/qrc_qmake_GizWebPluginLab2.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.rcc/qmlcache/appGizWebPluginLab2_qmlcache_loader.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.rcc/qmlcache/appGizWebPluginLab2_Main_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.rcc/qmlcache/appGizWebPluginLab2_qml/plugins/Header_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.rcc/qmlcache/appGizWebPluginLab2_qml/plugins/HeaderLetterBox_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.rcc/qmlcache/appGizWebPluginLab2_qml/plugins/HeaderMobileMenu_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.rcc/qmlcache/appGizWebPluginLab2_qml/plugins/BoxIntroduction_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.rcc/qmlcache/appGizWebPluginLab2_qml/plugins/ImageRounded_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.rcc/qmlcache/appGizWebPluginLab2_qml/plugins/BlogCards_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.rcc/qmlcache/appGizWebPluginLab2_qml/plugins/TechSkills_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.rcc/qmlcache/appGizWebPluginLab2_Theme_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.rcc/qmlcache/appGizWebPluginLab2_qml/plugins/Separator_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.rcc/qmlcache/appGizWebPluginLab2_qml/plugins/Footer_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.qt/rcc/qrc_appGizWebPluginLab2_raw_qml_0.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.qt/rcc/qrc_appGizWebPluginLab2_raw_qml_0_extra_qmldirs.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/appGizWebPluginLab2_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/appGizWebPluginLab2_autogen/EWIEGA46WW/qrc_assets.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/meta_types/appGizWebPluginLab2_json_file_list.txt.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 20,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/metatypes/qt6core_release_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 417,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/metatypes/qt6qml_release_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 417,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/metatypes/qt6network_release_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 418,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/metatypes/qt6quick_release_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 418,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/metatypes/qt6gui_release_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 418,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/metatypes/qt6qmlmeta_release_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 418,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/metatypes/qt6qmlmodels_release_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 418,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/metatypes/qt6qmlworkerscript_release_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 418,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/metatypes/qt6opengl_release_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 421,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/metatypes/qt6quicklayouts_release_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 421,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/metatypes/qt6quickcontrols2basic_release_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 421,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/metatypes/qt6quicktemplates2_release_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 421,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/metatypes/qt6quickcontrols2impl_release_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 421,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/metatypes/qt6quickcontrols2basicstyleimpl_release_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 421,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/metatypes/qt6quickshapesprivate_release_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 421,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/metatypes/qt6labsqmlmodels_release_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 421,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/metatypes/qt6quickeffects_release_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 421,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/metatypes/qt6quickcontrols2_release_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 421,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/metatypes/qt6quickcontrols2fusion_release_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 421,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/metatypes/qt6quickcontrols2material_release_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 421,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/metatypes/qt6quickcontrols2imagine_release_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 421,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/metatypes/qt6quickcontrols2universal_release_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 421,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/metatypes/qt6quickcontrols2fusionstyleimpl_release_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 421,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/metatypes/qt6quickcontrols2materialstyleimpl_release_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 421,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/metatypes/qt6quickcontrols2imaginestyleimpl_release_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 421,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/metatypes/qt6quickcontrols2universalstyleimpl_release_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 421,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/metatypes/qt6quickcontrols2fluentwinui3styleimpl_release_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 425,
+			"isGenerated" : true,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/plugins/qmltooling/objects-Release/QDebugMessageServiceFactoryPlugin_init/QDebugMessageServiceFactoryPlugin_init.cpp.o",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 425,
+			"isGenerated" : true,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/plugins/qmltooling/objects-Release/QLocalClientConnectionFactoryPlugin_init/QLocalClientConnectionFactoryPlugin_init.cpp.o",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 425,
+			"isGenerated" : true,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/plugins/qmltooling/objects-Release/QQmlDebugServerFactoryPlugin_init/QQmlDebugServerFactoryPlugin_init.cpp.o",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 425,
+			"isGenerated" : true,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/plugins/qmltooling/objects-Release/QQmlDebuggerServiceFactoryPlugin_init/QQmlDebuggerServiceFactoryPlugin_init.cpp.o",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 425,
+			"isGenerated" : true,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/plugins/qmltooling/objects-Release/QQmlInspectorServiceFactoryPlugin_init/QQmlInspectorServiceFactoryPlugin_init.cpp.o",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 425,
+			"isGenerated" : true,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/plugins/qmltooling/objects-Release/QQmlNativeDebugConnectorFactoryPlugin_init/QQmlNativeDebugConnectorFactoryPlugin_init.cpp.o",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 425,
+			"isGenerated" : true,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/plugins/qmltooling/objects-Release/QQmlNativeDebugServiceFactoryPlugin_init/QQmlNativeDebugServiceFactoryPlugin_init.cpp.o",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 425,
+			"isGenerated" : true,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/plugins/qmltooling/objects-Release/QQmlPreviewServiceFactoryPlugin_init/QQmlPreviewServiceFactoryPlugin_init.cpp.o",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 425,
+			"isGenerated" : true,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/plugins/qmltooling/objects-Release/QQmlProfilerServiceFactoryPlugin_init/QQmlProfilerServiceFactoryPlugin_init.cpp.o",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 425,
+			"isGenerated" : true,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/plugins/qmltooling/objects-Release/QQuick3DProfilerAdapterFactoryPlugin_init/QQuick3DProfilerAdapterFactoryPlugin_init.cpp.o",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 425,
+			"isGenerated" : true,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/plugins/qmltooling/objects-Release/QQuickProfilerAdapterFactoryPlugin_init/QQuickProfilerAdapterFactoryPlugin_init.cpp.o",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 425,
+			"isGenerated" : true,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/plugins/qmltooling/objects-Release/QTcpServerConnectionFactoryPlugin_init/QTcpServerConnectionFactoryPlugin_init.cpp.o",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 425,
+			"isGenerated" : true,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/plugins/tls/objects-Release/QTlsBackendCertOnlyPlugin_init/QTlsBackendCertOnlyPlugin_init.cpp.o",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 425,
+			"isGenerated" : true,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/plugins/imageformats/objects-Release/QGifPlugin_init/QGifPlugin_init.cpp.o",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 425,
+			"isGenerated" : true,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/plugins/imageformats/objects-Release/QICOPlugin_init/QICOPlugin_init.cpp.o",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 425,
+			"isGenerated" : true,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/plugins/imageformats/objects-Release/QJpegPlugin_init/QJpegPlugin_init.cpp.o",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 425,
+			"isGenerated" : true,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/plugins/iconengines/objects-Release/QSvgIconPlugin_init/QSvgIconPlugin_init.cpp.o",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 425,
+			"isGenerated" : true,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/plugins/imageformats/objects-Release/QSvgPlugin_init/QSvgPlugin_init.cpp.o",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 425,
+			"isGenerated" : true,
+			"path" : "C:/Qt/6.9.2/wasm_multithread/plugins/platforms/objects-Release/QWasmIntegrationPlugin_init/QWasmIntegrationPlugin_init.cpp.o",
+			"sourceGroupIndex" : 4
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,16 @@
+module GizWebPluginLab2
+typeinfo appGizWebPluginLab2.qmltypes
+prefer :/qt/qml/GizWebPluginLab2/
+Main 1.0 Main.qml
+Theme 1.0 Theme.qml
+Header 1.0 ./qml/plugins/Header.qml
+HeaderLetterBox 1.0 ./qml/plugins/HeaderLetterBox.qml
+HeaderMobileMenu 1.0 ./qml/plugins/HeaderMobileMenu.qml
+BoxIntroduction 1.0 ./qml/plugins/BoxIntroduction.qml
+ImageRounded 1.0 ./qml/plugins/ImageRounded.qml
+BlogCards 1.0 ./qml/plugins/BlogCards.qml
+TechSkills 1.0 ./qml/plugins/TechSkills.qml
+Separator 1.0 qml/plugins/Separator.qml
+Footer 1.0 qml/plugins/Footer.qml
+depends QtQuick
+

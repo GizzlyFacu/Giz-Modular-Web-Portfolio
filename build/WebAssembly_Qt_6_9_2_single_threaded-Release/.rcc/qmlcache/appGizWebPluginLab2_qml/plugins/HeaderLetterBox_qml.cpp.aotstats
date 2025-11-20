@@ -1,0 +1,76 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 15,
+                        "durationMicroseconds": 11409,
+                        "errorMessage": "Cannot load property backgroundItemsLight from .",
+                        "functionName": "color",
+                        "line": 12
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 201,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 11
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 15,
+                        "durationMicroseconds": 90,
+                        "errorMessage": "Cannot load property text from (component in C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/HeaderLetterBox.qml)::parent with type QQuickItem.",
+                        "functionName": "text",
+                        "line": 20
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 105,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 22
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 82,
+                        "errorMessage": "",
+                        "functionName": "horizontalAlignment",
+                        "line": 23
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 65,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 19
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 117,
+                        "errorMessage": "Cannot load property text from (component in C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/HeaderLetterBox.qml)::parent with type QQuickItem.",
+                        "functionName": "onClicked",
+                        "line": 30
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 56,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 29
+                    }
+                ],
+                "filePath": "C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/HeaderLetterBox.qml"
+            }
+        ],
+        "moduleId": "GizWebPluginLab2(appGizWebPluginLab2)"
+    }
+]

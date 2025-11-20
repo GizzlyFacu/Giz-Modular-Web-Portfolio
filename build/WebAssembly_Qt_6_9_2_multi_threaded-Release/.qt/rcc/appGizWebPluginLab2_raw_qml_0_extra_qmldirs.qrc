@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/qt/qml/GizWebPluginLab2/">
+    <file alias="qml/plugins/qmldir">C:/Qt/6.7.2/GizWebPluginLab2/build/WebAssembly_Qt_6_9_2_multi_threaded-Release/GizWebPluginLab2/./qml/plugins/qmldir</file>
+    <file alias="qml/plugins/qmldir">C:/Qt/6.7.2/GizWebPluginLab2/build/WebAssembly_Qt_6_9_2_multi_threaded-Release/GizWebPluginLab2/qml/plugins/qmldir</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/GizWebPluginLab2">C:/Qt/6.7.2/GizWebPluginLab2/build/WebAssembly_Qt_6_9_2_single_threaded-Debug/GizWebPluginLab2</file>
+
+  </qresource>
+</RCC>

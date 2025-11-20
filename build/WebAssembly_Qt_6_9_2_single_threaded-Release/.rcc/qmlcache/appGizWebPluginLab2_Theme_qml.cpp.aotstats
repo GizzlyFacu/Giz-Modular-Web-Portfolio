@@ -1,0 +1,76 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 296,
+                        "errorMessage": "",
+                        "functionName": "background",
+                        "line": 7
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 50,
+                        "durationMicroseconds": 154,
+                        "errorMessage": "",
+                        "functionName": "backgroundItemsDark",
+                        "line": 8
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 51,
+                        "durationMicroseconds": 819,
+                        "errorMessage": "",
+                        "functionName": "backgroundItemsLight",
+                        "line": 9
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 44,
+                        "durationMicroseconds": 104,
+                        "errorMessage": "",
+                        "functionName": "principalFont",
+                        "line": 10
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 44,
+                        "durationMicroseconds": 82,
+                        "errorMessage": "",
+                        "functionName": "secondaryFont",
+                        "line": 11
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 101,
+                        "errorMessage": "",
+                        "functionName": "text",
+                        "line": 12
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 13815,
+                        "errorMessage": "",
+                        "functionName": "textDarker",
+                        "line": 13
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 40,
+                        "durationMicroseconds": 140,
+                        "errorMessage": "",
+                        "functionName": "textLinks",
+                        "line": 14
+                    }
+                ],
+                "filePath": "C:/Qt/6.7.2/GizWebPluginLab2/Theme.qml"
+            }
+        ],
+        "moduleId": "GizWebPluginLab2(appGizWebPluginLab2)"
+    }
+]
