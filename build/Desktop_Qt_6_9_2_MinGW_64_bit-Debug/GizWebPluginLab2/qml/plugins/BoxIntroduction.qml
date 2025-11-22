@@ -5,7 +5,7 @@ import QtQuick.Layouts
 
 Item {
     id:root
-    property string image: "qrc:/images/assets/imagesLocal/yo.jpeg"
+    property string image: "qrc:/images/assets/imagesLocal/loader.jpg"
     property string principalFont: "Comic Sans MS"
 
     property color backgroundItemsDark: "#2f2f2f"

@@ -12,5 +12,6 @@
     </qresource>
     <qresource prefix="/images">
         <file>assets/imagesLocal/yo.jpeg</file>
+        <file>assets/imagesLocal/loader.jpg</file>
     </qresource>
 </RCC>

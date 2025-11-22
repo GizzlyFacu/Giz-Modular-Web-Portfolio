@@ -544,7 +544,7 @@ build appGizWebPluginLab2_autogen/timestamp appGizWebPluginLab2_autogen/mocs_com
 #############################################
 # Custom command for appGizWebPluginLab2_autogen\EWIEGA46WW\qrc_assets.cpp
 
-build appGizWebPluginLab2_autogen/EWIEGA46WW/qrc_assets.cpp | ${cmake_ninja_workdir}appGizWebPluginLab2_autogen/EWIEGA46WW/qrc_assets.cpp: CUSTOM_COMMAND C$:/Qt/6.7.2/GizWebPluginLab2/assets.qrc CMakeFiles/appGizWebPluginLab2_autogen.dir/AutoRcc_assets_EWIEGA46WW_Info.json C$:/Qt/6.7.2/GizWebPluginLab2/assets/imagesLocal/yo.jpeg C$:/Qt/6.7.2/GizWebPluginLab2/assets/fonts/Roboto-Regular.ttf C$:/Qt/6.7.2/GizWebPluginLab2/assets/fonts/Lato-Regular.ttf C$:/Qt/6.7.2/GizWebPluginLab2/assets/fonts/Lato-Bold.ttf C$:/Qt/6.7.2/GizWebPluginLab2/assets/fonts/Roboto-Bold.ttf C$:/Qt/6.7.2/GizWebPluginLab2/assets/icons/plus.png C$:/Qt/6.7.2/GizWebPluginLab2/assets/icons/linkedin.png C$:/Qt/6.7.2/GizWebPluginLab2/assets/icons/steam.png C$:/Qt/6.9.2/mingw_64/bin/rcc.exe C$:/Qt/6.9.2/mingw_64/bin/rcc.exe || appGizWebPluginLab2_autogen appGizWebPluginLab2_autogen_timestamp_deps appGizWebPluginLab2_copy_qml appGizWebPluginLab2_copy_res appGizWebPluginLab2_qmlimportscan src/libsrc_lib.a src/src_lib_autogen src/src_lib_autogen_timestamp_deps
+build appGizWebPluginLab2_autogen/EWIEGA46WW/qrc_assets.cpp | ${cmake_ninja_workdir}appGizWebPluginLab2_autogen/EWIEGA46WW/qrc_assets.cpp: CUSTOM_COMMAND C$:/Qt/6.7.2/GizWebPluginLab2/assets.qrc CMakeFiles/appGizWebPluginLab2_autogen.dir/AutoRcc_assets_EWIEGA46WW_Info.json C$:/Qt/6.7.2/GizWebPluginLab2/assets/imagesLocal/loader.jpg C$:/Qt/6.7.2/GizWebPluginLab2/assets/imagesLocal/yo.jpeg C$:/Qt/6.7.2/GizWebPluginLab2/assets/fonts/Roboto-Regular.ttf C$:/Qt/6.7.2/GizWebPluginLab2/assets/fonts/Lato-Regular.ttf C$:/Qt/6.7.2/GizWebPluginLab2/assets/fonts/Lato-Bold.ttf C$:/Qt/6.7.2/GizWebPluginLab2/assets/fonts/Roboto-Bold.ttf C$:/Qt/6.7.2/GizWebPluginLab2/assets/icons/plus.png C$:/Qt/6.7.2/GizWebPluginLab2/assets/icons/linkedin.png C$:/Qt/6.7.2/GizWebPluginLab2/assets/icons/steam.png C$:/Qt/6.9.2/mingw_64/bin/rcc.exe C$:/Qt/6.9.2/mingw_64/bin/rcc.exe || appGizWebPluginLab2_autogen appGizWebPluginLab2_autogen_timestamp_deps appGizWebPluginLab2_copy_qml appGizWebPluginLab2_copy_res appGizWebPluginLab2_qmlimportscan src/libsrc_lib.a src/src_lib_autogen src/src_lib_autogen_timestamp_deps
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Qt\6.7.2\GizWebPluginLab2\build\Desktop_Qt_6_9_2_MinGW_64_bit-Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc C:/Qt/6.7.2/GizWebPluginLab2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/appGizWebPluginLab2_autogen.dir/AutoRcc_assets_EWIEGA46WW_Info.json Debug"
   DESC = Automatic RCC for assets.qrc
   restat = 1
@@ -737,6 +737,30 @@ build src/CMakeFiles/src_lib.dir/abstractlistmodels/techskillsprojects.cpp.obj: 
   OBJECT_DIR = src\CMakeFiles\src_lib.dir
   OBJECT_FILE_DIR = src\CMakeFiles\src_lib.dir\abstractlistmodels
 
+build src/CMakeFiles/src_lib.dir/abstractlistmodels/techskillsprojects3dart.cpp.obj: CXX_COMPILER__src_lib_unscanned_Debug C$:/Qt/6.7.2/GizWebPluginLab2/src/abstractlistmodels/techskillsprojects3dart.cpp || cmake_object_order_depends_target_src_lib
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = src\CMakeFiles\src_lib.dir\abstractlistmodels\techskillsprojects3dart.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Qt/6.7.2/GizWebPluginLab2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/src/src_lib_autogen/include -isystem C:/Qt/6.9.2/mingw_64/include/QtQuick -isystem C:/Qt/6.9.2/mingw_64/include -isystem C:/Qt/6.9.2/mingw_64/include/QtCore -isystem C:/Qt/6.9.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.2/mingw_64/include/QtGui -isystem C:/Qt/6.9.2/mingw_64/include/QtQml -isystem C:/Qt/6.9.2/mingw_64/include/QtQmlIntegration -isystem C:/Qt/6.9.2/mingw_64/include/QtNetwork -isystem C:/Qt/6.9.2/mingw_64/include/QtQmlMeta -isystem C:/Qt/6.9.2/mingw_64/include/QtQmlModels -isystem C:/Qt/6.9.2/mingw_64/include/QtQmlWorkerScript -isystem C:/Qt/6.9.2/mingw_64/include/QtOpenGL
+  OBJECT_DIR = src\CMakeFiles\src_lib.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\src_lib.dir\abstractlistmodels
+
+build src/CMakeFiles/src_lib.dir/abstractlistmodels/techskillsprojects3dgraphics.cpp.obj: CXX_COMPILER__src_lib_unscanned_Debug C$:/Qt/6.7.2/GizWebPluginLab2/src/abstractlistmodels/techskillsprojects3dgraphics.cpp || cmake_object_order_depends_target_src_lib
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = src\CMakeFiles\src_lib.dir\abstractlistmodels\techskillsprojects3dgraphics.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Qt/6.7.2/GizWebPluginLab2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/src/src_lib_autogen/include -isystem C:/Qt/6.9.2/mingw_64/include/QtQuick -isystem C:/Qt/6.9.2/mingw_64/include -isystem C:/Qt/6.9.2/mingw_64/include/QtCore -isystem C:/Qt/6.9.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.2/mingw_64/include/QtGui -isystem C:/Qt/6.9.2/mingw_64/include/QtQml -isystem C:/Qt/6.9.2/mingw_64/include/QtQmlIntegration -isystem C:/Qt/6.9.2/mingw_64/include/QtNetwork -isystem C:/Qt/6.9.2/mingw_64/include/QtQmlMeta -isystem C:/Qt/6.9.2/mingw_64/include/QtQmlModels -isystem C:/Qt/6.9.2/mingw_64/include/QtQmlWorkerScript -isystem C:/Qt/6.9.2/mingw_64/include/QtOpenGL
+  OBJECT_DIR = src\CMakeFiles\src_lib.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\src_lib.dir\abstractlistmodels
+
+build src/CMakeFiles/src_lib.dir/abstractlistmodels/techskillsprojectsUE.cpp.obj: CXX_COMPILER__src_lib_unscanned_Debug C$:/Qt/6.7.2/GizWebPluginLab2/src/abstractlistmodels/techskillsprojectsUE.cpp || cmake_object_order_depends_target_src_lib
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = src\CMakeFiles\src_lib.dir\abstractlistmodels\techskillsprojectsUE.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Qt/6.7.2/GizWebPluginLab2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/src/src_lib_autogen/include -isystem C:/Qt/6.9.2/mingw_64/include/QtQuick -isystem C:/Qt/6.9.2/mingw_64/include -isystem C:/Qt/6.9.2/mingw_64/include/QtCore -isystem C:/Qt/6.9.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.2/mingw_64/include/QtGui -isystem C:/Qt/6.9.2/mingw_64/include/QtQml -isystem C:/Qt/6.9.2/mingw_64/include/QtQmlIntegration -isystem C:/Qt/6.9.2/mingw_64/include/QtNetwork -isystem C:/Qt/6.9.2/mingw_64/include/QtQmlMeta -isystem C:/Qt/6.9.2/mingw_64/include/QtQmlModels -isystem C:/Qt/6.9.2/mingw_64/include/QtQmlWorkerScript -isystem C:/Qt/6.9.2/mingw_64/include/QtOpenGL
+  OBJECT_DIR = src\CMakeFiles\src_lib.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\src_lib.dir\abstractlistmodels
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target src_lib
@@ -745,7 +769,7 @@ build src/CMakeFiles/src_lib.dir/abstractlistmodels/techskillsprojects.cpp.obj: 
 #############################################
 # Link the static library src\libsrc_lib.a
 
-build src/libsrc_lib.a: CXX_STATIC_LIBRARY_LINKER__src_lib_Debug src/CMakeFiles/src_lib.dir/src_lib_autogen/mocs_compilation.cpp.obj src/CMakeFiles/src_lib.dir/utils/jsonparsing.cpp.obj src/CMakeFiles/src_lib.dir/utils/networklayer.cpp.obj src/CMakeFiles/src_lib.dir/storagemanager.cpp.obj src/CMakeFiles/src_lib.dir/configcenter.cpp.obj src/CMakeFiles/src_lib.dir/abstractlistmodels/blogcardmodel.cpp.obj src/CMakeFiles/src_lib.dir/abstractlistmodels/techskillsprojects.cpp.obj || src/src_lib_autogen src/src_lib_autogen_timestamp_deps
+build src/libsrc_lib.a: CXX_STATIC_LIBRARY_LINKER__src_lib_Debug src/CMakeFiles/src_lib.dir/src_lib_autogen/mocs_compilation.cpp.obj src/CMakeFiles/src_lib.dir/utils/jsonparsing.cpp.obj src/CMakeFiles/src_lib.dir/utils/networklayer.cpp.obj src/CMakeFiles/src_lib.dir/storagemanager.cpp.obj src/CMakeFiles/src_lib.dir/configcenter.cpp.obj src/CMakeFiles/src_lib.dir/abstractlistmodels/blogcardmodel.cpp.obj src/CMakeFiles/src_lib.dir/abstractlistmodels/techskillsprojects.cpp.obj src/CMakeFiles/src_lib.dir/abstractlistmodels/techskillsprojects3dart.cpp.obj src/CMakeFiles/src_lib.dir/abstractlistmodels/techskillsprojects3dgraphics.cpp.obj src/CMakeFiles/src_lib.dir/abstractlistmodels/techskillsprojectsUE.cpp.obj || src/src_lib_autogen src/src_lib_autogen_timestamp_deps
   LANGUAGE_COMPILE_FLAGS = -DQT_QML_DEBUG -g
   OBJECT_DIR = src\CMakeFiles\src_lib.dir
   POST_BUILD = cd .

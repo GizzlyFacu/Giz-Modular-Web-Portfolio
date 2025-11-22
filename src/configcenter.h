@@ -17,23 +17,20 @@ class ConfigCenter : public QObject
 public:
     explicit ConfigCenter(QObject *parent=nullptr, StorageManager *storage=nullptr){
         m_storageManager = storage;
-        //esto es solo para desktop, ahora estoy usando qnetwork
-        //m_jsonParsing.crearEstructuraJSON();
-        //m_jsonParsing.writeJson();
-
-        connect(m_networkManager,&NetworkLayer::dataReceived,
-                this,&ConfigCenter::onDataReceived);
-        connect(m_networkManager,&NetworkLayer::errorOccurred,
-                this, &ConfigCenter::onDataReceivednt);
-
-        const QUrl contentUrl("https://raw.githubusercontent.com/GizzlyFacu/WebAssemblyTest2/main/configuracion.json");
-        m_networkManager->makeGetRequest(contentUrl);
-
-
+        //aca se cargan los datos:
+        //true: descarga de github
+        //false: escribe y lee desde local
+        setOnline(false);
     }
     void loadconfig_BoxIntroduction(const QJsonObject &data);
     void loadconfig_BlogCards(const QJsonObject &data);
     void loadconfig_TechSkills(const QJsonObject &data);
+    void loadconfig_TechSkills3dArt(const QJsonObject &data);
+    void loadconfig_TechSkills3dGraphics(const QJsonObject &data);
+    void loadconfig_TechSkillsUE(const QJsonObject &data);
+    void setOnline(bool isOnline);
+public slots:
+    void sayA(){qDebug()<<"aaa";}
 private:
     StorageManager *m_storageManager=nullptr;
     JsonParsing m_jsonParsing;

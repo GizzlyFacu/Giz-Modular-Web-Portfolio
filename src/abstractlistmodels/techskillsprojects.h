@@ -11,7 +11,7 @@ struct TechSkillsM{
     QString m_Title;
     QString m_Link;
 public:
-    TechSkillsM(QString PhotoLink="TechSkills Background Link",
+    TechSkillsM(QString PhotoLink="qrc:/images/assets/imagesLocal/loader.jpg",
                QString Title="TechSkills Title",
                QString Link="TechSkills Link")
     {

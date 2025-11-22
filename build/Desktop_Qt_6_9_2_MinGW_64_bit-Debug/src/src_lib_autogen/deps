@@ -5,6 +5,12 @@ src_lib_autogen/timestamp: \
 	C:/Qt/6.7.2/GizWebPluginLab2/src/abstractlistmodels/blogcardmodel.h \
 	C:/Qt/6.7.2/GizWebPluginLab2/src/abstractlistmodels/techskillsprojects.cpp \
 	C:/Qt/6.7.2/GizWebPluginLab2/src/abstractlistmodels/techskillsprojects.h \
+	C:/Qt/6.7.2/GizWebPluginLab2/src/abstractlistmodels/techskillsprojects3dart.cpp \
+	C:/Qt/6.7.2/GizWebPluginLab2/src/abstractlistmodels/techskillsprojects3dart.h \
+	C:/Qt/6.7.2/GizWebPluginLab2/src/abstractlistmodels/techskillsprojects3dgraphics.cpp \
+	C:/Qt/6.7.2/GizWebPluginLab2/src/abstractlistmodels/techskillsprojects3dgraphics.h \
+	C:/Qt/6.7.2/GizWebPluginLab2/src/abstractlistmodels/techskillsprojectsUE.cpp \
+	C:/Qt/6.7.2/GizWebPluginLab2/src/abstractlistmodels/techskillsprojectsUE.h \
 	C:/Qt/6.7.2/GizWebPluginLab2/src/configcenter.cpp \
 	C:/Qt/6.7.2/GizWebPluginLab2/src/configcenter.h \
 	C:/Qt/6.7.2/GizWebPluginLab2/src/storagemanager.cpp \

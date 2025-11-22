@@ -25,6 +25,24 @@
 			null
 		],
 		[
+			"C:/Qt/6.7.2/GizWebPluginLab2/src/abstractlistmodels/techskillsprojects3dart.h",
+			"MU",
+			"D3EIAIYBDH/moc_techskillsprojects3dart.cpp",
+			null
+		],
+		[
+			"C:/Qt/6.7.2/GizWebPluginLab2/src/abstractlistmodels/techskillsprojects3dgraphics.h",
+			"MU",
+			"D3EIAIYBDH/moc_techskillsprojects3dgraphics.cpp",
+			null
+		],
+		[
+			"C:/Qt/6.7.2/GizWebPluginLab2/src/abstractlistmodels/techskillsprojectsUE.h",
+			"MU",
+			"D3EIAIYBDH/moc_techskillsprojectsUE.cpp",
+			null
+		],
+		[
 			"C:/Qt/6.7.2/GizWebPluginLab2/src/configcenter.h",
 			"MU",
 			"EWIEGA46WW/moc_configcenter.cpp",
@@ -139,6 +157,21 @@
 		],
 		[
 			"C:/Qt/6.7.2/GizWebPluginLab2/src/abstractlistmodels/techskillsprojects.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Qt/6.7.2/GizWebPluginLab2/src/abstractlistmodels/techskillsprojects3dart.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Qt/6.7.2/GizWebPluginLab2/src/abstractlistmodels/techskillsprojects3dgraphics.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Qt/6.7.2/GizWebPluginLab2/src/abstractlistmodels/techskillsprojectsUE.cpp",
 			"MU",
 			null
 		],

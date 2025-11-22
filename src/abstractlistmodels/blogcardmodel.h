@@ -11,7 +11,7 @@ struct BlogCardM{
     QString title;
     QString description;
 public:
-    BlogCardM(QString PhotoLink="null",
+    BlogCardM(QString PhotoLink="qrc:/images/assets/imagesLocal/loader.jpg",
                     QString Title="null",
                     QString Description="null"){
         photoLink=PhotoLink;

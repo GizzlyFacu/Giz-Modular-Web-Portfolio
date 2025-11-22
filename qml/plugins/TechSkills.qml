@@ -1,5 +1,6 @@
 import QtQuick
 import QtQuick.Controls.Basic
+import com.library
 Item {
     id:root
     property string principalFont: "Comic Sans MS"
@@ -182,8 +183,8 @@ Item {
             id:base
             width: 163
             height: 135
-            required property string text
-            required property string source
+            required property string title
+            required property string photoLink
             required property string link
             Text{
                 anchors{
@@ -192,7 +193,7 @@ Item {
                     top:parent.top
                 }
                 height: 16
-                text:base.text
+                text:base.title
                 color:root.textDarker
                 font{
                     pixelSize: 14
@@ -202,7 +203,7 @@ Item {
                 elide: Text.ElideRight
             }
             ImageRounded{
-                source: base.source
+                source: base.photoLink
                 anchors{
                     right: parent.right
                     left:parent.left
@@ -234,15 +235,9 @@ Item {
         height: 10
         property list<QtObject> set: [
             QtObject{
-                property string contentTitle: "Codimg"
+                property string contentTitle: "Coding"
                 property string contentDescription: "Description"
-                property ListModel projectModel: ListModel {
-                    ListElement {
-                        text:"brr brr patapim 1"
-                        source:"qrc:/images/assets/imagesLocal/yo.jpeg"
-                        link:"https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXJvbHJ6Ymd1NTdpNDFxdmpoOHZtZmQ2YTFtbWg3Nnhld3pnZnNxdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yrZ2FZcwVmPK9dvxsJ/giphy.gif"
-                    }
-                }
+                property QtObject projectModel:StorageManager.techskillsmodel
                 property Component sourceComponent:Component{
                     Rectangle{
                         anchors.fill: parent
@@ -254,17 +249,35 @@ Item {
             QtObject{
                 property string contentTitle: "3D Art"
                 property string contentDescription: "Description 2"
-                property ListModel projectModel: ListModel {
-                    ListElement {
-                        text:"tun tun sahur 1"
-                        source:"qrc:/images/assets/imagesLocal/yo.jpeg"
-                        link:"https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXJvbHJ6Ymd1NTdpNDFxdmpoOHZtZmQ2YTFtbWg3Nnhld3pnZnNxdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yrZ2FZcwVmPK9dvxsJ/giphy.gif"
-                    }
-                }
+                property QtObject projectModel: StorageManager.techskills3dartmodel
                 property Component sourceComponent:Component{
                     Rectangle{
                         anchors.fill: parent
                         color:"Black"
+                    }
+                }
+
+            },
+            QtObject{
+                property string contentTitle: "3D Graphics"
+                property string contentDescription: "Description 3"
+                property QtObject projectModel:StorageManager.techskills3dgraphics
+                property Component sourceComponent:Component{
+                    Rectangle{
+                        anchors.fill: parent
+                        color:"Green"
+                    }
+                }
+
+            },
+            QtObject{
+                property string contentTitle: "UE"
+                property string contentDescription: "Description 4"
+                property QtObject projectModel:StorageManager.techskillsUEmodel
+                property Component sourceComponent:Component{
+                    Rectangle{
+                        anchors.fill: parent
+                        color:"Blue"
                     }
                 }
 

@@ -2,6 +2,7 @@ import QtQuick
 import QtQuick.Layouts
 import QtQuick.Controls.Basic
 import GizWebPluginLab2
+import com.library
 Window {
     id:principalWindow
     width: 1366
@@ -52,7 +53,7 @@ Window {
                 text: theme.text
                 textDarker: theme.textDarker
                 textLinks: theme.textLinks
-                image:"qrc:/images/assets/imagesLocal/yo.jpeg"
+                image:Qt.url(StorageManager.boxintroduction.PhotoLink)
             }
 
             BlogCards{

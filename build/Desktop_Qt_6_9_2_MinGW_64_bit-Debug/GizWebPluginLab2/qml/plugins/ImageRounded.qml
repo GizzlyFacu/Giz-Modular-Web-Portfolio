@@ -11,6 +11,7 @@ Item {
         width: parent.width
         height: parent.height
         visible: false
+        asynchronous: true
     }
 
     MultiEffect {

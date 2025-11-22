@@ -36,7 +36,7 @@ QHash<int, QByteArray> TechSkillsProjects::roleNames() const
     QHash<int,QByteArray> result;
     result[titleRole]="title";
     result[photolinkRole]="photoLink";
-    result[LinkRole]="Link";
+    result[LinkRole]="link";
     return result;
 }
 

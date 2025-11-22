@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 17,
-                        "durationMicroseconds": 218,
+                        "durationMicroseconds": 266,
                         "errorMessage": "Cannot load property source from (component in C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/ImageRounded.qml)::parent with type QQuickItem.",
                         "functionName": "source",
                         "line": 9
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 16,
-                        "durationMicroseconds": 229,
+                        "durationMicroseconds": 200,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 11
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 17,
-                        "durationMicroseconds": 98,
+                        "durationMicroseconds": 96,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 12
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 110,
+                        "durationMicroseconds": 71,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 10
@@ -38,66 +38,66 @@
                     {
                         "codegenSuccessful": true,
                         "column": 17,
-                        "durationMicroseconds": 94,
+                        "durationMicroseconds": 181,
                         "errorMessage": "",
                         "functionName": "source",
-                        "line": 17
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 21,
-                        "durationMicroseconds": 61,
-                        "errorMessage": "",
-                        "functionName": "maskSource",
-                        "line": 20
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 23,
-                        "durationMicroseconds": 87,
-                        "errorMessage": "",
-                        "functionName": "fill",
                         "line": 18
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 16,
-                        "durationMicroseconds": 94,
+                        "column": 21,
+                        "durationMicroseconds": 81,
                         "errorMessage": "",
-                        "functionName": "width",
-                        "line": 25
+                        "functionName": "maskSource",
+                        "line": 21
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 17,
-                        "durationMicroseconds": 91,
+                        "column": 23,
+                        "durationMicroseconds": 90,
                         "errorMessage": "",
-                        "functionName": "height",
+                        "functionName": "fill",
+                        "line": 19
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 102,
+                        "errorMessage": "",
+                        "functionName": "width",
                         "line": 26
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 20,
-                        "durationMicroseconds": 97,
+                        "column": 17,
+                        "durationMicroseconds": 179,
                         "errorMessage": "",
-                        "functionName": "width",
-                        "line": 31
+                        "functionName": "height",
+                        "line": 27
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 21,
-                        "durationMicroseconds": 72,
+                        "column": 20,
+                        "durationMicroseconds": 98,
                         "errorMessage": "",
-                        "functionName": "height",
+                        "functionName": "width",
                         "line": 32
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 21,
-                        "durationMicroseconds": 73,
+                        "durationMicroseconds": 85,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 33
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 83,
                         "errorMessage": "",
                         "functionName": "radius",
-                        "line": 33
+                        "line": 34
                     }
                 ],
                 "filePath": "C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/ImageRounded.qml"

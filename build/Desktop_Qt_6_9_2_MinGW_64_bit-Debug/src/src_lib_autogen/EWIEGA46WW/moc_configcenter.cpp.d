@@ -2,6 +2,9 @@ C:/Qt/6.7.2/GizWebPluginLab2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/src/src_l
   C:/Qt/6.7.2/GizWebPluginLab2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/src/src_lib_autogen/moc_predefs.h \
   C:/Qt/6.7.2/GizWebPluginLab2/src/abstractlistmodels/blogcardmodel.h \
   C:/Qt/6.7.2/GizWebPluginLab2/src/abstractlistmodels/techskillsprojects.h \
+  C:/Qt/6.7.2/GizWebPluginLab2/src/abstractlistmodels/techskillsprojects3dart.h \
+  C:/Qt/6.7.2/GizWebPluginLab2/src/abstractlistmodels/techskillsprojects3dgraphics.h \
+  C:/Qt/6.7.2/GizWebPluginLab2/src/abstractlistmodels/techskillsprojectsUE.h \
   C:/Qt/6.7.2/GizWebPluginLab2/src/storagemanager.h \
   C:/Qt/6.7.2/GizWebPluginLab2/src/utils/jsonparsing.h \
   C:/Qt/6.7.2/GizWebPluginLab2/src/utils/networklayer.h \

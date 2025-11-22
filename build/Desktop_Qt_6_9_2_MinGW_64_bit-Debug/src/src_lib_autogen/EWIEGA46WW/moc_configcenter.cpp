@@ -44,21 +44,24 @@ template <> constexpr inline auto ConfigCenter::qt_create_metaobjectdata<qt_meta
         "auto",
         "QML.Singleton",
         "true",
-        "onDataReceived",
+        "sayA",
         "",
+        "onDataReceived",
         "jsonData",
         "onDataReceivednt",
         "url"
     };
 
     QtMocHelpers::UintData qt_methods {
+        // Slot 'sayA'
+        QtMocHelpers::SlotData<void()>(5, 6, QMC::AccessPublic, QMetaType::Void),
         // Slot 'onDataReceived'
-        QtMocHelpers::SlotData<void(const QByteArray &)>(5, 6, QMC::AccessPrivate, QMetaType::Void, {{
-            { QMetaType::QByteArray, 7 },
+        QtMocHelpers::SlotData<void(const QByteArray &)>(7, 6, QMC::AccessPrivate, QMetaType::Void, {{
+            { QMetaType::QByteArray, 8 },
         }}),
         // Slot 'onDataReceivednt'
-        QtMocHelpers::SlotData<void(const QUrl &)>(8, 6, QMC::AccessPrivate, QMetaType::Void, {{
-            { QMetaType::QUrl, 9 },
+        QtMocHelpers::SlotData<void(const QUrl &)>(9, 6, QMC::AccessPrivate, QMetaType::Void, {{
+            { QMetaType::QUrl, 10 },
         }}),
     };
     QtMocHelpers::UintData qt_properties {
@@ -88,8 +91,9 @@ void ConfigCenter::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
     auto *_t = static_cast<ConfigCenter *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
-        case 0: _t->onDataReceived((*reinterpret_cast< std::add_pointer_t<QByteArray>>(_a[1]))); break;
-        case 1: _t->onDataReceivednt((*reinterpret_cast< std::add_pointer_t<QUrl>>(_a[1]))); break;
+        case 0: _t->sayA(); break;
+        case 1: _t->onDataReceived((*reinterpret_cast< std::add_pointer_t<QByteArray>>(_a[1]))); break;
+        case 2: _t->onDataReceivednt((*reinterpret_cast< std::add_pointer_t<QUrl>>(_a[1]))); break;
         default: ;
         }
     }
@@ -114,14 +118,14 @@ int ConfigCenter::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 2)
+        if (_id < 3)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 2;
+        _id -= 3;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 2)
+        if (_id < 3)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 2;
+        _id -= 3;
     }
     return _id;
 }

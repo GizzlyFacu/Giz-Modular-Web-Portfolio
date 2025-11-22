@@ -41,3 +41,42 @@ void StorageManager::setTechskillsmodel(TechSkillsProjects *newTechskillsmodel)
     m_techskillsmodel = newTechskillsmodel;
     emit techskillsmodelChanged();
 }
+
+TechSkillsProjects3dArt *StorageManager::techskills3dartmodel() const
+{
+    return m_techskills3dartmodel;
+}
+
+void StorageManager::setTechskills3dartmodel(TechSkillsProjects3dArt *newTechskills3dartmodel)
+{
+    if (m_techskills3dartmodel == newTechskills3dartmodel)
+        return;
+    m_techskills3dartmodel = newTechskills3dartmodel;
+    emit techskills3dartmodelChanged();
+}
+
+TechSkillsProjects3dGraphics *StorageManager::techskills3dgraphics() const
+{
+    return m_techskills3dgraphics;
+}
+
+void StorageManager::setTechskills3dgraphics(TechSkillsProjects3dGraphics *newTechskills3dgraphics)
+{
+    if (m_techskills3dgraphics == newTechskills3dgraphics)
+        return;
+    m_techskills3dgraphics = newTechskills3dgraphics;
+    emit techskills3dgraphicsChanged();
+}
+
+TechSkillsProjectsUE *StorageManager::techskillsUEmodel() const
+{
+    return m_techskillsUEmodel;
+}
+
+void StorageManager::setTechskillsUEmodel(TechSkillsProjectsUE *newTechskillsUEmodel)
+{
+    if (m_techskillsUEmodel == newTechskillsUEmodel)
+        return;
+    m_techskillsUEmodel = newTechskillsUEmodel;
+    emit techskillsUEmodelChanged();
+}
