@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 211,
+                        "durationMicroseconds": 304,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 8
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 21,
-                        "durationMicroseconds": 154,
+                        "durationMicroseconds": 180,
                         "errorMessage": "Cannot load property buttonsHeight from (component in C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/HeaderMobileMenu.qml)::parent with type QQuickItem.",
                         "functionName": "height",
                         "line": 13
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 24,
-                        "durationMicroseconds": 172,
+                        "durationMicroseconds": 190,
                         "errorMessage": "",
                         "functionName": "onClicked",
                         "line": 23
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 108,
+                        "durationMicroseconds": 147,
                         "errorMessage": "",
                         "functionName": "left",
                         "line": 11
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 28,
-                        "durationMicroseconds": 89,
+                        "durationMicroseconds": 191,
                         "errorMessage": "",
                         "functionName": "right",
                         "line": 12
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 23,
-                        "durationMicroseconds": 62,
+                        "durationMicroseconds": 80,
                         "errorMessage": "cannot convert from (component in C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/HeaderMobileMenu.qml)::buttonFontFamily with type QString to QFont",
                         "functionName": "font",
                         "line": 16
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 38,
-                        "durationMicroseconds": 176,
+                        "durationMicroseconds": 116,
                         "errorMessage": "",
                         "functionName": "horizontalAlignment",
                         "line": 18
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 36,
-                        "durationMicroseconds": 78,
+                        "durationMicroseconds": 110,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 19
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 23,
-                        "durationMicroseconds": 514,
+                        "durationMicroseconds": 675,
                         "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant",
                         "functionName": "color",
                         "line": 21
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 21,
-                        "durationMicroseconds": 96,
+                        "durationMicroseconds": 152,
                         "errorMessage": "Cannot load property buttonsHeight from (component in C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/HeaderMobileMenu.qml)::parent with type QQuickItem.",
                         "functionName": "height",
                         "line": 29
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 24,
-                        "durationMicroseconds": 121,
+                        "durationMicroseconds": 179,
                         "errorMessage": "",
                         "functionName": "onClicked",
                         "line": 39
@@ -94,7 +94,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 103,
+                        "durationMicroseconds": 140,
                         "errorMessage": "",
                         "functionName": "left",
                         "line": 27
@@ -102,7 +102,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 28,
-                        "durationMicroseconds": 85,
+                        "durationMicroseconds": 90,
                         "errorMessage": "",
                         "functionName": "right",
                         "line": 28
@@ -110,7 +110,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 23,
-                        "durationMicroseconds": 53,
+                        "durationMicroseconds": 57,
                         "errorMessage": "cannot convert from (component in C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/HeaderMobileMenu.qml)::buttonFontFamily with type QString to QFont",
                         "functionName": "font",
                         "line": 32
@@ -118,7 +118,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 38,
-                        "durationMicroseconds": 89,
+                        "durationMicroseconds": 97,
                         "errorMessage": "",
                         "functionName": "horizontalAlignment",
                         "line": 34
@@ -126,7 +126,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 36,
-                        "durationMicroseconds": 67,
+                        "durationMicroseconds": 70,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 35
@@ -134,7 +134,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 23,
-                        "durationMicroseconds": 419,
+                        "durationMicroseconds": 460,
                         "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant",
                         "functionName": "color",
                         "line": 37
@@ -142,7 +142,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 21,
-                        "durationMicroseconds": 88,
+                        "durationMicroseconds": 103,
                         "errorMessage": "Cannot load property buttonsHeight from (component in C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/HeaderMobileMenu.qml)::parent with type QQuickItem.",
                         "functionName": "height",
                         "line": 45
@@ -150,7 +150,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 24,
-                        "durationMicroseconds": 115,
+                        "durationMicroseconds": 126,
                         "errorMessage": "",
                         "functionName": "onClicked",
                         "line": 55
@@ -158,7 +158,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 124,
+                        "durationMicroseconds": 128,
                         "errorMessage": "",
                         "functionName": "left",
                         "line": 43
@@ -166,7 +166,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 28,
-                        "durationMicroseconds": 89,
+                        "durationMicroseconds": 94,
                         "errorMessage": "",
                         "functionName": "right",
                         "line": 44
@@ -174,7 +174,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 23,
-                        "durationMicroseconds": 64,
+                        "durationMicroseconds": 53,
                         "errorMessage": "cannot convert from (component in C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/HeaderMobileMenu.qml)::buttonFontFamily with type QString to QFont",
                         "functionName": "font",
                         "line": 48
@@ -182,7 +182,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 38,
-                        "durationMicroseconds": 72,
+                        "durationMicroseconds": 98,
                         "errorMessage": "",
                         "functionName": "horizontalAlignment",
                         "line": 50
@@ -198,7 +198,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 23,
-                        "durationMicroseconds": 429,
+                        "durationMicroseconds": 445,
                         "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant",
                         "functionName": "color",
                         "line": 53

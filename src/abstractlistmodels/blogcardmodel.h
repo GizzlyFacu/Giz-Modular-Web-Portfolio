@@ -10,13 +10,16 @@ struct BlogCardM{
     QString photoLink;
     QString title;
     QString description;
+    QString link;
 public:
     BlogCardM(QString PhotoLink="qrc:/images/assets/imagesLocal/loader.jpg",
-                    QString Title="null",
-                    QString Description="null"){
+              QString Title="null",
+              QString Description="null",
+              QString Link="null"){
         photoLink=PhotoLink;
         title=Title;
         description=Description;
+        link=Link;
     }
 };
 
@@ -34,10 +37,11 @@ public:
     virtual QHash<int, QByteArray> roleNames() const override;
     enum Roles{
         photolinkRole=Qt::UserRole+1,
+        linkRole,
         titleRole,
         descriptionRole
     };
-    void addThings(const QString Photolink,const QString Title, const QString Description);
+    void addThings(const QString Photolink,const QString Title, const QString Description, const QString Link);
 private:
     QList<QSharedPointer<BlogCardM>> m_listBlogCardM;
 signals:

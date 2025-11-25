@@ -1,5 +1,5 @@
 import QtQuick
-
+import com.library
 Item {
     id:root
     property color color: "white"
@@ -30,17 +30,17 @@ Item {
         anchors.fill: parent
         spacing: 20
         orientation: ListView.Horizontal
-        model:cardModel
+        model:StorageManager.blogcardmodel
         delegate:         Item{
             id:cardsItem
             width: 392
             height: 218
-            required property string textInfo
-            required property string textSubInfo
-            required property string source
+            required property string title
+            required property string description
+            required property string photoLink
             ImageRounded{
                 anchors.fill: parent
-                source: cardsItem.source
+                source: cardsItem.photoLink
                 radius: 10
             }
             Text{
@@ -54,7 +54,7 @@ Item {
                     rightMargin: 59
                 }
 
-                text:cardsItem.textSubInfo
+                text:cardsItem.description
                 font{
                     family: root.text
                     bold: true
@@ -74,7 +74,7 @@ Item {
                     right: parent.right
                     rightMargin: 24
                 }
-                text:cardsItem.textInfo
+                text:cardsItem.title
                 font{
                     family: root.text
                     bold: true

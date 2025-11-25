@@ -82,6 +82,13 @@ namespace _qt_qml_GizWebPluginLab2_qml_plugins_Footer_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _qt_qml_GizWebPluginLab2_qml_plugins_PruebaMaster_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -107,6 +114,7 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/GizWebPluginLab2/./qml/plugins/TechSkills.qml"), &QmlCacheGeneratedCode::_qt_qml_GizWebPluginLab2__0x2e__qml_plugins_TechSkills_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/GizWebPluginLab2/qml/plugins/Separator.qml"), &QmlCacheGeneratedCode::_qt_qml_GizWebPluginLab2_qml_plugins_Separator_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/GizWebPluginLab2/qml/plugins/Footer.qml"), &QmlCacheGeneratedCode::_qt_qml_GizWebPluginLab2_qml_plugins_Footer_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/GizWebPluginLab2/qml/plugins/PruebaMaster.qml"), &QmlCacheGeneratedCode::_qt_qml_GizWebPluginLab2_qml_plugins_PruebaMaster_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

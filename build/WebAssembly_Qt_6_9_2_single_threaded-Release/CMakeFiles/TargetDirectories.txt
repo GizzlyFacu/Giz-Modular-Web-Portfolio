@@ -19,3 +19,12 @@ C:/Qt/6.7.2/GizWebPluginLab2/build/WebAssembly_Qt_6_9_2_single_threaded-Release/
 C:/Qt/6.7.2/GizWebPluginLab2/build/WebAssembly_Qt_6_9_2_single_threaded-Release/CMakeFiles/install/strip.dir
 C:/Qt/6.7.2/GizWebPluginLab2/build/WebAssembly_Qt_6_9_2_single_threaded-Release/CMakeFiles/appGizWebPluginLab2_autogen_timestamp_deps.dir
 C:/Qt/6.7.2/GizWebPluginLab2/build/WebAssembly_Qt_6_9_2_single_threaded-Release/CMakeFiles/appGizWebPluginLab2_autogen.dir
+C:/Qt/6.7.2/GizWebPluginLab2/build/WebAssembly_Qt_6_9_2_single_threaded-Release/src/CMakeFiles/src_lib.dir
+C:/Qt/6.7.2/GizWebPluginLab2/build/WebAssembly_Qt_6_9_2_single_threaded-Release/src/CMakeFiles/edit_cache.dir
+C:/Qt/6.7.2/GizWebPluginLab2/build/WebAssembly_Qt_6_9_2_single_threaded-Release/src/CMakeFiles/rebuild_cache.dir
+C:/Qt/6.7.2/GizWebPluginLab2/build/WebAssembly_Qt_6_9_2_single_threaded-Release/src/CMakeFiles/list_install_components.dir
+C:/Qt/6.7.2/GizWebPluginLab2/build/WebAssembly_Qt_6_9_2_single_threaded-Release/src/CMakeFiles/install.dir
+C:/Qt/6.7.2/GizWebPluginLab2/build/WebAssembly_Qt_6_9_2_single_threaded-Release/src/CMakeFiles/install/local.dir
+C:/Qt/6.7.2/GizWebPluginLab2/build/WebAssembly_Qt_6_9_2_single_threaded-Release/src/CMakeFiles/install/strip.dir
+C:/Qt/6.7.2/GizWebPluginLab2/build/WebAssembly_Qt_6_9_2_single_threaded-Release/src/CMakeFiles/src_lib_autogen_timestamp_deps.dir
+C:/Qt/6.7.2/GizWebPluginLab2/build/WebAssembly_Qt_6_9_2_single_threaded-Release/src/CMakeFiles/src_lib_autogen.dir

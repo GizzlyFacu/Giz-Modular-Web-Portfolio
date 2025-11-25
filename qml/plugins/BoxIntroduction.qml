@@ -5,7 +5,7 @@ import QtQuick.Layouts
 
 Item {
     id:root
-    property string image: "qrc:/images/assets/imagesLocal/loader.jpg"
+    property string image: "qrc:/images/assets/imagesLocal/yo.png"
     property string principalFont: "Comic Sans MS"
 
     property color backgroundItemsDark: "#2f2f2f"
@@ -43,7 +43,8 @@ Item {
                 width: 133
                 height: 124
                 source:root.image
-                radius:10
+                radius:20
+                fillMode:Image.PreserveAspectFit
             }
             Text{
                 id:nameInfo
@@ -232,4 +233,13 @@ Item {
             easing.type: Easing.OutQuad
         }
     }
+    //Mobile----
+    /*
+    Rectangle{
+        height: parent.height
+        width: parent.width
+        radius:10
+        color: root.backgroundItemsDark
+    }
+    */
 }

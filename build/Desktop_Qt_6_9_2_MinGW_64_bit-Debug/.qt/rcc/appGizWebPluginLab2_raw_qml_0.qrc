@@ -11,6 +11,7 @@
     <file alias="./qml/plugins/TechSkills.qml">C:/Qt/6.7.2/GizWebPluginLab2/./qml/plugins/TechSkills.qml</file>
     <file alias="qml/plugins/Separator.qml">C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/Separator.qml</file>
     <file alias="qml/plugins/Footer.qml">C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/Footer.qml</file>
+    <file alias="qml/plugins/PruebaMaster.qml">C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/PruebaMaster.qml</file>
     <file alias="assets.qrc">C:/Qt/6.7.2/GizWebPluginLab2/assets.qrc</file>
   </qresource>
 </RCC>

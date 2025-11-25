@@ -11,7 +11,7 @@
         <file>assets/icons/steam.png</file>
     </qresource>
     <qresource prefix="/images">
-        <file>assets/imagesLocal/yo.jpeg</file>
         <file>assets/imagesLocal/loader.jpg</file>
+        <file>assets/imagesLocal/yo.png</file>
     </qresource>
 </RCC>

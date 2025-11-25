@@ -12,5 +12,6 @@ BlogCards 1.0 ./qml/plugins/BlogCards.qml
 TechSkills 1.0 ./qml/plugins/TechSkills.qml
 Separator 1.0 qml/plugins/Separator.qml
 Footer 1.0 qml/plugins/Footer.qml
+PruebaMaster 1.0 qml/plugins/PruebaMaster.qml
 depends QtQuick
 

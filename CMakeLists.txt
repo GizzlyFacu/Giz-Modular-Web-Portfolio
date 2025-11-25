@@ -29,8 +29,11 @@ qt_add_qml_module(appGizWebPluginLab2
         ./qml/plugins/TechSkills.qml
         qml/plugins/Separator.qml
         qml/plugins/Footer.qml
+        qml/plugins/PruebaMaster.qml
+
     RESOURCES
         assets.qrc
+
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

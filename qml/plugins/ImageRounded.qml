@@ -4,6 +4,7 @@ Item {
     id:root
     required property string source;
     required property int radius;
+    property alias fillMode: sourceItem.fillMode
     Image {
         id: sourceItem
         source: parent.source
@@ -32,7 +33,7 @@ Item {
             width: sourceItem.width
             height: sourceItem.height
             radius: root.radius
-            color: "black"
+            color: "#3C3C3C"
         }
     }
 }

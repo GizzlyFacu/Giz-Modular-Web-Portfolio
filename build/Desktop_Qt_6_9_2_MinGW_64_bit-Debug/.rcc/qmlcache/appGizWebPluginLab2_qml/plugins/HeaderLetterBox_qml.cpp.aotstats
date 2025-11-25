@@ -6,66 +6,146 @@
                     {
                         "codegenSuccessful": false,
                         "column": 15,
-                        "durationMicroseconds": 6449,
+                        "durationMicroseconds": 647,
                         "errorMessage": "Cannot load property backgroundItemsLight from .",
                         "functionName": "color",
-                        "line": 12
+                        "line": 14
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 196,
+                        "durationMicroseconds": 157,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 11
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 15,
-                        "durationMicroseconds": 106,
-                        "errorMessage": "Cannot load property text from (component in C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/HeaderLetterBox.qml)::parent with type QQuickItem.",
-                        "functionName": "text",
-                        "line": 20
+                        "line": 13
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 28,
-                        "durationMicroseconds": 114,
+                        "column": 16,
+                        "durationMicroseconds": 190,
                         "errorMessage": "",
-                        "functionName": "verticalAlignment",
-                        "line": 22
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 30,
-                        "durationMicroseconds": 89,
-                        "errorMessage": "",
-                        "functionName": "horizontalAlignment",
+                        "functionName": "width",
                         "line": 23
                     },
                     {
                         "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 111,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 29
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 18,
+                        "durationMicroseconds": 103,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 26
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 97,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 27
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 15,
+                        "durationMicroseconds": 94,
+                        "errorMessage": "Cannot load property textString from (component in C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/HeaderLetterBox.qml)::parent with type QQuickItem.",
+                        "functionName": "text",
+                        "line": 34
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 92,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 36
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 72,
+                        "errorMessage": "",
+                        "functionName": "horizontalAlignment",
+                        "line": 37
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 101,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 39
+                    },
+                    {
+                        "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 62,
+                        "durationMicroseconds": 69,
                         "errorMessage": "",
                         "functionName": "centerIn",
-                        "line": 19
+                        "line": 33
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 107,
+                        "errorMessage": "",
+                        "functionName": "family",
+                        "line": 35
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 20,
-                        "durationMicroseconds": 124,
-                        "errorMessage": "Cannot load property text from (component in C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/HeaderLetterBox.qml)::parent with type QQuickItem.",
+                        "durationMicroseconds": 113,
+                        "errorMessage": "Cannot load property textString from (component in C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/HeaderLetterBox.qml)::parent with type QQuickItem.",
                         "functionName": "onClicked",
-                        "line": 30
+                        "line": 44
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 66,
+                        "durationMicroseconds": 65,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 29
+                        "line": 43
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 132,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 52
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 124,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 58
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 93,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 55
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 87,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 56
                     }
                 ],
                 "filePath": "C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/HeaderLetterBox.qml"

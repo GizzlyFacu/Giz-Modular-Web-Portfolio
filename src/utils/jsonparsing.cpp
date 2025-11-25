@@ -48,6 +48,7 @@ QJsonObject JsonParsing::crearEstructuraJSON()
     // BlogCards
     QJsonObject blogCards;
     blogCards["BackgroundPhoto_link"] =QJsonArray{"https://raw.githubusercontent.com/GizzlyFacu/GizWeb/refs/heads/main/remote/BlogCard%20Photo%201.jpg", "https://gizzlyfacu.github.io/GizWeb/remote/BlogCard%20Photo%202.jpg"};
+    blogCards["Link"] =QJsonArray{"https://www.artstation.com/artwork/NG1mLN", "https://www.artstation.com/artwork/xYJbNO"};
     blogCards["Title"] = QJsonArray{"Archviz Exterior #1", "Terrarian Yoyo"};
     blogCards["Description"] =QJsonArray{"First Archviz Render, Inspired by the Heydar Aliyev Cultural Center", "Made with Blender & Substance Painter"};
     root["BlogCards"] = blogCards;

@@ -1,2 +1,4 @@
+set(__QT_DEPLOY_TARGET_src_lib_FILE C:/Qt/6.7.2/GizWebPluginLab2/build/WebAssembly_Qt_6_9_2_single_threaded-Release/src/libsrc_lib.a)
+set(__QT_DEPLOY_TARGET_src_lib_TYPE STATIC_LIBRARY)
 set(__QT_DEPLOY_TARGET_appGizWebPluginLab2_FILE C:/Qt/6.7.2/GizWebPluginLab2/build/WebAssembly_Qt_6_9_2_single_threaded-Release/appGizWebPluginLab2.js)
 set(__QT_DEPLOY_TARGET_appGizWebPluginLab2_TYPE EXECUTABLE)

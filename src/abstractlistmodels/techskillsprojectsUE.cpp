@@ -1,4 +1,4 @@
-#include "TechSkillsProjectsUE.h"
+#include "techskillsprojectsUE.h"
 
 TechSkillsProjectsUE::TechSkillsProjectsUE(QObject *parent)
     : QAbstractListModel{parent}

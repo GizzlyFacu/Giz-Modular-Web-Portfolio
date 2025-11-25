@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 41,
-                        "durationMicroseconds": 296,
+                        "durationMicroseconds": 352,
                         "errorMessage": "",
                         "functionName": "background",
                         "line": 7
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 50,
-                        "durationMicroseconds": 154,
+                        "durationMicroseconds": 132,
                         "errorMessage": "",
                         "functionName": "backgroundItemsDark",
                         "line": 8
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 51,
-                        "durationMicroseconds": 819,
+                        "durationMicroseconds": 175,
                         "errorMessage": "",
                         "functionName": "backgroundItemsLight",
                         "line": 9
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 44,
-                        "durationMicroseconds": 104,
+                        "durationMicroseconds": 92,
                         "errorMessage": "",
                         "functionName": "principalFont",
                         "line": 10
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 44,
-                        "durationMicroseconds": 82,
+                        "durationMicroseconds": 106,
                         "errorMessage": "",
                         "functionName": "secondaryFont",
                         "line": 11
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 35,
-                        "durationMicroseconds": 101,
+                        "durationMicroseconds": 126,
                         "errorMessage": "",
                         "functionName": "text",
                         "line": 12
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 41,
-                        "durationMicroseconds": 13815,
+                        "durationMicroseconds": 119,
                         "errorMessage": "",
                         "functionName": "textDarker",
                         "line": 13
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 40,
-                        "durationMicroseconds": 140,
+                        "durationMicroseconds": 103,
                         "errorMessage": "",
                         "functionName": "textLinks",
                         "line": 14

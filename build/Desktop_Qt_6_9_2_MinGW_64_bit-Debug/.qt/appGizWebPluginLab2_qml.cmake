@@ -24,6 +24,8 @@ set(src_and_dest_list
     "C:/Qt/6.7.2/GizWebPluginLab2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/GizWebPluginLab2/qml/plugins/Separator.qml"
     "C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/Footer.qml"
     "C:/Qt/6.7.2/GizWebPluginLab2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/GizWebPluginLab2/qml/plugins/Footer.qml"
+    "C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/PruebaMaster.qml"
+    "C:/Qt/6.7.2/GizWebPluginLab2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/GizWebPluginLab2/qml/plugins/PruebaMaster.qml"
 
 )
 set(timestamp_file "C:/Qt/6.7.2/GizWebPluginLab2/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.qt/appGizWebPluginLab2_qml.txt")

@@ -18,13 +18,16 @@ void ConfigCenter::loadconfig_BlogCards(const QJsonObject &data)
     //aniadiendo structs
     const QJsonArray titles = data["BlogCards"].toObject()["Title"].toArray();
     const QJsonArray photolinks = data["BlogCards"].toObject()["BackgroundPhoto_link"].toArray();
+    const QJsonArray links = data["BlogCards"].toObject()["Link"].toArray();
     const QJsonArray descriptions = data["BlogCards"].toObject()["Description"].toArray();
 
     for (int x = 0; x < titles.count(); ++x) {
         QString title = titles[x].toString();
+        QString link = links[x].toString();
         QString photolink = photolinks[x].toString();
         QString description = descriptions[x].toString();
-        m_storageManager->blogcardmodel()->addThings(photolink,title,description);
+
+        m_storageManager->blogcardmodel()->addThings(photolink,title,description,link);
     }
     emit m_storageManager->blogcardmodelChanged();
 }
@@ -110,7 +113,7 @@ void ConfigCenter::setOnline(bool isOnline)
         m_networkManager->makeGetRequest(contentUrl);
     }
     else {
-        m_jsonParsing.writeJson();
+        //m_jsonParsing.writeJson();
         const QJsonObject dataJson = m_jsonParsing.readJson("configuracionLocal.json");
         qDebug()<<"data local: \n"<<dataJson.length()<<"\n";
         loadconfig_BoxIntroduction(dataJson);

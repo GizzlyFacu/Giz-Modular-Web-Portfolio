@@ -2,10 +2,8 @@ import QtQuick
 import com.library
 Item {
     id:root
-    property color color: "white"
-    property string text: "Arial"
-    property color textBlack: "Black"
-    property color textGray: "Gray"
+    property string principalFont: "Arial"
+    property color text: "Black"
 
     ListModel {
         id:cardModel
@@ -35,13 +33,15 @@ Item {
             id:cardsItem
             width: 392
             height: 218
+            required property string link
             required property string title
-            required property string description
             required property string photoLink
+            required property string description
             ImageRounded{
                 anchors.fill: parent
                 source: cardsItem.photoLink
                 radius: 10
+
             }
             Text{
                 id:subText
@@ -56,13 +56,14 @@ Item {
 
                 text:cardsItem.description
                 font{
-                    family: root.text
+                    family: root.principalFont
                     bold: true
                     pixelSize: 15
                 }
-                color: root.textGray
+                color: root.text
                 verticalAlignment: Text.AlignBottom
                 wrapMode: Text.WrapAtWordBoundaryOrAnywhere
+
             }
             Text{
                 id:text
@@ -76,13 +77,17 @@ Item {
                 }
                 text:cardsItem.title
                 font{
-                    family: root.text
+                    family: root.principalFont
                     bold: true
                     pixelSize: 24
                 }
-                color:root.textBlack
+                color:root.text
                 verticalAlignment: Text.AlignBottom
                 wrapMode: Text.WrapAtWordBoundaryOrAnywhere
+            }
+            MouseArea{
+                anchors.fill: parent
+                onClicked: Qt.openUrlExternally(cardsItem.link)
             }
         }
     }

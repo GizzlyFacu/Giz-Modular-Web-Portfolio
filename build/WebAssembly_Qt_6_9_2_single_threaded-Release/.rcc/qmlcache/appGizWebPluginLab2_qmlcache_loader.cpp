@@ -12,6 +12,13 @@ namespace _qt_qml_GizWebPluginLab2_Main_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _qt_qml_GizWebPluginLab2_Theme_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 namespace _qt_qml_GizWebPluginLab2__0x2e__qml_plugins_Header_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
@@ -61,13 +68,6 @@ namespace _qt_qml_GizWebPluginLab2__0x2e__qml_plugins_TechSkills_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
-namespace _qt_qml_GizWebPluginLab2_Theme_qml { 
-    extern const unsigned char qmlData[];
-    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
-    const QQmlPrivate::CachedQmlUnit unit = {
-        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
-    };
-}
 namespace _qt_qml_GizWebPluginLab2_qml_plugins_Separator_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
@@ -97,6 +97,7 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 
 Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/GizWebPluginLab2/Main.qml"), &QmlCacheGeneratedCode::_qt_qml_GizWebPluginLab2_Main_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/GizWebPluginLab2/Theme.qml"), &QmlCacheGeneratedCode::_qt_qml_GizWebPluginLab2_Theme_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/GizWebPluginLab2/./qml/plugins/Header.qml"), &QmlCacheGeneratedCode::_qt_qml_GizWebPluginLab2__0x2e__qml_plugins_Header_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/GizWebPluginLab2/./qml/plugins/HeaderLetterBox.qml"), &QmlCacheGeneratedCode::_qt_qml_GizWebPluginLab2__0x2e__qml_plugins_HeaderLetterBox_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/GizWebPluginLab2/./qml/plugins/HeaderMobileMenu.qml"), &QmlCacheGeneratedCode::_qt_qml_GizWebPluginLab2__0x2e__qml_plugins_HeaderMobileMenu_qml::unit);
@@ -104,7 +105,6 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/GizWebPluginLab2/./qml/plugins/ImageRounded.qml"), &QmlCacheGeneratedCode::_qt_qml_GizWebPluginLab2__0x2e__qml_plugins_ImageRounded_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/GizWebPluginLab2/./qml/plugins/BlogCards.qml"), &QmlCacheGeneratedCode::_qt_qml_GizWebPluginLab2__0x2e__qml_plugins_BlogCards_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/GizWebPluginLab2/./qml/plugins/TechSkills.qml"), &QmlCacheGeneratedCode::_qt_qml_GizWebPluginLab2__0x2e__qml_plugins_TechSkills_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/GizWebPluginLab2/Theme.qml"), &QmlCacheGeneratedCode::_qt_qml_GizWebPluginLab2_Theme_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/GizWebPluginLab2/qml/plugins/Separator.qml"), &QmlCacheGeneratedCode::_qt_qml_GizWebPluginLab2_qml_plugins_Separator_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/GizWebPluginLab2/qml/plugins/Footer.qml"), &QmlCacheGeneratedCode::_qt_qml_GizWebPluginLab2_qml_plugins_Footer_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;

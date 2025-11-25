@@ -2,8 +2,10 @@ import QtQuick 2.15
 
 Item {
     id:root
-    property string text: "Default"
+    property string textString: "Default"
     property color backgroundItemsDark: "black"
+    property color text: "red"
+    property string principalFont: "Arial"
     width:139
     height:50
     Rectangle{
@@ -15,21 +17,44 @@ Item {
                   Qt.lighter(root.backgroundItemsDark) : root.backgroundItemsDark
         radius: 10
     }
+    Rectangle{
+        id:rectangleTop
+        height: 1
+        width: parent.width*0.5
+
+        anchors{
+            top: parent.top
+            horizontalCenter: parent.horizontalCenter
+        }
+        color: root.text
+    }
+
     Text{
         anchors.centerIn: parent
-        text: parent.text
-        font.family: "Roboto"
+        text: parent.textString
+        font.family: root.principalFont
         verticalAlignment: Text.AlignVCenter
         horizontalAlignment: Text.AlignHCenter
         font.pointSize: 24
-        color: "white"
+        color: root.text
     }
     MouseArea{
         id:page1
         anchors.fill: parent
         onClicked: {
-            console.log("*ir al pdf de "+parent.text);
+            console.log("*ir al pdf de "+parent.textString);
         }
         hoverEnabled: true
+    }
+    Rectangle{
+        id:rectangleBot
+        height: 1
+        width: parent.width*0.5
+
+        anchors{
+            bottom: parent.bottom
+            horizontalCenter: parent.horizontalCenter
+        }
+        color: root.text
     }
 }

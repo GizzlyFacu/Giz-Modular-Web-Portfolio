@@ -5,7 +5,7 @@ import GizWebPluginLab2
 import com.library
 Window {
     id:principalWindow
-    width: 1366
+    width: 800//1366
     height: 800
     visible: true
     title: qsTr("Hello World")
@@ -41,13 +41,18 @@ Window {
             y:100
             clip: true
             spacing:32
+            PruebaMaster{
+                Layout.fillWidth: true
+                Layout.preferredHeight: 600
+            }
 
+            /*
             BoxIntroduction{
                 id:boxIntro
                 Layout.fillWidth: true
                 Layout.preferredHeight: 600
                 //internal properties
-                principalFont: "Roboto"
+                principalFont: theme.principalFont
                 backgroundItemsDark: theme.backgroundItemsDark
                 backgroundItemsLight: theme.backgroundItemsLight
                 text: theme.text
@@ -55,11 +60,14 @@ Window {
                 textLinks: theme.textLinks
                 image:Qt.url(StorageManager.boxintroduction.PhotoLink)
             }
-
+            */
+            /*
             BlogCards{
                 Layout.fillWidth: true
                 Layout.preferredHeight: 224
                 Layout.alignment: Qt.AlignVCenter
+                principalFont:theme.principalFont
+                text:theme.text
             }
             Separator{
                 Layout.fillWidth: true
@@ -91,6 +99,7 @@ Window {
                 textDarker: theme.textDarker
                 secondaryFont:theme.secondaryFont
             }
+            */
         }
     }
 
@@ -110,7 +119,7 @@ Window {
         currentIndex: 4
 
         HeaderMobileMenu{
-            visible: !principalWindow.isMobile && asd.menuVisible
+            visible: !principalWindow.isMobile && header1.menuVisible
             Layout.fillHeight: true
             Layout.fillWidth: true
         }
@@ -126,14 +135,14 @@ Window {
     Header{
         id:header1
         isMobile: principalWindow.width < 1200 ? false : true
-        width: windowInterface.width-(windowInterface.width*0.0958*2)
+        width: windowInterface.width
         height: 98
         anchors{
             horizontalCenter: windowInterface.horizontalCenter
         }
 
         //internal properties
-        principalFont: "Roboto"
+        principalFont: theme.principalFont
         backgroundItemsDark: theme.background
         text: theme.text
         textDarker: theme.textDarker

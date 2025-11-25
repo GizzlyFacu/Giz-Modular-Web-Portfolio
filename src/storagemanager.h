@@ -13,7 +13,7 @@ struct BoxIntroduction{
     Q_PROPERTY(QString PhotoLink MEMBER m_PhotoLink)
 public:
     QString m_PhotoLink;
-    BoxIntroduction(QString PhotoLink = "qrc:/images/assets/imagesLocal/yo.jpeg"){
+    BoxIntroduction(QString PhotoLink = "qrc:/images/assets/imagesLocal/yo.png"){
         m_PhotoLink=PhotoLink;
     }
 };

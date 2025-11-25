@@ -17,7 +17,12 @@ Item {
         color:base.backgroundItemsDark
     }
     Text{
-        anchors.verticalCenter: parent.verticalCenter
+        anchors{
+            verticalCenter: parent.verticalCenter
+            left: parent.left
+            leftMargin: base.width*0.0958
+        }
+
         verticalAlignment: Text.AlignVCenter
         text:"FACU GIZ"
         font{
@@ -35,32 +40,46 @@ Item {
     Row{
         id:webMenu
         visible: base.isMobile
-        anchors.verticalCenter: parent.verticalCenter
-        anchors.right: parent.right
+        anchors{
+            verticalCenter: parent.verticalCenter
+            right: parent.right
+            rightMargin: 85
+        }
         spacing:2
         HeaderLetterBox{
             id:letterbox1
             backgroundItemsDark:base.backgroundItemsDark
-            text:"Projects"
+            textString:"Projects"
+            text:base.text
+            principalFont:base.principalFont
         }
         HeaderLetterBox{
             id:letterbox2
             backgroundItemsDark:base.backgroundItemsDark
-            text:"Labs"
+            textString:"Labs"
+            text:base.text
+            principalFont:base.principalFont
         }
         HeaderLetterBox{
             id:letterbox3
             backgroundItemsDark:base.backgroundItemsDark
-            text:"Contact"
+            textString:"Contact"
+            text:base.text
+            principalFont:base.principalFont
         }
     }
 
     //---------------Mobile--------------------------
     Rectangle{
+        id:menuButton
         visible: !base.isMobile
-        anchors.verticalCenter: parent.verticalCenter
-        anchors.right: parent.right
-        color:"white"
+        anchors{
+            verticalCenter: parent.verticalCenter
+            right: parent.right
+            rightMargin: base.width*0.0958
+        }
+
+        color:base.text
         radius:10
         height: 50
         width: 50
@@ -70,6 +89,26 @@ Item {
             onClicked: {
                 base.menuVisible = !base.menuVisible;
                 base.openMenu();
+            }
+        }
+        Column{
+            spacing: 6
+            anchors{
+                verticalCenter: menuButton.verticalCenter
+                horizontalCenter: menuButton.horizontalCenter
+            }
+
+            Repeater {
+                model: 3
+                Rectangle{
+                    height: 4
+                    radius: 2
+                    width: menuButton.width*0.7
+                    anchors{
+                        horizontalCenter: parent.horizontalCenter
+                    }
+                    color: base.backgroundItemsDark
+                }
             }
         }
     }

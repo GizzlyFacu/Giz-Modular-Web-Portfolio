@@ -9,6 +9,7 @@
 	"INCLUDE_DIR" : "C:/Qt/6.7.2/GizWebPluginLab2/build/WebAssembly_Qt_6_9_2_single_threaded-Release/appGizWebPluginLab2_autogen/include",
 	"INPUTS" : 
 	[
+		"C:/Qt/6.7.2/GizWebPluginLab2/assets/imagesLocal/loader.jpg",
 		"C:/Qt/6.7.2/GizWebPluginLab2/assets/imagesLocal/yo.jpeg",
 		"C:/Qt/6.7.2/GizWebPluginLab2/assets/fonts/Roboto-Regular.ttf",
 		"C:/Qt/6.7.2/GizWebPluginLab2/assets/fonts/Lato-Regular.ttf",
