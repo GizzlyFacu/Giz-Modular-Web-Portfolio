@@ -5,7 +5,7 @@ import GizWebPluginLab2
 import com.library
 Window {
     id:principalWindow
-    width: 800//1366
+    width: 420//1366
     height: 800
     visible: true
     title: qsTr("Hello World")
@@ -41,11 +41,6 @@ Window {
             y:100
             clip: true
             spacing:32
-            PruebaMaster{
-                Layout.fillWidth: true
-                Layout.preferredHeight: 600
-            }
-
             /*
             BoxIntroduction{
                 id:boxIntro
@@ -60,8 +55,7 @@ Window {
                 textLinks: theme.textLinks
                 image:Qt.url(StorageManager.boxintroduction.PhotoLink)
             }
-            */
-            /*
+
             BlogCards{
                 Layout.fillWidth: true
                 Layout.preferredHeight: 224
@@ -69,11 +63,12 @@ Window {
                 principalFont:theme.principalFont
                 text:theme.text
             }
+
             Separator{
                 Layout.fillWidth: true
                 color:theme.backgroundItemsLight
             }
-
+            */
             TechSkills{
                 Layout.fillWidth: true
                 Layout.preferredHeight: 580
@@ -86,6 +81,7 @@ Window {
                 textDarker: theme.textDarker
                 textLinks: theme.textLinks
             }
+            /*
             Separator{
                 Layout.fillWidth: true
                 color:theme.backgroundItemsLight

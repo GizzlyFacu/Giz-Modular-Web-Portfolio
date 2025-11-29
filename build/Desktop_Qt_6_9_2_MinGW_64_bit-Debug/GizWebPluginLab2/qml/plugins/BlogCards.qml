@@ -31,7 +31,7 @@ Item {
         model:StorageManager.blogcardmodel
         delegate:         Item{
             id:cardsItem
-            width: 392
+            width: root.width < 970 ?  340:392
             height: 218
             required property string link
             required property string title

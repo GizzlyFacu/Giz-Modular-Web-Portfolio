@@ -6,570 +6,1106 @@
                     {
                         "codegenSuccessful": true,
                         "column": 15,
-                        "durationMicroseconds": 6411,
+                        "durationMicroseconds": 244,
                         "errorMessage": "",
                         "functionName": "color",
-                        "line": 20
+                        "line": 21
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 121,
+                        "durationMicroseconds": 49,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 19
+                        "line": 20
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 30,
-                        "durationMicroseconds": 174,
+                        "column": 26,
+                        "durationMicroseconds": 204,
                         "errorMessage": "",
-                        "functionName": "offset",
-                        "line": 25
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 16,
-                        "durationMicroseconds": 105,
-                        "errorMessage": "",
-                        "functionName": "color",
-                        "line": 27
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 17,
-                        "durationMicroseconds": 73,
-                        "errorMessage": "",
-                        "functionName": "height",
+                        "functionName": "sourceComponent",
                         "line": 29
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 16,
-                        "durationMicroseconds": 71,
+                        "column": 23,
+                        "durationMicroseconds": 39,
                         "errorMessage": "",
-                        "functionName": "width",
-                        "line": 30
+                        "functionName": "fill",
+                        "line": 27
                     },
                     {
-                        "codegenSuccessful": true,
-                        "column": 11,
-                        "durationMicroseconds": 138,
-                        "errorMessage": "",
-                        "functionName": "x",
-                        "line": 31
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 21,
-                        "durationMicroseconds": 80,
-                        "errorMessage": "",
-                        "functionName": "height",
-                        "line": 34
+                        "codegenSuccessful": false,
+                        "column": 19,
+                        "durationMicroseconds": 40,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "color",
+                        "line": 38
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 95,
+                        "durationMicroseconds": 52,
                         "errorMessage": "",
-                        "functionName": "left",
-                        "line": 36
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 24,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"source\".",
-                        "functionName": "source",
-                        "line": 45
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 26,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"fillMode\".",
-                        "functionName": "fillMode",
-                        "line": 47
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 43,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"horizontalCenter\".",
-                        "functionName": "horizontalCenter",
-                        "line": 40
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 30,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"top\".",
-                        "functionName": "top",
-                        "line": 41
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 24,
-                        "durationMicroseconds": 119,
-                        "errorMessage": "",
-                        "functionName": "color",
-                        "line": 56
+                        "functionName": "fill",
+                        "line": 37
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 38,
-                        "durationMicroseconds": 78,
+                        "durationMicroseconds": 110,
                         "errorMessage": "",
-                        "functionName": "horizontalAlignment",
-                        "line": 63
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 36,
-                        "durationMicroseconds": 73,
-                        "errorMessage": "",
-                        "functionName": "verticalAlignment",
-                        "line": 64
+                        "functionName": "offset",
+                        "line": 42
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 26,
-                        "durationMicroseconds": 42,
-                        "errorMessage": "Cannot retrieve a non-object type by ID: imagerounded",
-                        "functionName": "top",
-                        "line": 52
+                        "column": 24,
+                        "durationMicroseconds": 21,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "color",
+                        "line": 44
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 39,
-                        "durationMicroseconds": 106,
+                        "column": 25,
+                        "durationMicroseconds": 46,
                         "errorMessage": "",
-                        "functionName": "horizontalCenter",
-                        "line": 54
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 29,
-                        "durationMicroseconds": 90,
-                        "errorMessage": "",
-                        "functionName": "family",
-                        "line": 59
+                        "functionName": "height",
+                        "line": 46
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 24,
-                        "durationMicroseconds": 106,
+                        "durationMicroseconds": 43,
                         "errorMessage": "",
+                        "functionName": "width",
+                        "line": 47
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 100,
+                        "errorMessage": "",
+                        "functionName": "x",
+                        "line": 48
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 29,
+                        "durationMicroseconds": 44,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 51
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 66,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 53
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"source\".",
+                        "functionName": "source",
+                        "line": 62
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 34,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"fillMode\".",
+                        "functionName": "fillMode",
+                        "line": 64
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 51,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"horizontalCenter\".",
+                        "functionName": "horizontalCenter",
+                        "line": 57
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"top\".",
+                        "functionName": "top",
+                        "line": 58
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 24,
+                        "errorMessage": "Cannot access value for name root",
                         "functionName": "color",
                         "line": 73
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 38,
-                        "durationMicroseconds": 70,
+                        "column": 46,
+                        "durationMicroseconds": 56,
                         "errorMessage": "",
                         "functionName": "horizontalAlignment",
-                        "line": 78
+                        "line": 80
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 36,
-                        "durationMicroseconds": 73,
+                        "column": 44,
+                        "durationMicroseconds": 45,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
-                        "line": 79
+                        "line": 81
                     },
                     {
-                        "codegenSuccessful": true,
-                        "column": 26,
-                        "durationMicroseconds": 100,
-                        "errorMessage": "",
+                        "codegenSuccessful": false,
+                        "column": 34,
+                        "durationMicroseconds": 50,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: imagerounded",
                         "functionName": "top",
                         "line": 69
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 39,
-                        "durationMicroseconds": 96,
+                        "column": 47,
+                        "durationMicroseconds": 66,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
-                        "line": 70
+                        "line": 71
                     },
                     {
-                        "codegenSuccessful": true,
-                        "column": 29,
-                        "durationMicroseconds": 63,
-                        "errorMessage": "",
+                        "codegenSuccessful": false,
+                        "column": 37,
+                        "durationMicroseconds": 22,
+                        "errorMessage": "Cannot access value for name root",
                         "functionName": "family",
-                        "line": 75
+                        "line": 76
                     },
                     {
-                        "codegenSuccessful": true,
-                        "column": 24,
-                        "durationMicroseconds": 83,
-                        "errorMessage": "",
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 20,
+                        "errorMessage": "Cannot access value for name root",
                         "functionName": "color",
-                        "line": 89
+                        "line": 90
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 38,
-                        "durationMicroseconds": 103,
+                        "column": 46,
+                        "durationMicroseconds": 111,
                         "errorMessage": "",
                         "functionName": "horizontalAlignment",
-                        "line": 94
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 36,
-                        "durationMicroseconds": 77,
-                        "errorMessage": "",
-                        "functionName": "verticalAlignment",
                         "line": 95
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 26,
-                        "durationMicroseconds": 108,
+                        "column": 44,
+                        "durationMicroseconds": 47,
                         "errorMessage": "",
-                        "functionName": "top",
-                        "line": 84
+                        "functionName": "verticalAlignment",
+                        "line": 96
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 39,
-                        "durationMicroseconds": 107,
+                        "column": 34,
+                        "durationMicroseconds": 72,
                         "errorMessage": "",
-                        "functionName": "horizontalCenter",
+                        "functionName": "top",
                         "line": 86
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 29,
-                        "durationMicroseconds": 84,
+                        "column": 47,
+                        "durationMicroseconds": 79,
                         "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 87
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 37,
+                        "durationMicroseconds": 22,
+                        "errorMessage": "Cannot access value for name root",
                         "functionName": "family",
-                        "line": 91
+                        "line": 92
                     },
                     {
-                        "codegenSuccessful": true,
-                        "column": 24,
-                        "durationMicroseconds": 90,
-                        "errorMessage": "",
-                        "functionName": "width",
-                        "line": 99
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 24,
-                        "durationMicroseconds": 89,
-                        "errorMessage": "",
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 24,
+                        "errorMessage": "Cannot access value for name root",
                         "functionName": "color",
                         "line": 106
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 38,
-                        "durationMicroseconds": 66,
+                        "column": 46,
+                        "durationMicroseconds": 44,
                         "errorMessage": "",
                         "functionName": "horizontalAlignment",
                         "line": 111
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 36,
-                        "durationMicroseconds": 93,
+                        "column": 44,
+                        "durationMicroseconds": 48,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 112
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 27,
-                        "durationMicroseconds": 70,
-                        "errorMessage": "",
-                        "functionName": "wrapMode",
-                        "line": 113
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 26,
-                        "durationMicroseconds": 107,
+                        "column": 34,
+                        "durationMicroseconds": 69,
                         "errorMessage": "",
                         "functionName": "top",
                         "line": 101
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 39,
-                        "durationMicroseconds": 133,
+                        "column": 47,
+                        "durationMicroseconds": 76,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 103
                     },
                     {
-                        "codegenSuccessful": true,
-                        "column": 29,
-                        "durationMicroseconds": 82,
-                        "errorMessage": "",
+                        "codegenSuccessful": false,
+                        "column": 37,
+                        "durationMicroseconds": 20,
+                        "errorMessage": "Cannot access value for name root",
                         "functionName": "family",
                         "line": 108
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 24,
-                        "durationMicroseconds": 95,
+                        "column": 32,
+                        "durationMicroseconds": 47,
                         "errorMessage": "",
                         "functionName": "width",
-                        "line": 117
+                        "line": 116
                     },
                     {
-                        "codegenSuccessful": true,
-                        "column": 24,
-                        "durationMicroseconds": 97,
-                        "errorMessage": "",
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 20,
+                        "errorMessage": "Cannot access value for name root",
                         "functionName": "color",
-                        "line": 124
+                        "line": 123
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 38,
-                        "durationMicroseconds": 73,
+                        "column": 46,
+                        "durationMicroseconds": 43,
                         "errorMessage": "",
                         "functionName": "horizontalAlignment",
+                        "line": 128
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 44,
+                        "durationMicroseconds": 43,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
                         "line": 129
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 36,
-                        "durationMicroseconds": 66,
+                        "column": 35,
+                        "durationMicroseconds": 48,
                         "errorMessage": "",
-                        "functionName": "verticalAlignment",
+                        "functionName": "wrapMode",
                         "line": 130
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 27,
-                        "durationMicroseconds": 67,
-                        "errorMessage": "",
-                        "functionName": "wrapMode",
-                        "line": 131
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 26,
-                        "durationMicroseconds": 130,
+                        "column": 34,
+                        "durationMicroseconds": 98,
                         "errorMessage": "",
                         "functionName": "top",
-                        "line": 119
+                        "line": 118
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 39,
-                        "durationMicroseconds": 97,
+                        "column": 47,
+                        "durationMicroseconds": 191,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
-                        "line": 121
+                        "line": 120
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 37,
+                        "durationMicroseconds": 34,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "family",
+                        "line": 125
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 94,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 134
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 34,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "color",
+                        "line": 141
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 46,
+                        "durationMicroseconds": 66,
+                        "errorMessage": "",
+                        "functionName": "horizontalAlignment",
+                        "line": 146
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 44,
+                        "durationMicroseconds": 55,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 147
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 52,
+                        "errorMessage": "",
+                        "functionName": "wrapMode",
+                        "line": 148
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 34,
+                        "durationMicroseconds": 88,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 136
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 47,
+                        "durationMicroseconds": 63,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 138
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 37,
+                        "durationMicroseconds": 23,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "family",
+                        "line": 143
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 40,
+                        "durationMicroseconds": 58,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 152
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 29,
-                        "durationMicroseconds": 73,
+                        "durationMicroseconds": 313,
                         "errorMessage": "",
-                        "functionName": "family",
-                        "line": 126
+                        "functionName": "flipflopOn",
+                        "line": 154
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 36,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 151
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 47,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 175
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 34,
+                        "durationMicroseconds": 64,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 170
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 47,
+                        "durationMicroseconds": 63,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 172
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 32,
                         "durationMicroseconds": 101,
                         "errorMessage": "",
-                        "functionName": "onClicked",
-                        "line": 135
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 21,
-                        "durationMicroseconds": 752,
-                        "errorMessage": "",
-                        "functionName": "flipflopOn",
-                        "line": 137
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 35,
-                        "durationMicroseconds": 77,
-                        "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 134
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 24,
-                        "durationMicroseconds": 176,
-                        "errorMessage": "",
                         "functionName": "width",
-                        "line": 158
+                        "line": 180
                     },
                     {
-                        "codegenSuccessful": true,
-                        "column": 26,
-                        "durationMicroseconds": 136,
-                        "errorMessage": "",
-                        "functionName": "top",
-                        "line": 153
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 39,
-                        "durationMicroseconds": 99,
-                        "errorMessage": "",
-                        "functionName": "horizontalCenter",
-                        "line": 155
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 24,
-                        "durationMicroseconds": 91,
-                        "errorMessage": "",
-                        "functionName": "width",
-                        "line": 163
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 24,
-                        "durationMicroseconds": 96,
-                        "errorMessage": "",
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 73,
+                        "errorMessage": "Cannot access value for name root",
                         "functionName": "color",
-                        "line": 170
+                        "line": 187
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 38,
-                        "durationMicroseconds": 95,
+                        "column": 46,
+                        "durationMicroseconds": 107,
                         "errorMessage": "",
                         "functionName": "horizontalAlignment",
-                        "line": 175
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 36,
-                        "durationMicroseconds": 144,
-                        "errorMessage": "",
-                        "functionName": "verticalAlignment",
-                        "line": 176
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 27,
-                        "durationMicroseconds": 81,
-                        "errorMessage": "",
-                        "functionName": "wrapMode",
-                        "line": 177
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 26,
-                        "durationMicroseconds": 110,
-                        "errorMessage": "",
-                        "functionName": "top",
-                        "line": 165
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 39,
-                        "durationMicroseconds": 93,
-                        "errorMessage": "",
-                        "functionName": "horizontalCenter",
-                        "line": 167
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 29,
-                        "durationMicroseconds": 79,
-                        "errorMessage": "",
-                        "functionName": "family",
-                        "line": 172
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 26,
-                        "durationMicroseconds": 97,
-                        "errorMessage": "",
-                        "functionName": "top",
-                        "line": 181
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 36,
-                        "durationMicroseconds": 211,
-                        "errorMessage": "",
-                        "functionName": "onClicked",
-                        "line": 193
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 39,
-                        "durationMicroseconds": 82,
-                        "errorMessage": "",
-                        "functionName": "fill",
                         "line": 192
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 36,
-                        "durationMicroseconds": 797,
+                        "column": 44,
+                        "durationMicroseconds": 105,
                         "errorMessage": "",
-                        "functionName": "onClicked",
-                        "line": 204
+                        "functionName": "verticalAlignment",
+                        "line": 193
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 39,
-                        "durationMicroseconds": 82,
+                        "column": 35,
+                        "durationMicroseconds": 49,
                         "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 203
+                        "functionName": "wrapMode",
+                        "line": 194
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 36,
-                        "durationMicroseconds": 202,
+                        "column": 34,
+                        "durationMicroseconds": 109,
                         "errorMessage": "",
-                        "functionName": "onClicked",
-                        "line": 215
+                        "functionName": "top",
+                        "line": 182
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 39,
-                        "durationMicroseconds": 57,
+                        "column": 47,
+                        "durationMicroseconds": 63,
                         "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 214
+                        "functionName": "horizontalCenter",
+                        "line": 184
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 37,
+                        "durationMicroseconds": 25,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "family",
+                        "line": 189
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 26,
+                        "column": 34,
                         "durationMicroseconds": 78,
                         "errorMessage": "",
-                        "functionName": "type",
-                        "line": 226
+                        "functionName": "top",
+                        "line": 198
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 17,
-                        "durationMicroseconds": 146,
+                        "column": 44,
+                        "durationMicroseconds": 151,
                         "errorMessage": "",
-                        "functionName": "to",
+                        "functionName": "onClicked",
+                        "line": 210
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 47,
+                        "durationMicroseconds": 40,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 209
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 44,
+                        "durationMicroseconds": 117,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 221
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 47,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 220
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 44,
+                        "durationMicroseconds": 105,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 232
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 47,
+                        "durationMicroseconds": 35,
+                        "errorMessage": "",
+                        "functionName": "fill",
                         "line": 231
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 26,
-                        "durationMicroseconds": 73,
+                        "column": 34,
+                        "durationMicroseconds": 85,
                         "errorMessage": "",
                         "functionName": "type",
-                        "line": 233
+                        "line": 243
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 25,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "to",
+                        "line": 248
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 34,
+                        "durationMicroseconds": 46,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 250
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 18,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "color",
+                        "line": 263
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 38,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 261
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 53,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 265
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 66,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 267
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"source\".",
+                        "functionName": "source",
+                        "line": 275
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 30,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"fillMode\".",
+                        "functionName": "fillMode",
+                        "line": 277
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 47,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"horizontalCenter\".",
+                        "functionName": "horizontalCenter",
+                        "line": 270
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 34,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"top\".",
+                        "functionName": "top",
+                        "line": 271
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 24,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "color",
+                        "line": 286
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 42,
+                        "durationMicroseconds": 48,
+                        "errorMessage": "",
+                        "functionName": "horizontalAlignment",
+                        "line": 293
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 40,
+                        "durationMicroseconds": 42,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 294
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 30,
+                        "durationMicroseconds": 21,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: imagerounded",
+                        "functionName": "top",
+                        "line": 282
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 63,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 284
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 33,
+                        "durationMicroseconds": 20,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "family",
+                        "line": 289
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 25,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "color",
+                        "line": 303
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 42,
+                        "durationMicroseconds": 102,
+                        "errorMessage": "",
+                        "functionName": "horizontalAlignment",
+                        "line": 308
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 40,
+                        "durationMicroseconds": 43,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 309
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 73,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 299
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 59,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 300
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 33,
+                        "durationMicroseconds": 21,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "family",
+                        "line": 305
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 18,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "color",
+                        "line": 319
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 42,
+                        "durationMicroseconds": 47,
+                        "errorMessage": "",
+                        "functionName": "horizontalAlignment",
+                        "line": 324
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 40,
+                        "durationMicroseconds": 41,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 325
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 63,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 314
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 58,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 316
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 33,
+                        "durationMicroseconds": 19,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "family",
+                        "line": 321
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 46,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 329
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 20,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "color",
+                        "line": 336
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 42,
+                        "durationMicroseconds": 111,
+                        "errorMessage": "",
+                        "functionName": "horizontalAlignment",
+                        "line": 341
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 40,
+                        "durationMicroseconds": 42,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 342
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 41,
+                        "errorMessage": "",
+                        "functionName": "wrapMode",
+                        "line": 343
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 64,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 331
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 58,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 333
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 33,
+                        "durationMicroseconds": 20,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "family",
+                        "line": 338
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 49,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 347
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 24,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "color",
+                        "line": 354
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 42,
+                        "durationMicroseconds": 44,
+                        "errorMessage": "",
+                        "functionName": "horizontalAlignment",
+                        "line": 359
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 40,
+                        "durationMicroseconds": 43,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 360
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 41,
+                        "errorMessage": "",
+                        "functionName": "wrapMode",
+                        "line": 361
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 64,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 349
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 56,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 351
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 33,
+                        "durationMicroseconds": 20,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "family",
+                        "line": 356
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 36,
+                        "durationMicroseconds": 119,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 365
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 42,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 364
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 46,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 376
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 62,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 371
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 56,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 373
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 52,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 381
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 21,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "color",
+                        "line": 388
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 42,
+                        "durationMicroseconds": 45,
+                        "errorMessage": "",
+                        "functionName": "horizontalAlignment",
+                        "line": 393
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 40,
+                        "durationMicroseconds": 41,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 394
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 90,
+                        "errorMessage": "",
+                        "functionName": "wrapMode",
+                        "line": 395
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 73,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 383
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 63,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 385
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 33,
+                        "durationMicroseconds": 23,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "family",
+                        "line": 390
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 61,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 400
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 58,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 402
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 40,
+                        "durationMicroseconds": 101,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 413
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 35,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 412
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 40,
+                        "durationMicroseconds": 97,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 425
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 424
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 40,
+                        "durationMicroseconds": 92,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 436
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 33,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 435
                     }
                 ],
                 "filePath": "C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/BoxIntroduction.qml"

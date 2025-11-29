@@ -11,7 +11,7 @@ Item {
         width: root.width
         height: root.height
         active:true
-        sourceComponent: root.width < 800 ? bigband : bigbond
+        sourceComponent: root.width < 1200 ? bigband : bigbond
         asynchronous: true
     }
 
