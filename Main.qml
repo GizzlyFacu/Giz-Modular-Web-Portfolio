@@ -35,7 +35,7 @@ Window {
 
         ColumnLayout{
             id:plugins
-            //debug mode
+
             width: windowInterface.width-(windowInterface.width*0.0958*2)
             x:windowInterface.width*0.0958
             y:100

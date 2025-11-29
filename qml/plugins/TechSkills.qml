@@ -4,7 +4,7 @@ import com.library
 Item {
     id:root
     property string principalFont: "Comic Sans MS"
-    property string secondaryFont: "Arial"
+    property string secondaryFont: "Roboto"
 
     property color backgroundItemsLight: "White"
     property color text: "White"
@@ -33,11 +33,11 @@ Item {
 
         spacing: 0
         Button{
-            width: 214
-            height: 61
+            width: root.width < 1200 ? 78 : 214
+            height:root.width < 1200 ? 37 : 61
             text:"CODING"
             font{
-                pixelSize: 24
+                pixelSize: root.width < 1200 ? 12 : 24
                 family: root.principalFont
             }
             background: Rectangle{
@@ -47,12 +47,12 @@ Item {
             onClicked: controls.index = 0
         }
         Button{
-            width: 214
-            height: 61
+            width: root.width < 1200 ? 78 : 214
+            height:root.width < 1200 ? 37 : 61
             text:"3D ART"
             font{
                 family: root.principalFont
-                pixelSize: 24
+                pixelSize: root.width < 1200 ? 12 : 24
             }
             background: Rectangle{
                 anchors.fill: parent
@@ -62,12 +62,12 @@ Item {
             onClicked: controls.index = 1
         }
         Button{
-            width: 214
-            height: 61
-            text:"3D GRAPHICS"
+            width: root.width < 1200 ? 78 : 214
+            height:root.width < 1200 ? 37 : 61
+            text:"GRAPHICS"
             font{
                 family: root.principalFont
-                pixelSize: 24
+                pixelSize: root.width < 1200 ? 12 : 24
             }
             background: Rectangle{
                 anchors.fill: parent
@@ -76,12 +76,12 @@ Item {
             onClicked: controls.index = 2
         }
         Button{
-            width: 214
-            height: 61
+            width: root.width < 1200 ? 78 : 214
+            height:root.width < 1200 ? 37 : 61
             text:"UE"
             font{
                 family: root.principalFont
-                pixelSize: 24
+                pixelSize: root.width < 1200 ? 12 : 24
             }
             background: Rectangle{
                 anchors.fill: parent
@@ -89,8 +89,83 @@ Item {
             }
             onClicked: controls.index = 3
         }
-
     }
+    Item{
+        id:bodycontent
+        height:272
+        //width: 380
+        anchors{
+            top:controls.bottom
+            topMargin: 46
+            horizontalCenter: parent.horizontalCenter
+            left:parent.left
+            right: parent.right
+        }
+        ImageRounded{
+            id:contentImager
+            anchors.left: parent.left
+            height: 135
+            width: 135
+            radius: 10
+            source: "qrc:/images/assets/imagesLocal/loader.jpg"//widgetsets.set[controls.index].sourceComponent
+        }
+        Text{
+            id:contentTitle
+            anchors{
+                left: contentImager.right
+                leftMargin: 22
+                right: parent.right
+            }
+            height: 31
+            text:widgetsets.set[controls.index].contentTitle
+            color:root.text
+            font{
+                pixelSize: 24
+                family: root.principalFont
+            }
+            verticalAlignment: Text.AlignVCenter
+            wrapMode: Text.WrapAtWordBoundaryOrAnywhere
+            elide: Text.ElideRight
+        }
+        Text{
+            id:contentDescription
+            anchors{
+                top:contentTitle.bottom
+                topMargin: 15
+                left: contentImager.right
+                leftMargin: 22
+                right: parent.right
+            }
+            height: 94
+            //width: 218
+            text:widgetsets.set[controls.index].contentDescription
+            color:root.text
+            font{
+                pixelSize: 12
+                family: root.secondaryFont
+            }
+            verticalAlignment: Text.AlignVCenter
+            wrapMode: Text.WrapAtWordBoundaryOrAnywhere
+            elide: Text.ElideRight
+            Component.onCompleted: console.log(contentDescription.fontInfo.family)
+        }
+
+        ListView{
+            id:projectsView
+            spacing: 5
+            anchors{
+                bottom: parent.bottom
+                right: parent.right
+                left: parent.left
+            }
+            height: 111
+            orientation: ListView.Horizontal
+            model:widgetsets.set[controls.index].projectModel
+            delegate: componentProjects
+            clip: true
+        }
+    }
+    /*
     Item{
         id:bodycontent
         height:340
@@ -123,12 +198,6 @@ Item {
             verticalAlignment: Text.AlignVCenter
             wrapMode: Text.WrapAtWordBoundaryOrAnywhere
             elide: Text.ElideRight
-            /*
-            Rectangle{
-                anchors.fill: parent
-                color:"black"
-            }
-            */
         }
         Text{
             id:contentDescription
@@ -167,8 +236,8 @@ Item {
             clip: true
         }
     }
-
-    //-------------Components-------------------
+ */
+    //-------------Data Components-------------------
     Component{
         id:componentInteractive
         Rectangle{
@@ -181,8 +250,8 @@ Item {
         id:componentProjects
         Item{
             id:base
-            width: 163
-            height: 135
+            width: root.width < 1200 ? 127 : 163
+            height: root.width < 1200 ? 106 : 135
             required property string title
             required property string photoLink
             required property string link
@@ -209,7 +278,7 @@ Item {
                     left:parent.left
                     bottom: parent.bottom
                 }
-                height: 108
+                height: root.width < 1200 ? 84:108
                 radius:10
             }
             MouseArea{
@@ -236,7 +305,7 @@ Item {
         property list<QtObject> set: [
             QtObject{
                 property string contentTitle: "Coding"
-                property string contentDescription: "Description"
+                property string contentDescription: "Desarrollo aplicaciones de escritorio modernas con C++ y Qt, integrando interfaces en QML y flujos de trabajo organizados con CMake y Git."
                 property QtObject projectModel:StorageManager.techskillsmodel
                 property Component sourceComponent:Component{
                     Rectangle{
@@ -259,7 +328,7 @@ Item {
 
             },
             QtObject{
-                property string contentTitle: "3D Graphics"
+                property string contentTitle: "Graphics"
                 property string contentDescription: "Description 3"
                 property QtObject projectModel:StorageManager.techskills3dgraphics
                 property Component sourceComponent:Component{

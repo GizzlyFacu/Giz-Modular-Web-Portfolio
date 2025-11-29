@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 15,
-                        "durationMicroseconds": 318,
+                        "durationMicroseconds": 237,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 22
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 30,
-                        "durationMicroseconds": 101,
+                        "durationMicroseconds": 66,
                         "errorMessage": "",
                         "functionName": "horizontalAlignment",
                         "line": 23
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 35,
-                        "durationMicroseconds": 105,
+                        "durationMicroseconds": 71,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 16
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 21,
-                        "durationMicroseconds": 81,
+                        "durationMicroseconds": 58,
                         "errorMessage": "",
                         "functionName": "family",
                         "line": 20
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 17,
-                        "durationMicroseconds": 110,
+                        "durationMicroseconds": 80,
                         "errorMessage": "",
                         "functionName": "top",
                         "line": 29
@@ -46,23 +46,47 @@
                     {
                         "codegenSuccessful": true,
                         "column": 31,
-                        "durationMicroseconds": 120,
+                        "durationMicroseconds": 69,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 31
                     },
                     {
                         "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 189,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 36
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 153,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 37
+                    },
+                    {
+                        "codegenSuccessful": true,
                         "column": 24,
-                        "durationMicroseconds": 133,
+                        "durationMicroseconds": 77,
                         "errorMessage": "",
                         "functionName": "onClicked",
                         "line": 47
                     },
                     {
                         "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 146,
+                        "errorMessage": "",
+                        "functionName": "pixelSize",
+                        "line": 40
+                    },
+                    {
+                        "codegenSuccessful": true,
                         "column": 25,
-                        "durationMicroseconds": 92,
+                        "durationMicroseconds": 48,
                         "errorMessage": "",
                         "functionName": "family",
                         "line": 41
@@ -70,7 +94,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 23,
-                        "durationMicroseconds": 226,
+                        "durationMicroseconds": 142,
                         "errorMessage": "Cannot load property pressed from (component in C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/TechSkills.qml)::parent with type QQuickItem.",
                         "functionName": "color",
                         "line": 45
@@ -78,15 +102,31 @@
                     {
                         "codegenSuccessful": true,
                         "column": 31,
-                        "durationMicroseconds": 59,
+                        "durationMicroseconds": 48,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 44
                     },
                     {
                         "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 152,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 50
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 142,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 51
+                    },
+                    {
+                        "codegenSuccessful": true,
                         "column": 24,
-                        "durationMicroseconds": 129,
+                        "durationMicroseconds": 70,
                         "errorMessage": "",
                         "functionName": "onClicked",
                         "line": 62
@@ -94,15 +134,23 @@
                     {
                         "codegenSuccessful": true,
                         "column": 25,
-                        "durationMicroseconds": 81,
+                        "durationMicroseconds": 50,
                         "errorMessage": "",
                         "functionName": "family",
                         "line": 54
                     },
                     {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 143,
+                        "errorMessage": "",
+                        "functionName": "pixelSize",
+                        "line": 55
+                    },
+                    {
                         "codegenSuccessful": false,
                         "column": 23,
-                        "durationMicroseconds": 167,
+                        "durationMicroseconds": 114,
                         "errorMessage": "Cannot load property pressed from (component in C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/TechSkills.qml)::parent with type QQuickItem.",
                         "functionName": "color",
                         "line": 59
@@ -110,15 +158,31 @@
                     {
                         "codegenSuccessful": true,
                         "column": 31,
-                        "durationMicroseconds": 63,
+                        "durationMicroseconds": 36,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 58
                     },
                     {
                         "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 152,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 65
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 141,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 66
+                    },
+                    {
+                        "codegenSuccessful": true,
                         "column": 24,
-                        "durationMicroseconds": 113,
+                        "durationMicroseconds": 65,
                         "errorMessage": "",
                         "functionName": "onClicked",
                         "line": 76
@@ -126,15 +190,23 @@
                     {
                         "codegenSuccessful": true,
                         "column": 25,
-                        "durationMicroseconds": 99,
+                        "durationMicroseconds": 86,
                         "errorMessage": "",
                         "functionName": "family",
                         "line": 69
                     },
                     {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 224,
+                        "errorMessage": "",
+                        "functionName": "pixelSize",
+                        "line": 70
+                    },
+                    {
                         "codegenSuccessful": false,
                         "column": 23,
-                        "durationMicroseconds": 173,
+                        "durationMicroseconds": 120,
                         "errorMessage": "Cannot load property pressed from (component in C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/TechSkills.qml)::parent with type QQuickItem.",
                         "functionName": "color",
                         "line": 74
@@ -142,15 +214,31 @@
                     {
                         "codegenSuccessful": true,
                         "column": 31,
-                        "durationMicroseconds": 59,
+                        "durationMicroseconds": 39,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 73
                     },
                     {
                         "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 137,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 79
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 135,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 80
+                    },
+                    {
+                        "codegenSuccessful": true,
                         "column": 24,
-                        "durationMicroseconds": 108,
+                        "durationMicroseconds": 68,
                         "errorMessage": "",
                         "functionName": "onClicked",
                         "line": 90
@@ -158,15 +246,23 @@
                     {
                         "codegenSuccessful": true,
                         "column": 25,
-                        "durationMicroseconds": 89,
+                        "durationMicroseconds": 75,
                         "errorMessage": "",
                         "functionName": "family",
                         "line": 83
                     },
                     {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 147,
+                        "errorMessage": "",
+                        "functionName": "pixelSize",
+                        "line": 84
+                    },
+                    {
                         "codegenSuccessful": false,
                         "column": 23,
-                        "durationMicroseconds": 185,
+                        "durationMicroseconds": 111,
                         "errorMessage": "Cannot load property pressed from (component in C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/TechSkills.qml)::parent with type QQuickItem.",
                         "functionName": "color",
                         "line": 88
@@ -174,7 +270,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 31,
-                        "durationMicroseconds": 57,
+                        "durationMicroseconds": 35,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 87
@@ -182,290 +278,322 @@
                     {
                         "codegenSuccessful": true,
                         "column": 17,
-                        "durationMicroseconds": 116,
+                        "durationMicroseconds": 67,
                         "errorMessage": "",
                         "functionName": "top",
-                        "line": 99
+                        "line": 98
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 31,
-                        "durationMicroseconds": 90,
+                        "durationMicroseconds": 56,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
+                        "line": 100
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 18,
+                        "durationMicroseconds": 56,
+                        "errorMessage": "",
+                        "functionName": "left",
                         "line": 101
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 21,
-                        "durationMicroseconds": 74,
+                        "column": 20,
+                        "durationMicroseconds": 54,
                         "errorMessage": "",
-                        "functionName": "height",
+                        "functionName": "right",
+                        "line": 102
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"left\".",
+                        "functionName": "left",
                         "line": 106
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 30,
-                        "durationMicroseconds": 59,
-                        "errorMessage": "Cannot load property sourceComponent from conversion to QVariant.",
-                        "functionName": "sourceComponent",
-                        "line": 108
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 27,
-                        "durationMicroseconds": 130,
-                        "errorMessage": "",
-                        "functionName": "left",
-                        "line": 105
-                    },
-                    {
-                        "codegenSuccessful": false,
                         "column": 18,
-                        "durationMicroseconds": 65,
+                        "durationMicroseconds": 79,
                         "errorMessage": "Cannot load property contentTitle from conversion to QVariant.",
                         "functionName": "text",
-                        "line": 117
+                        "line": 120
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 19,
-                        "durationMicroseconds": 114,
+                        "durationMicroseconds": 64,
                         "errorMessage": "",
                         "functionName": "color",
-                        "line": 118
+                        "line": 121
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 32,
-                        "durationMicroseconds": 80,
+                        "durationMicroseconds": 52,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
-                        "line": 123
+                        "line": 126
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 91,
+                        "durationMicroseconds": 59,
                         "errorMessage": "",
                         "functionName": "wrapMode",
-                        "line": 124
+                        "line": 127
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 20,
-                        "durationMicroseconds": 93,
+                        "durationMicroseconds": 42,
                         "errorMessage": "",
                         "functionName": "elide",
-                        "line": 125
+                        "line": 128
                     },
                     {
-                        "codegenSuccessful": true,
-                        "column": 27,
-                        "durationMicroseconds": 107,
-                        "errorMessage": "",
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 20,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: contentImager",
                         "functionName": "left",
-                        "line": 113
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 28,
-                        "durationMicroseconds": 84,
-                        "errorMessage": "",
-                        "functionName": "right",
                         "line": 115
                     },
                     {
                         "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 61,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 117
+                    },
+                    {
+                        "codegenSuccessful": true,
                         "column": 25,
-                        "durationMicroseconds": 86,
+                        "durationMicroseconds": 46,
                         "errorMessage": "",
                         "functionName": "family",
-                        "line": 121
+                        "line": 124
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 18,
-                        "durationMicroseconds": 94,
+                        "durationMicroseconds": 36,
                         "errorMessage": "Cannot load property contentDescription from conversion to QVariant.",
                         "functionName": "text",
-                        "line": 143
+                        "line": 141
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 19,
-                        "durationMicroseconds": 112,
+                        "durationMicroseconds": 87,
                         "errorMessage": "",
                         "functionName": "color",
-                        "line": 144
+                        "line": 142
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 32,
-                        "durationMicroseconds": 74,
+                        "durationMicroseconds": 44,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
-                        "line": 149
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 23,
-                        "durationMicroseconds": 81,
-                        "errorMessage": "",
-                        "functionName": "wrapMode",
-                        "line": 150
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 20,
-                        "durationMicroseconds": 72,
-                        "errorMessage": "",
-                        "functionName": "elide",
-                        "line": 151
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 21,
-                        "durationMicroseconds": 152,
-                        "errorMessage": "",
-                        "functionName": "top",
-                        "line": 136
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 23,
-                        "durationMicroseconds": 104,
-                        "errorMessage": "",
-                        "functionName": "left",
-                        "line": 138
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 25,
-                        "durationMicroseconds": 84,
-                        "errorMessage": "",
-                        "functionName": "family",
                         "line": 147
                     },
                     {
                         "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 41,
+                        "errorMessage": "",
+                        "functionName": "wrapMode",
+                        "line": 148
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 41,
+                        "errorMessage": "",
+                        "functionName": "elide",
+                        "line": 149
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 62,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 133
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 18,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: contentImager",
+                        "functionName": "left",
+                        "line": 135
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 65,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 137
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 46,
+                        "errorMessage": "",
+                        "functionName": "family",
+                        "line": 145
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 36,
+                        "durationMicroseconds": 561,
+                        "errorMessage": "Cannot generate efficient code for lookup in QJSValue",
+                        "functionName": "onCompleted",
+                        "line": 150
+                    },
+                    {
+                        "codegenSuccessful": true,
                         "column": 26,
-                        "durationMicroseconds": 86,
+                        "durationMicroseconds": 66,
                         "errorMessage": "",
                         "functionName": "orientation",
-                        "line": 164
+                        "line": 162
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 19,
-                        "durationMicroseconds": 68,
+                        "durationMicroseconds": 84,
                         "errorMessage": "Cannot load property projectModel from conversion to QVariant.",
                         "functionName": "model",
-                        "line": 165
+                        "line": 163
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 83,
+                        "durationMicroseconds": 43,
                         "errorMessage": "",
                         "functionName": "delegate",
-                        "line": 166
+                        "line": 164
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 25,
-                        "durationMicroseconds": 149,
+                        "durationMicroseconds": 68,
                         "errorMessage": "",
                         "functionName": "bottom",
+                        "line": 157
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 57,
+                        "errorMessage": "",
+                        "functionName": "right",
                         "line": 158
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 24,
-                        "durationMicroseconds": 101,
+                        "column": 23,
+                        "durationMicroseconds": 57,
                         "errorMessage": "",
-                        "functionName": "right",
+                        "functionName": "left",
                         "line": 159
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 23,
-                        "durationMicroseconds": 108,
-                        "errorMessage": "",
-                        "functionName": "left",
-                        "line": 160
-                    },
-                    {
-                        "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 51,
+                        "durationMicroseconds": 32,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 175
+                        "line": 244
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 35,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "width",
+                        "line": 253
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 21,
+                        "durationMicroseconds": 164,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "height",
+                        "line": 254
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 22,
-                        "durationMicroseconds": 130,
+                        "durationMicroseconds": 185,
                         "errorMessage": "",
                         "functionName": "text",
-                        "line": 196
+                        "line": 265
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 23,
-                        "durationMicroseconds": 58,
+                        "durationMicroseconds": 114,
                         "errorMessage": "Cannot access value for name root",
                         "functionName": "color",
-                        "line": 197
+                        "line": 266
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 82,
+                        "durationMicroseconds": 70,
                         "errorMessage": "",
                         "functionName": "wrapMode",
-                        "line": 202
+                        "line": 271
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 24,
-                        "durationMicroseconds": 67,
+                        "durationMicroseconds": 46,
                         "errorMessage": "",
                         "functionName": "elide",
-                        "line": 203
+                        "line": 272
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 28,
-                        "durationMicroseconds": 111,
+                        "durationMicroseconds": 67,
                         "errorMessage": "",
                         "functionName": "right",
-                        "line": 191
+                        "line": 260
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 26,
-                        "durationMicroseconds": 99,
+                        "durationMicroseconds": 58,
                         "errorMessage": "",
                         "functionName": "left",
-                        "line": 192
+                        "line": 261
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 25,
-                        "durationMicroseconds": 87,
+                        "durationMicroseconds": 57,
                         "errorMessage": "",
                         "functionName": "top",
-                        "line": 193
+                        "line": 262
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 29,
-                        "durationMicroseconds": 37,
+                        "durationMicroseconds": 21,
                         "errorMessage": "Cannot access value for name root",
                         "functionName": "family",
-                        "line": 200
+                        "line": 269
                     },
                     {
                         "codegenSuccessful": false,
@@ -473,7 +601,15 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"source\".",
                         "functionName": "source",
-                        "line": 206
+                        "line": 275
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 25,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"height\".",
+                        "functionName": "height",
+                        "line": 281
                     },
                     {
                         "codegenSuccessful": false,
@@ -481,7 +617,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"right\".",
                         "functionName": "right",
-                        "line": 208
+                        "line": 277
                     },
                     {
                         "codegenSuccessful": false,
@@ -489,7 +625,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"left\".",
                         "functionName": "left",
-                        "line": 209
+                        "line": 278
                     },
                     {
                         "codegenSuccessful": false,
@@ -497,87 +633,87 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"bottom\".",
                         "functionName": "bottom",
-                        "line": 210
+                        "line": 279
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 28,
-                        "durationMicroseconds": 227,
+                        "durationMicroseconds": 166,
                         "errorMessage": "",
                         "functionName": "onClicked",
-                        "line": 217
+                        "line": 286
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 31,
-                        "durationMicroseconds": 74,
+                        "durationMicroseconds": 38,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 216
+                        "line": 285
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 48,
-                        "durationMicroseconds": 95,
+                        "durationMicroseconds": 55,
                         "errorMessage": "Cannot access value for name StorageManager",
                         "functionName": "projectModel",
-                        "line": 276
+                        "line": 345
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 39,
-                        "durationMicroseconds": 55,
+                        "durationMicroseconds": 34,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 279
+                        "line": 348
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 48,
-                        "durationMicroseconds": 68,
+                        "durationMicroseconds": 46,
                         "errorMessage": "Cannot access value for name StorageManager",
                         "functionName": "projectModel",
-                        "line": 264
+                        "line": 333
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 39,
-                        "durationMicroseconds": 55,
+                        "durationMicroseconds": 54,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 267
+                        "line": 336
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 49,
-                        "durationMicroseconds": 71,
+                        "durationMicroseconds": 50,
                         "errorMessage": "Cannot access value for name StorageManager",
                         "functionName": "projectModel",
-                        "line": 252
+                        "line": 321
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 39,
-                        "durationMicroseconds": 50,
+                        "durationMicroseconds": 33,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 255
+                        "line": 324
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 48,
-                        "durationMicroseconds": 63,
+                        "durationMicroseconds": 42,
                         "errorMessage": "Cannot access value for name StorageManager",
                         "functionName": "projectModel",
-                        "line": 240
+                        "line": 309
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 39,
-                        "durationMicroseconds": 52,
+                        "durationMicroseconds": 84,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 243
+                        "line": 312
                     }
                 ],
                 "filePath": "C:/Qt/6.7.2/GizWebPluginLab2/qml/plugins/TechSkills.qml"
