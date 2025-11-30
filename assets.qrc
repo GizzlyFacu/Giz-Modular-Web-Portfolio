@@ -13,5 +13,9 @@
     <qresource prefix="/images">
         <file>assets/imagesLocal/loader.jpg</file>
         <file>assets/imagesLocal/yo.png</file>
+        <file>assets/imagesLocal/CppImager.jpeg</file>
+        <file>assets/imagesLocal/3DArtImager2.jpg</file>
+        <file>assets/imagesLocal/GraphicsImager.jpg</file>
+        <file>assets/imagesLocal/UEImager.jpg</file>
     </qresource>
 </RCC>

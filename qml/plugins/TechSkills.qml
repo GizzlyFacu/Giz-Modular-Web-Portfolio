@@ -33,11 +33,11 @@ Item {
 
         spacing: 0
         Button{
-            width: root.width < 1200 ? 78 : 214
-            height:root.width < 1200 ? 37 : 61
+            width: root.width < 970 ? 78 : 214
+            height:root.width < 970 ? 37 : 61
             text:"CODING"
             font{
-                pixelSize: root.width < 1200 ? 12 : 24
+                pixelSize: root.width < 970 ? 12 : 24
                 family: root.principalFont
             }
             background: Rectangle{
@@ -47,12 +47,12 @@ Item {
             onClicked: controls.index = 0
         }
         Button{
-            width: root.width < 1200 ? 78 : 214
-            height:root.width < 1200 ? 37 : 61
+            width: root.width < 970 ? 78 : 214
+            height:root.width < 970 ? 37 : 61
             text:"3D ART"
             font{
                 family: root.principalFont
-                pixelSize: root.width < 1200 ? 12 : 24
+                pixelSize: root.width < 970 ? 12 : 24
             }
             background: Rectangle{
                 anchors.fill: parent
@@ -62,12 +62,12 @@ Item {
             onClicked: controls.index = 1
         }
         Button{
-            width: root.width < 1200 ? 78 : 214
-            height:root.width < 1200 ? 37 : 61
+            width: root.width < 970 ? 78 : 214
+            height:root.width < 970 ? 37 : 61
             text:"GRAPHICS"
             font{
                 family: root.principalFont
-                pixelSize: root.width < 1200 ? 12 : 24
+                pixelSize: root.width < 970 ? 12 : 24
             }
             background: Rectangle{
                 anchors.fill: parent
@@ -76,12 +76,12 @@ Item {
             onClicked: controls.index = 2
         }
         Button{
-            width: root.width < 1200 ? 78 : 214
-            height:root.width < 1200 ? 37 : 61
+            width: root.width < 970 ? 78 : 214
+            height:root.width < 970 ? 37 : 61
             text:"UE"
             font{
                 family: root.principalFont
-                pixelSize: root.width < 1200 ? 12 : 24
+                pixelSize: root.width < 970 ? 12 : 24
             }
             background: Rectangle{
                 anchors.fill: parent
@@ -91,9 +91,10 @@ Item {
         }
     }
     Item{
-        id:bodycontent
+        id:bodycontentMobile
+        enabled:root.width < 970 ? true : false
+        opacity:root.width < 970 ? 1 : 0
         height:272
-        //width: 380
         anchors{
             top:controls.bottom
             topMargin: 46
@@ -101,19 +102,22 @@ Item {
             left:parent.left
             right: parent.right
         }
+
         ImageRounded{
             id:contentImager
-            anchors.left: parent.left
+            anchors.right: parent.horizontalCenter
+            anchors.rightMargin: 30
+            fillMode: Image.PreserveAspectCrop
             height: 135
             width: 135
             radius: 10
-            source: "qrc:/images/assets/imagesLocal/loader.jpg"//widgetsets.set[controls.index].sourceComponent
+            source:widgetsets.set[controls.index].contentImagerPhoto
         }
         Text{
             id:contentTitle
             anchors{
-                left: contentImager.right
-                leftMargin: 22
+                left: parent.horizontalCenter
+                leftMargin: 0
                 right: parent.right
             }
             height: 31
@@ -132,8 +136,8 @@ Item {
             anchors{
                 top:contentTitle.bottom
                 topMargin: 15
-                left: contentImager.right
-                leftMargin: 22
+                left: parent.horizontalCenter
+                leftMargin: 0
                 right: parent.right
             }
             height: 94
@@ -156,7 +160,7 @@ Item {
             anchors{
                 bottom: parent.bottom
                 right: parent.right
-                left: parent.left
+                left: contentImager.left
             }
             height: 111
             orientation: ListView.Horizontal
@@ -165,9 +169,11 @@ Item {
             clip: true
         }
     }
-    /*
+
     Item{
-        id:bodycontent
+        id:bodycontentDesktop
+        enabled:root.width < 970 ? false : true
+        opacity:root.width < 970 ? 0 : 1
         height:340
         width: 977
         anchors{
@@ -184,7 +190,7 @@ Item {
             //componentInteractive
         }
         Text{
-            id:contentTitle
+            id:contentTitleDesktop
             anchors.left: contentloader.right
             anchors.leftMargin: 45
             anchors.right: parent.right
@@ -200,9 +206,9 @@ Item {
             elide: Text.ElideRight
         }
         Text{
-            id:contentDescription
+            id:contentDescriptionDesktop
             anchors{
-                top:contentTitle.bottom
+                top:contentTitleDesktop.bottom
                 topMargin: 38
                 left: contentloader.right
                 leftMargin: 45
@@ -222,7 +228,7 @@ Item {
         }
 
         ListView{
-            id:projectsView
+            id:projectsViewDesktop
             anchors{
                 bottom: parent.bottom
                 right: parent.right
@@ -236,7 +242,7 @@ Item {
             clip: true
         }
     }
- */
+
     //-------------Data Components-------------------
     Component{
         id:componentInteractive
@@ -290,7 +296,7 @@ Item {
     //-------------Structs----------------------
     /*
 
-    Giz hear me you can add motto things like this
+    Giz hear me you can add more things like this
     Coding (index 0): widgetsets.set[0].contentTitle
                       widgetsets.set[0].contentDescription
                       widgetsets.set[0].projectModel
@@ -313,6 +319,7 @@ Item {
                         color:"Yellow"
                     }
                 }
+                property string contentImagerPhoto: "qrc:/images/assets/imagesLocal/CppImager.jpeg"
 
             },
             QtObject{
@@ -325,6 +332,7 @@ Item {
                         color:"Black"
                     }
                 }
+                property string contentImagerPhoto: "qrc:/images/assets/imagesLocal/3DArtImager2.jpg"
 
             },
             QtObject{
@@ -337,7 +345,7 @@ Item {
                         color:"Green"
                     }
                 }
-
+                property string contentImagerPhoto: "qrc:/images/assets/imagesLocal/GraphicsImager.jpg"
             },
             QtObject{
                 property string contentTitle: "UE"
@@ -349,7 +357,7 @@ Item {
                         color:"Blue"
                     }
                 }
-
+                property string contentImagerPhoto: "qrc:/images/assets/imagesLocal/UEImager.jpg"
             }
         ]
     }
