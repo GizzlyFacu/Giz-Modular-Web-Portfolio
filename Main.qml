@@ -41,11 +41,11 @@ Window {
             y:100
             clip: true
             spacing:32
-            /*
+
             BoxIntroduction{
                 id:boxIntro
                 Layout.fillWidth: true
-                Layout.preferredHeight: 600
+                Layout.preferredHeight: isMobile ? 600 : 500
                 //internal properties
                 principalFont: theme.principalFont
                 backgroundItemsDark: theme.backgroundItemsDark
@@ -68,7 +68,7 @@ Window {
                 Layout.fillWidth: true
                 color:theme.backgroundItemsLight
             }
-            */
+
             TechSkills{
                 Layout.fillWidth: true
                 Layout.preferredHeight: 580
@@ -81,7 +81,7 @@ Window {
                 textDarker: theme.textDarker
                 textLinks: theme.textLinks
             }
-            /*
+
             Separator{
                 Layout.fillWidth: true
                 color:theme.backgroundItemsLight
@@ -95,7 +95,7 @@ Window {
                 textDarker: theme.textDarker
                 secondaryFont:theme.secondaryFont
             }
-            */
+
         }
     }
 
@@ -118,6 +118,7 @@ Window {
             visible: !principalWindow.isMobile && header1.menuVisible
             Layout.fillHeight: true
             Layout.fillWidth: true
+            buttonFontFamily: theme.secondaryFont
         }
 
 

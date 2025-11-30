@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 11,
-                        "durationMicroseconds": 353,
+                        "durationMicroseconds": 238,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 12
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 29,
-                        "durationMicroseconds": 282,
+                        "durationMicroseconds": 203,
                         "errorMessage": "",
                         "functionName": "isMobile",
                         "line": 13
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 70,
+                        "durationMicroseconds": 42,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 18
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 74,
+                        "durationMicroseconds": 66,
                         "errorMessage": "",
                         "functionName": "contentWidth",
                         "line": 27
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 24,
-                        "durationMicroseconds": 460,
+                        "durationMicroseconds": 100,
                         "errorMessage": "",
                         "functionName": "contentHeight",
                         "line": 28
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 25,
-                        "durationMicroseconds": 66,
+                        "durationMicroseconds": 55,
                         "errorMessage": "",
                         "functionName": "boundsMovement",
                         "line": 33
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 26,
-                        "durationMicroseconds": 80,
+                        "durationMicroseconds": 76,
                         "errorMessage": "",
                         "functionName": "acceptedButtons",
                         "line": 34
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 56,
+                        "durationMicroseconds": 37,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 26
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 20,
-                        "durationMicroseconds": 567,
+                        "durationMicroseconds": 204,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 39
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 15,
-                        "durationMicroseconds": 105,
+                        "durationMicroseconds": 84,
                         "errorMessage": "",
                         "functionName": "x",
                         "line": 40
@@ -86,7 +86,103 @@
                     {
                         "codegenSuccessful": true,
                         "column": 32,
-                        "durationMicroseconds": 56,
+                        "durationMicroseconds": 51,
+                        "errorMessage": "",
+                        "functionName": "principalFont",
+                        "line": 50
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 64,
+                        "errorMessage": "",
+                        "functionName": "backgroundItemsDark",
+                        "line": 51
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 61,
+                        "errorMessage": "",
+                        "functionName": "backgroundItemsLight",
+                        "line": 52
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 69,
+                        "errorMessage": "",
+                        "functionName": "text",
+                        "line": 53
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 29,
+                        "durationMicroseconds": 69,
+                        "errorMessage": "",
+                        "functionName": "textDarker",
+                        "line": 54
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 64,
+                        "errorMessage": "",
+                        "functionName": "textLinks",
+                        "line": 55
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 229,
+                        "errorMessage": "Cannot access value for name StorageManager",
+                        "functionName": "image",
+                        "line": 56
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 41,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "Cannot access value for name isMobile",
+                        "functionName": "preferredHeight",
+                        "line": 48
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 51,
+                        "errorMessage": "",
+                        "functionName": "principalFont",
+                        "line": 63
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 60,
+                        "errorMessage": "",
+                        "functionName": "text",
+                        "line": 64
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 55,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 62
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 62,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 69
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 48,
                         "errorMessage": "",
                         "functionName": "principalFont",
                         "line": 76
@@ -94,7 +190,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 32,
-                        "durationMicroseconds": 47,
+                        "durationMicroseconds": 44,
                         "errorMessage": "",
                         "functionName": "secondaryFont",
                         "line": 77
@@ -102,7 +198,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 39,
-                        "durationMicroseconds": 64,
+                        "durationMicroseconds": 59,
                         "errorMessage": "",
                         "functionName": "backgroundItemsLight",
                         "line": 79
@@ -110,7 +206,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 70,
+                        "durationMicroseconds": 59,
                         "errorMessage": "",
                         "functionName": "text",
                         "line": 80
@@ -118,7 +214,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 29,
-                        "durationMicroseconds": 60,
+                        "durationMicroseconds": 58,
                         "errorMessage": "",
                         "functionName": "textDarker",
                         "line": 81
@@ -126,15 +222,47 @@
                     {
                         "codegenSuccessful": true,
                         "column": 28,
-                        "durationMicroseconds": 81,
+                        "durationMicroseconds": 79,
                         "errorMessage": "",
                         "functionName": "textLinks",
                         "line": 82
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 18,
+                        "column": 23,
                         "durationMicroseconds": 61,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 87
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 71,
+                        "errorMessage": "",
+                        "functionName": "backgroundItemsDark",
+                        "line": 94
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 29,
+                        "durationMicroseconds": 59,
+                        "errorMessage": "",
+                        "functionName": "textDarker",
+                        "line": 95
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 45,
+                        "errorMessage": "",
+                        "functionName": "secondaryFont",
+                        "line": 96
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 18,
+                        "durationMicroseconds": 78,
                         "errorMessage": "",
                         "functionName": "top",
                         "line": 107
@@ -158,7 +286,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 21,
-                        "durationMicroseconds": 57,
+                        "durationMicroseconds": 56,
                         "errorMessage": "",
                         "functionName": "bottom",
                         "line": 110
@@ -166,7 +294,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 25,
-                        "durationMicroseconds": 96,
+                        "durationMicroseconds": 81,
                         "errorMessage": "",
                         "functionName": "leftMargin",
                         "line": 112
@@ -174,7 +302,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 26,
-                        "durationMicroseconds": 71,
+                        "durationMicroseconds": 99,
                         "errorMessage": "",
                         "functionName": "rightMargin",
                         "line": 113
@@ -182,82 +310,90 @@
                     {
                         "codegenSuccessful": true,
                         "column": 22,
-                        "durationMicroseconds": 373,
+                        "durationMicroseconds": 124,
                         "errorMessage": "",
                         "functionName": "visible",
                         "line": 118
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 19,
-                        "durationMicroseconds": 195,
+                        "column": 31,
+                        "durationMicroseconds": 49,
                         "errorMessage": "",
-                        "functionName": "isMobile",
-                        "line": 133
+                        "functionName": "buttonFontFamily",
+                        "line": 121
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 16,
-                        "durationMicroseconds": 49,
+                        "column": 19,
+                        "durationMicroseconds": 132,
                         "errorMessage": "",
-                        "functionName": "width",
+                        "functionName": "isMobile",
                         "line": 134
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 24,
-                        "durationMicroseconds": 46,
+                        "column": 16,
+                        "durationMicroseconds": 45,
                         "errorMessage": "",
-                        "functionName": "principalFont",
-                        "line": 141
+                        "functionName": "width",
+                        "line": 135
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 30,
-                        "durationMicroseconds": 79,
+                        "column": 24,
+                        "durationMicroseconds": 44,
                         "errorMessage": "",
-                        "functionName": "backgroundItemsDark",
+                        "functionName": "principalFont",
                         "line": 142
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 15,
-                        "durationMicroseconds": 59,
+                        "column": 30,
+                        "durationMicroseconds": 87,
                         "errorMessage": "",
-                        "functionName": "text",
+                        "functionName": "backgroundItemsDark",
                         "line": 143
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 21,
-                        "durationMicroseconds": 58,
+                        "column": 15,
+                        "durationMicroseconds": 78,
                         "errorMessage": "",
-                        "functionName": "textDarker",
+                        "functionName": "text",
                         "line": 144
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 21,
-                        "durationMicroseconds": 125,
+                        "durationMicroseconds": 86,
+                        "errorMessage": "",
+                        "functionName": "textDarker",
+                        "line": 145
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 187,
                         "errorMessage": "",
                         "functionName": "onOpenMenu",
-                        "line": 146
+                        "line": 147
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 30,
-                        "durationMicroseconds": 99,
+                        "durationMicroseconds": 107,
                         "errorMessage": "",
                         "functionName": "onHomeButtonPressed",
-                        "line": 149
+                        "line": 150
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 31,
-                        "durationMicroseconds": 61,
+                        "durationMicroseconds": 91,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
-                        "line": 137
+                        "line": 138
                     }
                 ],
                 "filePath": "C:/Qt/6.7.2/GizWebPluginLab2/Main.qml"

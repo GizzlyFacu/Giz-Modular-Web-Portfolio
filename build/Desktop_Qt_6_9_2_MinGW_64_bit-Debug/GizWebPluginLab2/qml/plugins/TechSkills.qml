@@ -3,7 +3,7 @@ import QtQuick.Controls.Basic
 import com.library
 Item {
     id:root
-    property string principalFont: "Comic Sans MS"
+    property string principalFont: "Lato"
     property string secondaryFont: "Roboto"
 
     property color backgroundItemsLight: "White"
@@ -16,7 +16,7 @@ Item {
         anchors.horizontalCenter: parent.horizontalCenter
         text:"TECH SKILLS"
         font{
-            pixelSize: 40
+            pixelSize: 24
             family: root.principalFont
         }
         color:root.text
@@ -151,7 +151,6 @@ Item {
             verticalAlignment: Text.AlignVCenter
             wrapMode: Text.WrapAtWordBoundaryOrAnywhere
             elide: Text.ElideRight
-            Component.onCompleted: console.log(contentDescription.fontInfo.family)
         }
 
         ListView{
@@ -229,6 +228,7 @@ Item {
 
         ListView{
             id:projectsViewDesktop
+            spacing: 5
             anchors{
                 bottom: parent.bottom
                 right: parent.right
@@ -301,8 +301,6 @@ Item {
                       widgetsets.set[0].contentDescription
                       widgetsets.set[0].projectModel
                       widgetsets.set[0].sourceComponent
-    to do: add this to the principal project an
-    add a ImageRounded to the componentdelegate
     */
     Item {
         id:widgetsets
@@ -313,51 +311,56 @@ Item {
                 property string contentTitle: "Coding"
                 property string contentDescription: "Desarrollo aplicaciones de escritorio modernas con C++ y Qt, integrando interfaces en QML y flujos de trabajo organizados con CMake y Git."
                 property QtObject projectModel:StorageManager.techskillsmodel
+                property string contentImagerPhoto: "qrc:/images/assets/imagesLocal/CppImager.jpeg"
                 property Component sourceComponent:Component{
-                    Rectangle{
+                    Image{
                         anchors.fill: parent
-                        color:"Yellow"
+                        fillMode: Image.PreserveAspectCrop
+                        source: "qrc:/images/assets/imagesLocal/CppImager.jpeg"
                     }
                 }
-                property string contentImagerPhoto: "qrc:/images/assets/imagesLocal/CppImager.jpeg"
+
 
             },
             QtObject{
                 property string contentTitle: "3D Art"
                 property string contentDescription: "Description 2"
                 property QtObject projectModel: StorageManager.techskills3dartmodel
+                property string contentImagerPhoto: "qrc:/images/assets/imagesLocal/3DArtImager2.jpg"
                 property Component sourceComponent:Component{
-                    Rectangle{
+                    Image{
                         anchors.fill: parent
-                        color:"Black"
+                        fillMode: Image.PreserveAspectCrop
+                        source: "qrc:/images/assets/imagesLocal/3DArtImager2.jpg"
                     }
                 }
-                property string contentImagerPhoto: "qrc:/images/assets/imagesLocal/3DArtImager2.jpg"
 
             },
             QtObject{
                 property string contentTitle: "Graphics"
                 property string contentDescription: "Description 3"
                 property QtObject projectModel:StorageManager.techskills3dgraphics
+                property string contentImagerPhoto: "qrc:/images/assets/imagesLocal/GraphicsImager.jpg"
                 property Component sourceComponent:Component{
-                    Rectangle{
+                    Image{
                         anchors.fill: parent
-                        color:"Green"
+                        fillMode: Image.PreserveAspectCrop
+                        source: "qrc:/images/assets/imagesLocal/GraphicsImager.jpg"
                     }
                 }
-                property string contentImagerPhoto: "qrc:/images/assets/imagesLocal/GraphicsImager.jpg"
             },
             QtObject{
                 property string contentTitle: "UE"
                 property string contentDescription: "Description 4"
                 property QtObject projectModel:StorageManager.techskillsUEmodel
+                property string contentImagerPhoto: "qrc:/images/assets/imagesLocal/UEImager.jpg"
                 property Component sourceComponent:Component{
-                    Rectangle{
+                    Image{
                         anchors.fill: parent
-                        color:"Blue"
+                        fillMode: Image.PreserveAspectCrop
+                        source: "qrc:/images/assets/imagesLocal/UEImager.jpg"
                     }
                 }
-                property string contentImagerPhoto: "qrc:/images/assets/imagesLocal/UEImager.jpg"
             }
         ]
     }

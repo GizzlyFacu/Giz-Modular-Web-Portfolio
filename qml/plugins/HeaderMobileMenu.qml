@@ -1,10 +1,11 @@
 import QtQuick 2.15
 import QtQuick.Controls.Basic
 Item {
+    id:root
+    property string buttonFontFamily:"Roboto"
     Column{
         id:rootColumn
         property int buttonsHeight: 50
-        property string buttonFontFamily:"Comic Sans MS"
         anchors.fill: parent
         Button{
             id:but1
@@ -13,7 +14,7 @@ Item {
             height: parent.buttonsHeight
             contentItem: Text {
                 text: "Projects"
-                font: rootColumn.buttonFontFamily
+                font: root.buttonFontFamily
                 color: "white"
                 horizontalAlignment: Text.AlignHCenter
                 verticalAlignment: Text.AlignVCenter }
@@ -29,7 +30,7 @@ Item {
             height: parent.buttonsHeight
             contentItem: Text {
                 text: "Labs"
-                font: rootColumn.buttonFontFamily
+                font: root.buttonFontFamily
                 color: "white"
                 horizontalAlignment: Text.AlignHCenter
                 verticalAlignment: Text.AlignVCenter }
@@ -45,7 +46,7 @@ Item {
             height: parent.buttonsHeight
             contentItem: Text {
                 text: "Contact"
-                font: rootColumn.buttonFontFamily
+                font: root.buttonFontFamily
                 color: "white"
                 horizontalAlignment: Text.AlignHCenter
                 verticalAlignment: Text.AlignVCenter }

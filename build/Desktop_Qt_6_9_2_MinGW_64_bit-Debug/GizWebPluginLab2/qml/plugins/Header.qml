@@ -81,8 +81,8 @@ Item {
 
         color:base.text
         radius:10
-        height: 50
-        width: 50
+        height: 40
+        width: 40
         MouseArea{
             id:page1
             anchors.fill: parent

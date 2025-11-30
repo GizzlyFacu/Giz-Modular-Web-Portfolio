@@ -35,7 +35,7 @@ Item {
         Rectangle{
             id:background
             anchors.fill: parent
-            color:root.backgroundItemsLight
+            color:"red"//root.backgroundItemsLight
             radius:10
             Rectangle{
                 id:corredor
@@ -61,7 +61,7 @@ Item {
                         height: 124
                         source:root.image
                         radius:20
-                        fillMode:Image.PreserveAspectFit
+                        fillMode:Image.PreserveAspectCrop
                     }
                     Text{
                         id:nameInfo
@@ -274,7 +274,7 @@ Item {
                     height: 124
                     source:root.image
                     radius:20
-                    fillMode:Image.PreserveAspectFit
+                    fillMode:Image.PreserveAspectCrop
                 }
                 Text{
                     id:nameInfo
