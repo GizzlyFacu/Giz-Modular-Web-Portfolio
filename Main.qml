@@ -5,7 +5,7 @@ import GizWebPluginLab2
 import com.library
 Window {
     id:principalWindow
-    width: 420//1366
+    width: 1366//420
     height: 800
     visible: true
     title: qsTr("Hello World")

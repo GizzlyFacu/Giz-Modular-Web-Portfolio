@@ -32,10 +32,11 @@ Item {
 
     Component{
         id:corredorDesktop
-        Rectangle{
+        ImageRounded{
             id:background
             anchors.fill: parent
-            color:"red"//root.backgroundItemsLight
+
+            source:"qrc:/images/assets/imagesLocal/BoxInfo Background.jpg"
             radius:10
             Rectangle{
                 id:corredor
@@ -119,7 +120,7 @@ Item {
                             topMargin: 30
                             horizontalCenter: parent.horizontalCenter
                         }
-                        text:"Descripcion lore impsum etc zzz me encantan las bananas ricas pero solo para licuado sisi ajsdjasdja asdasas sadasd...."
+                        text:"C++ Developer and 3D Artist, blending programming, graphics and visual design to build performant interactive experiences."
                         color: root.text
                         font{
                             family: root.principalFont
@@ -332,7 +333,7 @@ Item {
                         topMargin: 30
                         horizontalCenter: parent.horizontalCenter
                     }
-                    text:"Descripcion lore impsum etc zzz me encantan las bananas ricas pero solo para licuado sisi ajsdjasdja asdasas sadasd...."
+                    text:"C++ Developer and 3D Artist, blending programming, graphics and visual design to build performant interactive experiences."
                     color: root.text
                     font{
                         family: root.principalFont

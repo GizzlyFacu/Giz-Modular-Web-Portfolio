@@ -17,5 +17,8 @@
         <file>assets/imagesLocal/3DArtImager2.jpg</file>
         <file>assets/imagesLocal/GraphicsImager.jpg</file>
         <file>assets/imagesLocal/UEImager.jpg</file>
+        <file>assets/imagesLocal/BoxInfo BackgroundPhoto.jpg</file>
+        <file>assets/imagesLocal/BoxInfo BackgroundPhoto2.jpg</file>
+        <file>assets/imagesLocal/BoxInfo Background.jpg</file>
     </qresource>
 </RCC>
