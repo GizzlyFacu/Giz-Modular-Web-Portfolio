@@ -113,7 +113,7 @@ void ConfigCenter::setOnline(bool isOnline)
         m_networkManager->makeGetRequest(contentUrl);
     }
     else {
-        //m_jsonParsing.writeJson();
+        m_jsonParsing.writeJson();
         const QJsonObject dataJson = m_jsonParsing.readJson("configuracionLocal.json");
         qDebug()<<"data local: \n"<<dataJson.length()<<"\n";
         loadconfig_BoxIntroduction(dataJson);

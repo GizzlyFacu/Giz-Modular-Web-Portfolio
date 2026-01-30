@@ -16,7 +16,7 @@ Item {
         anchors.horizontalCenter: parent.horizontalCenter
         text:"TECH SKILLS"
         font{
-            pixelSize: 24
+            pixelSize: root.width < 970 ? 24 : 32
             family: root.principalFont
         }
         color:root.text
@@ -98,7 +98,6 @@ Item {
         anchors{
             top:controls.bottom
             topMargin: 46
-            horizontalCenter: parent.horizontalCenter
             left:parent.left
             right: parent.right
         }
@@ -186,7 +185,6 @@ Item {
             height: parent.height
             width: 401
             sourceComponent: widgetsets.set[controls.index].sourceComponent
-            //componentInteractive
         }
         Text{
             id:contentTitleDesktop
@@ -217,7 +215,7 @@ Item {
             text:widgetsets.set[controls.index].contentDescription
             color:root.text
             font{
-                pixelSize: 14
+                pixelSize: 20
                 family: root.secondaryFont
             }
             verticalAlignment: Text.AlignVCenter
@@ -286,6 +284,7 @@ Item {
                 }
                 height: root.width < 1200 ? 84:108
                 radius:10
+                fillMode: Image.PreserveAspectCrop
             }
             MouseArea{
                 anchors.fill: parent
@@ -309,7 +308,7 @@ Item {
         property list<QtObject> set: [
             QtObject{
                 property string contentTitle: "Coding"
-                property string contentDescription: "Desarrollo aplicaciones de escritorio modernas con C++ y Qt, integrando interfaces en QML y flujos de trabajo organizados con CMake y Git."
+                property string contentDescription: "Modern desktop applications with C++ and Qt, integrating interfaces in QML and organized workflows with CMake and Git."
                 property QtObject projectModel:StorageManager.techskillsmodel
                 property string contentImagerPhoto: "qrc:/images/assets/imagesLocal/CppImager.jpeg"
                 property Component sourceComponent:Component{
@@ -324,7 +323,7 @@ Item {
             },
             QtObject{
                 property string contentTitle: "3D Art"
-                property string contentDescription: "Description 2"
+                property string contentDescription: "3D Generalist Artist with 5+ years experience creating game-ready and cinematic assets for interactive and media projects."
                 property QtObject projectModel: StorageManager.techskills3dartmodel
                 property string contentImagerPhoto: "qrc:/images/assets/imagesLocal/3DArtImager2.jpg"
                 property Component sourceComponent:Component{
@@ -338,7 +337,7 @@ Item {
             },
             QtObject{
                 property string contentTitle: "Graphics"
-                property string contentDescription: "Description 3"
+                property string contentDescription: "Aspiring graphics programmer, developing expertise in OpenGL-Vulkan and rendering architecture for custom engines."
                 property QtObject projectModel:StorageManager.techskills3dgraphics
                 property string contentImagerPhoto: "qrc:/images/assets/imagesLocal/GraphicsImager.jpg"
                 property Component sourceComponent:Component{
@@ -351,7 +350,7 @@ Item {
             },
             QtObject{
                 property string contentTitle: "UE"
-                property string contentDescription: "Description 4"
+                property string contentDescription: "I use Unreal Engine as a creative and technical hub to combine my skills: programming, music production, and 3D art into real-time interactive experiences."
                 property QtObject projectModel:StorageManager.techskillsUEmodel
                 property string contentImagerPhoto: "qrc:/images/assets/imagesLocal/UEImager.jpg"
                 property Component sourceComponent:Component{

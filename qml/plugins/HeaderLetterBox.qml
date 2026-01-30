@@ -6,6 +6,7 @@ Item {
     property color backgroundItemsDark: "black"
     property color text: "red"
     property string principalFont: "Arial"
+    signal clicked();
     width:139
     height:50
     Rectangle{
@@ -41,9 +42,7 @@ Item {
     MouseArea{
         id:page1
         anchors.fill: parent
-        onClicked: {
-            console.log("*ir al pdf de "+parent.textString);
-        }
+        onClicked: root.clicked()
         hoverEnabled: true
     }
     Rectangle{

@@ -14,14 +14,14 @@ Item {
     property color textDarker: "#6f6f6f"
     property color textLinks: "#A1B0FF"
 
-
+    /*
     Rectangle{
         id:backgroundAll
         anchors.fill: parent
         color:root.backgroundItemsLight
         radius:10
     }
-
+*/
     Loader{
         id:loaders
         anchors.fill: parent
@@ -47,6 +47,19 @@ Item {
                 height: parent.height
                 width: parent.width
                 x:parent.x + offset
+                Text{
+                    anchors{
+                        verticalCenter: corredor.verticalCenter
+                        horizontalCenter: corredor.horizontalCenter
+                    }
+                    color:"Orange"
+                    width: 50
+                    height: 20
+                    text:"Still working on my bio!"
+                    font{
+                        pixelSize: 14
+                    }
+                }
 
                 Item{
                     height: parent.height

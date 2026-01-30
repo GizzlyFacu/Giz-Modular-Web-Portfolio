@@ -20,7 +20,7 @@ public:
         //aca se cargan los datos:
         //true: descarga de github
         //false: escribe y lee desde local
-        setOnline(false);
+        setOnline(true);
     }
     void loadconfig_BoxIntroduction(const QJsonObject &data);
     void loadconfig_BlogCards(const QJsonObject &data);

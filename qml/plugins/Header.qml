@@ -66,6 +66,7 @@ Item {
             textString:"Contact"
             text:base.text
             principalFont:base.principalFont
+            onClicked: Qt.openUrlExternally("https://www.linkedin.com/in/facugizzly/")
         }
     }
 

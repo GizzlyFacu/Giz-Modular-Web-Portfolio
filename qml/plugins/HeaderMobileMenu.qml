@@ -21,7 +21,6 @@ Item {
             background: Rectangle{
                 color:but1.down ? Qt.lighter("gray"):Qt.darker("gray")
             }
-            onClicked: console.log("ir al pdf pero mobile")
         }
         Button{
             id:but2
@@ -37,7 +36,6 @@ Item {
             background: Rectangle{
                 color:but2.down ? Qt.lighter("gray"):Qt.darker("gray")
             }
-            onClicked: console.log("ir al pdf pero mobile")
         }
         Button{
             id:but3
@@ -53,7 +51,7 @@ Item {
             background: Rectangle{
                 color:but3.down ? Qt.lighter("gray"):Qt.darker("gray")
             }
-            onClicked: console.log("ir al pdf pero mobile")
+            onClicked: Qt.openUrlExternally("https://www.linkedin.com/in/facugizzly/")
         }
     }
 }

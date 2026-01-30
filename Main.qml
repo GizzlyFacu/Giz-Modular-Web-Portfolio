@@ -55,7 +55,7 @@ Window {
                 textLinks: theme.textLinks
                 image:Qt.url(StorageManager.boxintroduction.PhotoLink)
             }
-
+            /*
             BlogCards{
                 Layout.fillWidth: true
                 Layout.preferredHeight: 224
@@ -95,7 +95,7 @@ Window {
                 textDarker: theme.textDarker
                 secondaryFont:theme.secondaryFont
             }
-
+*/
         }
     }
 
